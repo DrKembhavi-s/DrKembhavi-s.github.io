@@ -3,7 +3,7 @@ layout: home
 title: "Welcome to Dr Kembhavi's Ayurveda Blog"
 ---
 
-**Navigation:** [About](/about/) | [Categories](/categories/)
+**Navigation:** [About](/about.html) | [Categories](/categories.html)
 
 # Namaste! Welcome to my blog
 
@@ -23,4 +23,4 @@ Latest studies and innovations in traditional medicine
 
 ---
 
-*Browse my latest posts below or explore by [categories](/categories/).*
+*Browse my latest posts below or explore by [categories](/categories.html).*
