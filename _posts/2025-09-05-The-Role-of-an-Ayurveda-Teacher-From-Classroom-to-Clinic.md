@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Role of an Ayurveda Teacher: From Classroom to Clinic"
-date: 2025-09-06
+date: 2025-09-05
 categories: Academic
 author: Dr Aakash Kembhavi
 ---
