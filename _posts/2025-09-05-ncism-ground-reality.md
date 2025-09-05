@@ -1,3 +1,8 @@
+---
+layout: post
+title: "My First Post"
+date: 2025-09-05
+---
 Title:  
 From Standards to Solutions: What’s Really Happening in India’s Ayurveda Education and How NCISM Can Bridge the Implementation Gap
 
