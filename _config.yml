@@ -5,7 +5,7 @@ email: drkembhavi@live.com
 
 # Navigation menu
 header_pages:
-  - _pages/about.md
+  - about.md
   - categories.html
 
 # Build settings
