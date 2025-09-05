@@ -3,6 +3,8 @@ layout: home
 title: "Welcome to Dr Kembhavi's Ayurveda Blog"
 ---
 
+**Navigation:** [About](/about/) | [Categories](/categories/)
+
 # Namaste! Welcome to my blog
 
 I'm Dr Kembhavi, and I share insights on **Ayurveda** across four key areas:
