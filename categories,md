@@ -4,16 +4,39 @@ title: Categories
 permalink: /categories/
 ---
 
-## Blog Categories
+# Blog Categories
 
-### Administrative
-Posts about Ayurveda administration and management
+Welcome to my organized content areas in Ayurveda:
 
-### Academic  
-Educational content and teaching materials
+## 🏛️ Administrative
+Posts about Ayurveda administration, management, and institutional topics.
 
-### Clinical
-Patient care and treatment approaches
+[View Administrative Posts](/categories/#administrative)
 
-### Research
-Latest research and studies in Ayurveda
+## 📚 Academic  
+Educational content, teaching methodologies, and curriculum development.
+
+[View Academic Posts](/categories/#academic)
+
+## 🩺 Clinical
+Patient care approaches, treatments, and clinical practice topics.
+
+[View Clinical Posts](/categories/#clinical)
+
+## 🔬 Research
+Studies, scientific validation, and research methodology in Ayurveda.
+
+[View Research Posts](/categories/#research)
+
+---
+
+## All Posts by Category
+
+{% for category in site.categories %}
+### {{ category[0] }}
+<ul>
+{% for post in category[1] %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %d, %Y" }}</li>
+{% endfor %}
+</ul>
+{% endfor %}
