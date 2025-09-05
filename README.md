@@ -12,7 +12,7 @@ This site showcases all the articles and posts I write. It's built using GitHub 
 
 ## Website URL
 
-Visit the live site at: https://yourusername.github.io
+Visit the live site at:  https://drkembhavi-s.github.io/
 
 ## About
 
