@@ -3,6 +3,11 @@ description: "I write everything in Ayurveda related to Administrative, Academic
 author: Dr Kembhavi
 email: drkembhavi@live.com
 
+# Navigation menu
+header_pages:
+  - about.md
+  - categories.md
+
 # Build settings
 markdown: kramdown
 theme: minima
