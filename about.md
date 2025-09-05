@@ -1,10 +1,7 @@
 ---
-layout: default
-title: About Me
+layout: page
+title: About
+permalink: /about/
 ---
 
-# About Me
-
-This is my personal blog where I write about topics I love.
-
-Feel free to browse my articles and get in touch on GitHub.
+Tell people about yourself here!
