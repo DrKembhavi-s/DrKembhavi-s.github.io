@@ -5,8 +5,8 @@ email: drkembhavi@live.com
 
 # Navigation menu
 header_pages:
-  - about.md
-  - categories.md
+  - _pages/about.md
+  - _pages/categories.md
 
 # Build settings
 markdown: kramdown
