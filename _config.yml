@@ -3,10 +3,10 @@ description: "I write everything in Ayurveda related to Administrative, Academic
 author: Dr Kembhavi
 email: drkembhavi@live.com
 
-# Navigation menu
+# Navigation menu - use the working URLs
 header_pages:
-  - about.html
-  - categories.html
+  - about.md
+  - categories.md
 
 # Build settings
 markdown: kramdown
