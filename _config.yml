@@ -1,5 +1,5 @@
 title: My Blog
-url: "https://yourusername.github.io"
+url: "https://drkembhavi-s.github.io/"
 baseurl: ""
 plugins:
   - jekyll-feed
