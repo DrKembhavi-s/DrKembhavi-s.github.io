@@ -4,9 +4,6 @@ author: Dr Kembhavi
 email: drkembhavi@live.com
 
 # Navigation menu
-header_pages:
-  - _pages/about.md
-  - _pages/categories.html
 
 # Build settings
 markdown: kramdown
