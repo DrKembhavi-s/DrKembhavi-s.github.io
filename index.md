@@ -1,12 +1,14 @@
 ---
-layout: home
+layout: default
 title: Welcome to My Blog
 ---
 
-# Welcome to My Blog
+# Welcome to {{ site.title }}
 
-This is my personal blog where I share articles on various topics.
+Here are my latest articles:
 
+<ul>
 {% for post in site.posts %}
-- [{{ post.title }}]({{ post.url }}) - {{ post.date | date: "%b %-d, %Y" }}
+  <li><a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%b %-d, %Y" }}</li>
 {% endfor %}
+</ul>
