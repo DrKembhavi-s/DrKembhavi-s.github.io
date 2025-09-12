@@ -23,18 +23,18 @@ Welcome to my professional journey in Ayurveda - a path dedicated to bridging an
 
 ## Current Professional Roles
 
+### Director & Consultant Surgeon
+**Astanga Wellness Pvt Ltd., Hubli, Karnataka, India**
+- Practicing authentic Ayurveda, Yoga, Naturopathy, and Acupuncture since 1999
+- Working alongside my wife, Dr Anita Kadagad Kembhavi
+- Specializing in integrated holistic healthcare approaches
+
 ### Principal
 **Jain AGM Ayurvedic Medical College & Hospital, Varur, Karnataka, India**
 *February 2022 - Current*
 - Leading institutional excellence and academic innovation
 - Overseeing comprehensive medical education and hospital operations
 - Driving strategic initiatives for institutional growth and development
-
-### Director & Consultant Surgeon
-**Astanga Wellness Pvt Ltd., Hubli, Karnataka, India**
-- Practicing authentic Ayurveda, Yoga, Naturopathy, and Acupuncture since 1999
-- Working alongside my wife, Dr Anita Kadagad Kembhavi
-- Specializing in integrated holistic healthcare approaches
 
 ## Previous Professional Experience
 
