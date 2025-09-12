@@ -7,7 +7,7 @@ title: "Welcome to Dr Kembhavi's Ayurveda Blog"
 
 # Namaste! Welcome to my blog
 
-I'm Dr Kembhavi, and I share insights on **Ayurveda** across four key areas:
+I'm Dr Kembhavi, and I share my opinions and insights on **Ayurveda** across four key areas:
 
 ## 🏛️ Administrative
 Healthcare management and policy in Ayurvedic institutions
