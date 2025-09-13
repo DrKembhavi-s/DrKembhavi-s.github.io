@@ -2,7 +2,7 @@
 layout: home
 title: "Welcome to Dr Kembhavi's Ayurveda Blog"
 ---
-**Navigation:** [About](/about) | [Categories](/categories) | [Publications](/publications)
+**Navigation:** [About](/about) | [Categories](/categories) | [Archives](/archives) | [Publications](/publications)
 
 # Namaste! Welcome to Dr Kembhavi's Ayurveda Blog
 
@@ -48,6 +48,22 @@ Through this blog, I aim to:
 
 ---
 
-*Browse my latest posts below, explore by [categories](/categories), or learn more [about me](/about). Join the conversation and share your thoughts - together, we can work toward a brighter future for Ayurveda.*
+*Browse my latest posts below, explore by [categories](/categories), check the [archives](/archives) for older posts, or learn more [about me](/about). Join the conversation and share your thoughts - together, we can work toward a brighter future for Ayurveda.*
 
 ## Latest Articles
+
+<div class="recent-posts">
+{% for post in site.posts limit: 6 %}
+  <article class="post-preview">
+    <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+    <div class="post-meta">
+      <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
+      <span class="post-category">[{{ post.categories | first | capitalize }}]</span>
+    </div>
+  </article>
+{% endfor %}
+</div>
+
+<div class="archive-link" style="text-align: center; margin: 2rem 0;">
+  <a href="/archives/" style="background: #007bff; color: white; padding: 0.75rem 1.5rem; text-decoration: none; border-radius: 5px; display: inline-block;">📚 View All Posts in Archives →</a>
+</div>
