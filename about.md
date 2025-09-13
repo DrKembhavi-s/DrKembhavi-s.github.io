@@ -102,9 +102,36 @@ With **over 20 years of clinical experience**, I specialize in the management of
 ## Publications & Professional Development
 
 - **10 published articles** in peer-reviewed journals
-- **Resource Person** at State, National, and International Seminars, Conferences, and Workshops
+- **Resource Person** at State, National, and International Seminars, Conferences, and Workshops  
 - **Completed 4 Certificate Courses** on COVID-19 management
 - Regular speaker at academic and professional gatherings
+
+## Key Publications
+
+### Recent Research Articles
+
+**"Is It Time to Reboot the System of Ayurveda in India?"** (2020)
+*Journal of Bio Innovation*, 9(4), pp: 541-549
+DOI: 10.46344/JBINO.2020.v09i04.15
+
+**"Ayurveda for Covid 19" Survey Analysis** (2020)
+*Scholars International Journal of Traditional and Complementary Medicine*, 3(5), pp: 81-89
+
+**"Is It Time for Ayurveda to Reinvent Itself?"** (2021)
+*Journal of Bio Innovation*, 10(2b), pp: 131-140
+
+**"Emerging Healthcare Trends that Ayurveda has to Harness to become a true Global Healthcare Provider"** (2021)
+*Journal of Pharma and Ayurved Research*, 1(2), pp: 48-50
+
+**"Reforms in Ayurveda Education: Challenges & Roadblocks"** (2020)
+*Journal of Natural & Ayurvedic Medicine*, 4(1): 000224
+DOI: 10.23880/jonam-16000224
+
+**"Surgical Training in Ayurveda: Reality Check, Challenges And Solutions"** (2021)
+*Innovative Research in Ayurvedic Sciences*, 1(2), pp: 26-35
+
+**"Does Ayurveda Qualify As A Public Healthcare System?"** (2021)
+*Newsletter of ARMARC*, Vol 27 Series 5-6
 
 ## My Vision
 
