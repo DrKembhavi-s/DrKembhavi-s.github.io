@@ -7,6 +7,7 @@ email: drkembhavi@live.com
 header_pages:
   - about.md
   - categories.md
+  - publications.md
 
 # Build settings
 markdown: kramdown
