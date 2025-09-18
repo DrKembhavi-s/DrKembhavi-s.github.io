@@ -510,3 +510,402 @@ footer {
     margin-bottom: 20px;
   }
 }
+/* Magazine Layout Additional CSS - Add this to your existing style.css */
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-light) 100%);
+  color: white;
+  padding: var(--spacing-xxl) 0;
+  text-align: center;
+  margin-bottom: var(--spacing-xxl);
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: var(--spacing-md);
+  color: white;
+}
+
+.hero-subtitle {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: var(--spacing-lg);
+  opacity: 0.9;
+}
+
+.hero-description {
+  font-size: 1.1rem;
+  margin-bottom: var(--spacing-xl);
+  opacity: 0.9;
+}
+
+.expertise-tags {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: var(--spacing-md);
+  margin-top: var(--spacing-lg);
+}
+
+.expertise-tag {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  padding: var(--spacing-sm) var(--spacing-lg);
+  border-radius: var(--radius-lg);
+  font-weight: 500;
+  font-size: 1rem;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  transition: var(--transition-normal);
+}
+
+.expertise-tag:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: translateY(-2px);
+}
+
+/* Tabbed Information Section */
+.info-tabs-section {
+  background: var(--background-secondary);
+  padding: var(--spacing-xxl) 0;
+  margin-bottom: var(--spacing-xxl);
+}
+
+.tabs-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-md);
+}
+
+.tab-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: var(--spacing-xl);
+  border-bottom: 2px solid var(--border-light);
+  flex-wrap: wrap;
+  gap: var(--spacing-sm);
+}
+
+.tab-btn {
+  background: none;
+  border: none;
+  padding: var(--spacing-lg) var(--spacing-xl);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  cursor: pointer;
+  border-bottom: 3px solid transparent;
+  transition: var(--transition-normal);
+  border-radius: var(--radius-sm) var(--radius-sm) 0 0;
+}
+
+.tab-btn:hover {
+  color: var(--primary-color);
+  background: rgba(44, 85, 48, 0.05);
+}
+
+.tab-btn.active {
+  color: var(--primary-color);
+  border-bottom-color: var(--primary-color);
+  background: white;
+}
+
+.tab-content {
+  display: none;
+  background: white;
+  padding: var(--spacing-xxl);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+.tab-content.active {
+  display: block;
+  animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Areas Grid */
+.areas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--spacing-xl);
+}
+
+.area-card {
+  padding: var(--spacing-lg);
+  border-left: 4px solid var(--secondary-color);
+  background: var(--background-secondary);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+}
+
+.area-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: var(--spacing-md);
+  color: var(--primary-color);
+}
+
+/* Mission Content */
+.mission-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.mission-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.mission-list li {
+  padding: var(--spacing-sm) 0;
+  padding-left: var(--spacing-lg);
+  position: relative;
+}
+
+.mission-list li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--primary-color);
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/* Disclaimer Grid */
+.disclaimer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--spacing-lg);
+}
+
+.disclaimer-item {
+  padding: var(--spacing-lg);
+  background: var(--background-secondary);
+  border-radius: var(--radius-md);
+  border-left: 4px solid var(--accent-color);
+}
+
+.disclaimer-item h4 {
+  color: var(--secondary-color);
+  font-size: 1.1rem;
+  margin-bottom: var(--spacing-sm);
+}
+
+/* Featured Articles Section */
+.featured-articles {
+  margin-bottom: var(--spacing-xxl);
+}
+
+.featured-articles h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  margin-bottom: var(--spacing-xl);
+}
+
+.featured-article {
+  background: white;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  overflow: hidden;
+  margin-bottom: var(--spacing-xxl);
+  border-left: 6px solid var(--primary-color);
+}
+
+.featured-content {
+  padding: var(--spacing-xxl);
+}
+
+.featured-meta {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  margin-bottom: var(--spacing-lg);
+}
+
+.featured-title {
+  font-size: 2rem;
+  line-height: 1.3;
+  margin-bottom: var(--spacing-lg);
+}
+
+.featured-title a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.featured-excerpt {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  color: var(--text-secondary);
+  margin-bottom: var(--spacing-xl);
+}
+
+.read-more-btn {
+  display: inline-block;
+  background: var(--primary-color);
+  color: white;
+  padding: var(--spacing-md) var(--spacing-xl);
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  font-weight: 600;
+  transition: var(--transition-normal);
+}
+
+.read-more-btn:hover {
+  background: var(--primary-dark);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+/* Recent Articles Section */
+.recent-articles h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: var(--primary-color);
+  margin-bottom: var(--spacing-xl);
+}
+
+.articles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: var(--spacing-xl);
+  margin-bottom: var(--spacing-xxl);
+}
+
+.article-card {
+  background: white;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  padding: var(--spacing-xl);
+  border-left: 4px solid var(--primary-light);
+  transition: var(--transition-normal);
+}
+
+.article-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+}
+
+.article-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--spacing-md);
+}
+
+.article-date {
+  color: var(--text-light);
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.article-title {
+  font-size: 1.3rem;
+  line-height: 1.4;
+  margin-bottom: var(--spacing-md);
+}
+
+.article-title a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.article-title a:hover {
+  color: var(--primary-dark);
+}
+
+.article-excerpt {
+  color: var(--text-secondary);
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+/* Category Tags */
+.category-tag {
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border-radius: var(--radius-sm);
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.category-tag.administrative { background: #3182ce; color: white; }
+.category-tag.academic { background: #38a169; color: white; }
+.category-tag.clinical { background: #d69e2e; color: white; }
+.category-tag.research { background: #9f7aea; color: white; }
+.category-tag.blogging { background: #ed8936; color: white; }
+
+/* View All Button */
+.view-all-container {
+  text-align: center;
+  margin-top: var(--spacing-xxl);
+}
+
+/* Responsive Design for Magazine Layout */
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 2.2rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.1rem;
+  }
+  
+  .expertise-tags {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .tab-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .tab-btn {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: var(--spacing-sm);
+  }
+  
+  .areas-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .articles-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .featured-articles h2 {
+    font-size: 2rem;
+  }
+  
+  .featured-title {
+    font-size: 1.5rem;
+  }
+  
+  .featured-content {
+    padding: var(--spacing-lg);
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-content h1 {
+    font-size: 1.8rem;
+  }
+  
+  .tab-content {
+    padding: var(--spacing-lg);
+  }
+  
+  .featured-meta {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
