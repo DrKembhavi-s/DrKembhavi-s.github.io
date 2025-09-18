@@ -11,27 +11,10 @@ header_pages:
 
 # Build settings
 markdown: kramdown
-theme: minima
+# theme: minima  # Comment out or remove this line to use your custom CSS
 plugins:
   - jekyll-feed
 
-# Site settings
-baseurl: ""
-url: "https://DrKembhavi-s.github.io"
-title: Dr Kembhavi's Blog
-description: "I write everything in Ayurveda related to Administrative, Academic, Clinical & Research Areas"
-author: Dr Kembhavi
-email: drkembhavi@live.com
-# Navigation menu - use the working URLs
-header_pages:
-  - about.md
-  - categories.md
-  - publications.md
-# Build settings
-markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-feed
 # Site settings
 baseurl: ""
 url: "https://DrKembhavi-s.github.io"
@@ -39,9 +22,16 @@ url: "https://DrKembhavi-s.github.io"
 # Custom CSS Configuration
 sass:
   style: compressed
+  sass_dir: _sass
 
-# Ensure CSS files are processed
+# Defaults for better organization
 defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Dr Kembhavi"
   - scope:
       path: "assets/css"
     values:
