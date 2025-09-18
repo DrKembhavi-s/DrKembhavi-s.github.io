@@ -4,6 +4,14 @@ layout: default
 
 <style>
 /* Inline CSS for immediate effect */
+/* Hide the duplicate site title at top */
+.site-header .site-title,
+header h1,
+header .site-title,
+.page-header h1 {
+  display: none !important;
+}
+
 .hero-section {
   background: linear-gradient(135deg, #2c5530 0%, #4a7c59 100%);
   color: white;
