@@ -2,176 +2,281 @@
 ---
 
 <style>
-/* About Page Styling */
-body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  line-height: 1.7;
-  color: #2d3748;
-  background-color: #ffffff;
-  margin: 0;
-  padding: 0;
-}
-
-.about-container {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 2rem;
-}
-
-.page-header {
-  text-align: center;
+/* Inline CSS for immediate effect */
+.hero-section {
   background: linear-gradient(135deg, #2c5530 0%, #4a7c59 100%);
   color: white;
   padding: 3rem 2rem;
+  text-align: center;
   margin: -2rem -2rem 3rem -2rem;
   border-radius: 0 0 15px 15px;
 }
 
-.page-header h1 {
+.hero-content h1 {
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
   color: white !important;
 }
 
-.page-header p {
+.hero-subtitle {
   font-size: 1.2rem;
+  margin-bottom: 1rem;
   opacity: 0.9;
-  margin-bottom: 0;
 }
 
-.authors-section {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 3rem;
+.hero-description {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+
+.expertise-tags {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.expertise-tag {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  font-weight: 500;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+}
+
+.info-tabs-section {
+  background: #f7fafc;
+  padding: 2rem;
   margin-bottom: 3rem;
-}
-
-.author-profile {
-  background: white;
   border-radius: 15px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-  padding: 3rem;
-  border-left: 6px solid #2c5530;
+  border: 1px solid #e2e8f0;
 }
 
-.author-profile:nth-child(2) {
-  border-left-color: #c17c47;
+.tab-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
 }
 
-.author-name {
+.tab-btn {
+  background: white;
+  border: 2px solid #2c5530;
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #2c5530;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.tab-btn:hover {
+  background: #2c5530;
+  color: white;
+}
+
+.tab-btn.active {
+  background: #2c5530;
+  color: white;
+}
+
+.tab-content {
+  display: none;
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.areas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.area-card {
+  padding: 1.5rem;
+  border-left: 4px solid #c17c47;
+  background: #f7fafc;
+  border-radius: 0 8px 8px 0;
+}
+
+.area-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #2c5530;
+}
+
+.mission-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.mission-list li {
+  padding: 0.5rem 0;
+  padding-left: 2rem;
+  position: relative;
+}
+
+.mission-list li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #2c5530;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.disclaimer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.disclaimer-item {
+  padding: 1rem;
+  background: #f7fafc;
+  border-radius: 8px;
+  border-left: 4px solid #d4af37;
+}
+
+.disclaimer-item h4 {
+  color: #c17c47;
+  margin-bottom: 0.5rem;
+}
+
+.articles-section {
+  margin-top: 3rem;
+}
+
+.articles-section h2 {
+  text-align: center;
   font-size: 2rem;
+  color: #2c5530;
+  margin-bottom: 2rem;
+}
+
+.articles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.article-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  padding: 2rem;
+  border-left: 4px solid #4a7c59;
+  transition: transform 0.3s ease;
+}
+
+.article-card:hover {
+  transform: translateY(-5px);
+}
+
+.article-title {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.article-title a {
+  color: #2c5530;
+  text-decoration: none;
+}
+
+.article-meta {
+  color: #718096;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.category-tag {
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.category-tag.administrative { background: #3182ce; color: white; }
+.category-tag.academic { background: #38a169; color: white; }
+.category-tag.clinical { background: #d69e2e; color: white; }
+.category-tag.research { background: #9f7aea; color: white; }
+.category-tag.blogging { background: #ed8936; color: white; }
+
+/* Author Cards */
+.authors-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+}
+
+.author-card {
+  padding: 2rem;
+  background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
+  border-radius: 15px;
+  border-left: 6px solid #2c5530;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.author-card h4 {
+  font-size: 1.5rem;
   color: #2c5530;
   margin-bottom: 0.5rem;
   font-weight: 700;
 }
 
-.author-title {
-  font-size: 1.2rem;
+.author-role {
+  font-size: 1.1rem;
   color: #c17c47;
   font-weight: 600;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   font-style: italic;
 }
 
-.section-title {
-  font-size: 1.3rem;
-  color: #2c5530;
-  margin: 2rem 0 1rem 0;
-  font-weight: 600;
-  border-bottom: 2px solid #e2e8f0;
-  padding-bottom: 0.5rem;
-}
-
-.qualifications-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1rem;
-  margin: 1rem 0;
-}
-
-.qualification-item {
-  background: #f7fafc;
-  padding: 1rem;
-  border-radius: 8px;
-  border-left: 4px solid #4a7c59;
-}
-
-.qualification-item strong {
-  color: #2c5530;
-}
-
-.roles-list, .specialization-list {
+.qualification-list, .role-list {
   list-style: none;
   padding-left: 0;
+  margin: 0.5rem 0;
 }
 
-.roles-list li, .specialization-list li {
-  padding: 0.5rem 0;
-  padding-left: 2rem;
+.qualification-list li, .role-list li {
+  padding: 0.3rem 0;
+  padding-left: 1.5rem;
   position: relative;
-  border-bottom: 1px solid #e2e8f0;
+  font-size: 0.95rem;
 }
 
-.roles-list li:last-child, .specialization-list li:last-child {
-  border-bottom: none;
+.qualification-list li::before {
+  content: "🎓";
+  position: absolute;
+  left: 0;
+  font-size: 1rem;
 }
 
-.roles-list li::before {
+.role-list li::before {
   content: "🏥";
   position: absolute;
   left: 0;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
-.specialization-list li::before {
-  content: "🩺";
-  position: absolute;
-  left: 0;
-  font-size: 1.1rem;
-}
-
-.contact-section {
-  background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
-  padding: 2rem;
-  border-radius: 15px;
-  margin-top: 3rem;
-  text-align: center;
-}
-
-.contact-info {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1rem;
-  margin-top: 1rem;
-}
-
-.contact-item {
-  background: white;
-  padding: 1rem;
-  border-radius: 8px;
-  border-left: 4px solid #2c5530;
-}
-
-.back-to-home {
-  display: inline-block;
-  background: #2c5530;
-  color: white;
-  padding: 1rem 2rem;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: 600;
-  margin: 2rem auto;
-  display: block;
-  text-align: center;
-  max-width: 200px;
-  transition: all 0.3s ease;
-}
-
-.back-to-home:hover {
-  background: #1a3d1f;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+.qualifications, .author-card > p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
 }
 
 /* Navigation styles */
@@ -199,21 +304,12 @@ nav a:hover {
 }
 
 @media (max-width: 768px) {
-  .page-header h1 {
-    font-size: 2rem;
-  }
-  
-  .author-profile {
-    padding: 2rem;
-  }
-  
-  .author-name {
-    font-size: 1.5rem;
-  }
-  
-  .qualifications-grid {
-    grid-template-columns: 1fr;
-  }
+  .hero-content h1 { font-size: 2rem; }
+  .expertise-tags { flex-direction: column; align-items: center; }
+  .tab-buttons { flex-direction: column; align-items: center; }
+  .tab-btn { width: 100%; max-width: 300px; }
+  .areas-grid { grid-template-columns: 1fr; }
+  .articles-grid { grid-template-columns: 1fr; }
 }
 </style>
 
@@ -226,134 +322,180 @@ nav a:hover {
   <a href="/archives">Archives</a>
 </nav>
 
-<div class="about-container">
-  <!-- Page Header -->
-  <div class="page-header">
-    <h1>About the Authors</h1>
-    <p>Meet the experienced practitioners behind this blog</p>
-  </div>
-
-  <!-- Authors Section -->
-  <div class="authors-section">
-    
-    <!-- Dr. Kembhavi Profile -->
-    <div class="author-profile">
-      <h2 class="author-name">Dr. Kembhavi</h2>
-      <p class="author-title">Principal, Ayurveda College</p>
-      
-      <div class="section-title">Professional Experience</div>
-      <p>With over 25 years of dedicated service in Ayurvedic academia, clinical practice, and research, Dr. Kembhavi brings unparalleled expertise to the field of traditional medicine education and practice.</p>
-      
-      <div class="section-title">Areas of Expertise</div>
-      <ul class="specialization-list">
-        <li><strong>Educational Administration:</strong> Leading institutional reforms and academic excellence initiatives</li>
-        <li><strong>Curriculum Development:</strong> Designing comprehensive Ayurvedic education programs</li>
-        <li><strong>Clinical Protocols:</strong> Establishing evidence-based treatment standards</li>
-        <li><strong>Research Methodology:</strong> Advancing scientific validation of Ayurvedic principles</li>
-      </ul>
-      
-      <div class="section-title">Mission & Focus</div>
-      <p>Dedicated to transforming Ayurvedic education, improving clinical standards, and advancing evidence-based practice. Committed to bridging traditional wisdom with modern educational methodologies to prepare competent, confident practitioners for the future of healthcare.</p>
+<!-- Hero Section -->
+<div class="hero-section">
+    <div class="hero-content">
+        <h1>Welcome to Dr Kembhavi's Ayurveda Blog</h1>
+        <p class="hero-subtitle">Insights from 25+ years of experience in Ayurvedic medicine</p>
+        <p class="hero-description">We share evidence-based perspectives across five key areas of Ayurveda and Yoga:</p>
+        
+        <div class="expertise-tags">
+            <span class="expertise-tag">🏛️ Administrative</span>
+            <span class="expertise-tag">📚 Academic</span>
+            <span class="expertise-tag">🩺 Clinical</span>
+            <span class="expertise-tag">🔬 Research</span>
+            <span class="expertise-tag">🧘 Yoga & Wellness</span>
+        </div>
     </div>
-
-    <!-- Dr. Anita Profile -->
-    <div class="author-profile">
-      <h2 class="author-name">Dr. Anita Kadagad Kembhavi</h2>
-      <p class="author-title">MD Kayachikitsa, Consulting Physician & Panchakarma Specialist</p>
-      
-      <div class="section-title">Educational Qualifications</div>
-      <div class="qualifications-grid">
-        <div class="qualification-item">
-          <strong>MD Kayachikitsa (2007)</strong><br>
-          Rajiv Gandhi University of Health Sciences, Bengaluru
-        </div>
-        <div class="qualification-item">
-          <strong>BAMS (1992)</strong><br>
-          Karnataka University, Dharwad
-        </div>
-        <div class="qualification-item">
-          <strong>MSc Yoga (2019)</strong><br>
-          SVYASA University, Bengaluru
-        </div>
-        <div class="qualification-item">
-          <strong>MA Child Psychology (2014)</strong><br>
-          Kuvempu University, Shivamogga
-        </div>
-        <div class="qualification-item">
-          <strong>DYS (1996)</strong><br>
-          Department of Yoga Studies, Karnataka University
-        </div>
-        <div class="qualification-item">
-          <strong>D.NAT-Yoga (AYU) (1998)</strong><br>
-          Gujarat Ayurveda University, Jamnagar
-        </div>
-        <div class="qualification-item">
-          <strong>Diploma in Acupuncture (2001)</strong><br>
-          Certified Acupuncture Practitioner
-        </div>
-      </div>
-      
-      <div class="section-title">Current Positions</div>
-      <ul class="roles-list">
-        <li><strong>Director & Consultant Physician</strong> - Astanga Wellness Pvt Ltd, Hubli, Karnataka</li>
-        <li><strong>Medical Superintendent & Professor</strong> - HOD, Dept of Kaya Chikitsa, Jain AGM Ayurvedic Medical College</li>
-        <li><strong>Board Member</strong> - Europe Ayurveda Academy, France</li>
-        <li><strong>Resource Person</strong> - State, National and International Seminars & Conferences</li>
-        <li><strong>Secretary</strong> - Smt Nagammatai Mahila Mandal</li>
-        <li><strong>Life Member</strong> - Red Cross Society and Hemophilia Society</li>
-        <li><strong>Member</strong> - Gandhi Peace Foundation, Dharwad</li>
-      </ul>
-      
-      <div class="section-title">Clinical Specializations</div>
-      <ul class="specialization-list">
-        <li><strong>Diabetes Management</strong> - Comprehensive Ayurvedic approach to metabolic disorders</li>
-        <li><strong>Rheumatoid & Osteoarthritis</strong> - Joint health and mobility restoration</li>
-        <li><strong>Osteoporosis</strong> - Bone health and strength enhancement</li>
-        <li><strong>Obesity Management</strong> - Holistic weight management programs</li>
-        <li><strong>Respiratory Diseases</strong> - Pulmonary health and breathing disorders</li>
-        <li><strong>Allergies & Skin Diseases</strong> - Immune system balance and dermatological care</li>
-        <li><strong>PCOS</strong> - Women's hormonal health and reproductive wellness</li>
-        <li><strong>Mental Health Counseling</strong> - Psychological well-being and mind-body balance</li>
-      </ul>
-      
-      <div class="section-title">Practice Philosophy</div>
-      <p><strong>Practicing Authentic Ayurveda, Yoga, Naturopathy and Acupuncture since 1999.</strong></p>
-      <p>Dr. Anita combines traditional Ayurvedic wisdom with modern understanding of health and disease. Her integrated approach encompasses the complete spectrum of wellness - from preventive care through therapeutic intervention to long-term health maintenance.</p>
-      
-      <p>Her practice emphasizes:</p>
-      <ul class="specialization-list">
-        <li><strong>Panchakarma Specialization</strong> - Authentic detoxification and rejuvenation therapies</li>
-        <li><strong>Mind-Body Integration</strong> - Combining Ayurveda with Yoga and psychological counseling</li>
-        <li><strong>Holistic Patient Care</strong> - Addressing root causes rather than just symptoms</li>
-        <li><strong>Evidence-Based Practice</strong> - Integrating traditional methods with modern health understanding</li>
-      </ul>
-      
-      <div class="section-title">Academic & Research Contributions</div>
-      <p>Published 3 papers in International journals and regularly invited as a resource person at various conferences. Her diverse educational background spanning Ayurveda, Yoga, Psychology, and Naturopathy provides a unique multidisciplinary perspective to patient care and academic discourse.</p>
-      
-      <div class="section-title">Areas of Interest</div>
-      <p>Beyond clinical practice, Dr. Anita is passionate about Ayurveda, Yoga, Nature, Waste Management, Eco-friendly Living, Organic Agriculture, and Women & Child Welfare - reflecting her commitment to holistic wellness that extends to environmental and social health.</p>
-    </div>
-  </div>
-
-  <!-- Contact Information -->
-  <div class="contact-section">
-    <h3>Professional Contact Information</h3>
-    <div class="contact-info">
-      <div class="contact-item">
-        <strong>Astanga Wellness Pvt Ltd</strong><br>
-        Shop 1 F-C, Om Annexe, Above SBI Bank<br>
-        Shirur Park Main Road, Near The Oaks Hotel<br>
-        Prashant Colony, Vidyanagar, Hubli - 580031<br>
-        Karnataka, India
-      </div>
-      <div class="contact-item">
-        <strong>Contact Details</strong><br>
-        Mobile: 9886759399<br>
-        Email: drkembhavi@gmail.com
-      </div>
-    </div>
-  </div>
-
-  <a href="/" class="back-to-home">← Back to Home</a>
 </div>
+
+<!-- Tabbed Information Section -->
+<div class="info-tabs-section">
+    <div class="tab-buttons">
+        <button class="tab-btn active" onclick="openTab(event, 'about-areas')">About Our Focus Areas</button>
+        <button class="tab-btn" onclick="openTab(event, 'about-us')">About Us</button>
+        <button class="tab-btn" onclick="openTab(event, 'mission')">Our Mission</button>
+        <button class="tab-btn" onclick="openTab(event, 'disclaimer')">Important Disclaimer</button>
+    </div>
+    
+    <!-- Tab Content: Focus Areas -->
+    <div id="about-areas" class="tab-content active">
+        <div class="areas-grid">
+            <div class="area-card">
+                <h3>🏛️ Administrative</h3>
+                <p>Healthcare management and policy in Ayurvedic institutions - exploring leadership challenges, institutional governance, and systemic improvements needed in Ayurveda administration.</p>
+            </div>
+            <div class="area-card">
+                <h3>📚 Academic</h3>
+                <p>Teaching methodologies, curriculum development, and educational reforms - examining how we can better prepare the next generation of Ayurvedic practitioners.</p>
+            </div>
+            <div class="area-card">
+                <h3>🩺 Clinical</h3>
+                <p>Patient care approaches, treatment protocols, and clinical practice insights - sharing observations from years of clinical experience in real-world Ayurvedic practice.</p>
+            </div>
+            <div class="area-card">
+                <h3>🔬 Research</h3>
+                <p>Scientific validation, methodology, and evidence-based approaches - bridging ancient wisdom with modern research to advance Ayurveda's credibility.</p>
+            </div>
+            <div class="area-card">
+                <h3>🧘 Yoga & Wellness</h3>
+                <p>Holistic wellness approaches combining Ayurveda with Yoga, Naturopathy, and lifestyle medicine - integrating mind-body practices for comprehensive health management.</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Tab Content: About Us -->
+    <div id="about-us" class="tab-content">
+        <h3>About the Authors</h3>
+        <div class="authors-grid">
+            <div class="author-card">
+                <h4>Dr. Kembhavi</h4>
+                <p class="author-role">Principal, Ayurveda College</p>
+                <p><strong>Experience:</strong> 25+ years in Ayurvedic academia, clinical practice, and research</p>
+                <p><strong>Expertise:</strong> Educational administration, curriculum development, clinical protocols, and research methodology in Ayurveda</p>
+                <p><strong>Focus:</strong> Transforming Ayurvedic education, improving clinical standards, and advancing evidence-based practice</p>
+            </div>
+            <div class="author-card">
+                <h4>Dr. Anita Kadagad Kembhavi</h4>
+                <p class="author-role">Consulting Physician & Panchakarma Specialist</p>
+                <div class="qualifications">
+                    <p><strong>Qualifications:</strong></p>
+                    <ul class="qualification-list">
+                        <li>MD Kayachikitsa (2007) - Rajiv Gandhi University</li>
+                        <li>BAMS (1992) - Karnataka University</li>
+                        <li>MSc Yoga (2019) - SVYASA University</li>
+                        <li>MA Child Psychology (2014) - Kuvempu University</li>
+                        <li>DYS, D.NAT-Yoga, D.Ac (Acupuncture)</li>
+                    </ul>
+                </div>
+                <p><strong>Current Roles:</strong></p>
+                <ul class="role-list">
+                    <li>Director & Consultant at Astanga Wellness Pvt Ltd, Hubli</li>
+                    <li>Medical Superintendent & Professor, Jain AGM Ayurvedic Medical College</li>
+                    <li>Board Member, Europe Ayurveda Academy, France</li>
+                </ul>
+                <p><strong>Specializations:</strong> Diabetes, Arthritis, Obesity, Respiratory diseases, PCOS, Mental Health Counseling</p>
+                <p><strong>Practicing Since:</strong> 1999 - Authentic Ayurveda, Yoga, Naturopathy & Acupuncture</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Tab Content: Mission -->
+    <div id="mission" class="tab-content">
+        <h3>Our Mission</h3>
+        <p>Through this blog, we aim to:</p>
+        <ul class="mission-list">
+            <li><strong>Inspire Excellence</strong> in Ayurvedic education and practice</li>
+            <li><strong>Encourage Innovation</strong> while respecting traditional wisdom</li>
+            <li><strong>Foster Collaboration</strong> between traditional and modern approaches</li>
+            <li><strong>Promote Evidence-Based Practice</strong> in Ayurvedic medicine</li>
+            <li><strong>Support Professional Development</strong> of current and future practitioners</li>
+            <li><strong>Contribute to Policy Discussions</strong> that can improve our field</li>
+        </ul>
+    </div>
+    
+    <!-- Tab Content: Disclaimer -->
+    <div id="disclaimer" class="tab-content">
+        <h3>Important Disclaimer & Platform Mission</h3>
+        <div class="disclaimer-grid">
+            <div class="disclaimer-item">
+                <h4>Personal Perspectives</h4>
+                <p>All articles, opinions, and insights shared represent my personal views and experiences, developed through decades of analysis, research, clinical practice, and interactions with colleagues, students, and patients.</p>
+            </div>
+            <div class="disclaimer-item">
+                <h4>Constructive Intent</h4>
+                <p>This platform is created with sincere intention of fostering meaningful dialogue and contributing to the transformation and advancement of Ayurveda.</p>
+            </div>
+            <div class="disclaimer-item">
+                <h4>Respectful Dialogue</h4>
+                <p>While I share honest assessments and critical analyses, these are presented with utmost respect for all stakeholders in the Ayurvedic community.</p>
+            </div>
+            <div class="disclaimer-item">
+                <h4>Open Discussion</h4>
+                <p>I believe honest, open dialogue is essential for growth. I welcome respectful discourse and collaborative discussions for excellence in Ayurvedic practice.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Articles Section -->
+<div class="articles-section">
+    <h2>Latest Articles</h2>
+    
+    <div class="articles-grid">
+        {% for post in site.posts limit: 6 %}
+        <div class="article-card">
+            <div class="article-meta">
+                <span class="category-tag {{ post.categories[0] | downcase }}">{{ post.categories[0] }}</span>
+                <span style="margin-left: 1rem; color: #718096;">{{ post.date | date: "%B %d, %Y" }}</span>
+            </div>
+            <h3 class="article-title">
+                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            </h3>
+            <p>
+                {% if post.excerpt %}
+                    {{ post.excerpt | strip_html | truncate: 150 }}
+                {% else %}
+                    {{ post.content | strip_html | truncate: 150 }}
+                {% endif %}
+            </p>
+        </div>
+        {% endfor %}
+    </div>
+    
+    <div style="text-align: center; margin-top: 2rem;">
+        <a href="/archives" style="background: #2c5530; color: white; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 600;">View All Articles</a>
+    </div>
+</div>
+
+<script>
+function openTab(evt, tabName) {
+    var i, tabcontent, tablinks;
+    
+    // Hide all tab content
+    tabcontent = document.getElementsByClassName("tab-content");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].classList.remove("active");
+    }
+    
+    // Remove active class from all tab buttons
+    tablinks = document.getElementsByClassName("tab-btn");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].classList.remove("active");
+    }
+    
+    // Show selected tab and mark button as active
+    document.getElementById(tabName).classList.add("active");
+    evt.currentTarget.classList.add("active");
+}
+</script>
