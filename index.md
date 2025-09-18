@@ -387,25 +387,11 @@ nav a:hover {
             </div>
             <div class="author-card">
                 <h4>Dr. Anita Kadagad Kembhavi</h4>
-                <p class="author-role">Consulting Physician & Panchakarma Specialist</p>
-                <div class="qualifications">
-                    <p><strong>Qualifications:</strong></p>
-                    <ul class="qualification-list">
-                        <li>MD Kayachikitsa (2007) - Rajiv Gandhi University</li>
-                        <li>BAMS (1992) - Karnataka University</li>
-                        <li>MSc Yoga (2019) - SVYASA University</li>
-                        <li>MA Child Psychology (2014) - Kuvempu University</li>
-                        <li>DYS, D.NAT-Yoga, D.Ac (Acupuncture)</li>
-                    </ul>
-                </div>
-                <p><strong>Current Roles:</strong></p>
-                <ul class="role-list">
-                    <li>Director & Consultant at Astanga Wellness Pvt Ltd, Hubli</li>
-                    <li>Medical Superintendent & Professor, Jain AGM Ayurvedic Medical College</li>
-                    <li>Board Member, Europe Ayurveda Academy, France</li>
-                </ul>
-                <p><strong>Specializations:</strong> Diabetes, Arthritis, Obesity, Respiratory diseases, PCOS, Mental Health Counseling</p>
-                <p><strong>Practicing Since:</strong> 1999 - Authentic Ayurveda, Yoga, Naturopathy & Acupuncture</p>
+                <p class="author-role">MD Kayachikitsa, Consulting Physician & Panchakarma Specialist</p>
+                <p><strong>Experience:</strong> 25+ years in Ayurvedic academic and clinical practice</p>
+                <p><strong>Expertise:</strong> Authentic Ayurveda practice, Yoga, Wellness therapies, and Mental Health Counseling</p>
+                <p><strong>Focus:</strong> Holistic patient care, Panchakarma specialization, and integrative mind-body wellness approaches</p>
+                <p><strong>Current Roles:</strong> Director at Astanga Wellness, Professor at Jain AGM Ayurvedic College, Board Member Europe Ayurveda Academy</p>
             </div>
         </div>
     </div>
