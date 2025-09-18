@@ -238,22 +238,94 @@ nav a:hover {
     
     <!-- Dr. Kembhavi Profile -->
     <div class="author-profile">
-      <h2 class="author-name">Dr. Kembhavi</h2>
-      <p class="author-title">Principal, Ayurveda College</p>
+      <h2 class="author-name">Dr. Aakash Kembhavi</h2>
+      <p class="author-title">Principal, Jain AGM Ayurvedic Medical College | Director & Consultant Surgeon, Astanga Wellness</p>
       
-      <div class="section-title">Professional Experience</div>
-      <p>With over 25 years of dedicated service in Ayurvedic academia, clinical practice, and research, Dr. Kembhavi brings unparalleled expertise to the field of traditional medicine education and practice.</p>
+      <div class="section-title">Educational Qualifications</div>
+      <div class="qualifications-grid">
+        <div class="qualification-item">
+          <strong>BAMS (1994)</strong><br>
+          <span style="color: #d4af37; font-weight: 600;">🏆 DOUBLE GOLD MEDALIST & UNIVERSITY TOPPER FOR ALL YEARS</span>
+        </div>
+        <div class="qualification-item">
+          <strong>MD Shalya Tantra (1998)</strong><br>
+          IPGT&RA, Gujarat Ayurveda University, Jamnagar
+        </div>
+        <div class="qualification-item">
+          <strong>PGDMLS</strong><br>
+          Symbiosis University, Pune
+        </div>
+        <div class="qualification-item">
+          <strong>MS Counseling and Psychotherapy</strong><br>
+          Kuvempu University, Shivamogga - <span style="color: #d4af37; font-weight: 600;">7th Rank</span>
+        </div>
+        <div class="qualification-item">
+          <strong>COVID-19 Certification</strong><br>
+          Completed 4 Certificate Courses on COVID-19
+        </div>
+      </div>
       
-      <div class="section-title">Areas of Expertise</div>
-      <ul class="specialization-list">
-        <li><strong>Educational Administration:</strong> Leading institutional reforms and academic excellence initiatives</li>
-        <li><strong>Curriculum Development:</strong> Designing comprehensive Ayurvedic education programs</li>
-        <li><strong>Clinical Protocols:</strong> Establishing evidence-based treatment standards</li>
-        <li><strong>Research Methodology:</strong> Advancing scientific validation of Ayurvedic principles</li>
+      <div class="section-title">Current Positions</div>
+      <ul class="roles-list">
+        <li><strong>Principal</strong> - Jain AGM Ayurvedic Medical College and Hospital, Varur (Since Feb 2022)</li>
+        <li><strong>Director & Consultant Surgeon</strong> - Astanga Wellness Pvt Ltd, Hubli, Karnataka</li>
+        <li><strong>Professor & Director of PG Studies</strong> - SGVVT'S SJG Ayurvedic Medical College, Koppal</li>
+        <li><strong>Visiting Professor</strong> - Thames Valley University, London</li>
+        <li><strong>Board Member</strong> - Europe Ayurveda Academy, France</li>
       </ul>
       
-      <div class="section-title">Mission & Focus</div>
-      <p>Dedicated to transforming Ayurvedic education, improving clinical standards, and advancing evidence-based practice. Committed to bridging traditional wisdom with modern educational methodologies to prepare competent, confident practitioners for the future of healthcare.</p>
+      <div class="section-title">International Teaching Experience</div>
+      <ul class="specialization-list">
+        <li><strong>Thames Valley University, London</strong> - Teaching Shareera Rachana, Dravya Guna, Shalya and Shalakya, and Roga Nidana for BA (Hons) and BSc (Hons) students</li>
+        <li><strong>Mayur, Ayurvedic University of Europe, London</strong> - Faculty for advanced Ayurvedic studies</li>
+        <li><strong>Europe Ayurveda Academy, France</strong> - Teaching Fundamentals of Ayurveda</li>
+      </ul>
+      
+      <div class="section-title">Academic & Clinical Expertise</div>
+      <ul class="specialization-list">
+        <li><strong>Shalya Tantra (Ayurvedic Surgery)</strong> - Teaching PG and UG students</li>
+        <li><strong>Research Methodology and Bio Statistics</strong> - Specialized academic instruction</li>
+        <li><strong>Clinical Specializations:</strong> Piles, Fistula-in-Ano, Varicose veins, Diabetic Foot, Arterial Ulcers</li>
+        <li><strong>Urological Disorders:</strong> Urinary Tract Diseases, Prostate disorders</li>
+        <li><strong>Oncology:</strong> Cancer management through Ayurvedic approaches</li>
+        <li><strong>Clinical Experience:</strong> 25+ years in surgical and therapeutic practice</li>
+      </ul>
+      
+      <div class="section-title">Editorial & Academic Leadership</div>
+      <ul class="roles-list">
+        <li><strong>Subject Associate Editor</strong> - ARMARC, Peer Reviewed Journal of Ayurveda</li>
+        <li><strong>Editorial Board Member</strong> - RJAS, RGUHS, Bengaluru</li>
+        <li><strong>Editorial Board Member</strong> - JONAM, Journal of Natural and Ayurvedic Medicine, MedWin Publishers, USA</li>
+        <li><strong>Member, Research Board</strong> - Ayurveda Council for Research, USA</li>
+        <li><strong>Reviewer</strong> - Journal of Research and Education in Indian Medicine</li>
+        <li><strong>Reviewer</strong> - Journal of Ayurveda and Integrative Medicine</li>
+        <li><strong>Reviewer</strong> - Annals of Ayurveda Medicine</li>
+      </ul>
+      
+      <div class="section-title">Research & Academic Contributions</div>
+      <ul class="specialization-list">
+        <li><strong>RGUHS Recognized PG and PhD Guide</strong> - Research Methodology and Bio Statistics</li>
+        <li><strong>Successfully Guided:</strong> 4 PG scholars have submitted dissertations under guidance</li>
+        <li><strong>Ongoing Projects:</strong> 6 Research projects currently in progress</li>
+        <li><strong>Publications:</strong> 10 articles published in peer-reviewed journals</li>
+        <li><strong>Resource Person:</strong> State, National and International Seminars, Conferences and Workshops</li>
+        <li><strong>Curriculum Development:</strong> Resource Person for IV BAMS Shalya Tantra Syllabus Restructuring Workshop, RGUHS</li>
+      </ul>
+      
+      <div class="section-title">Board Memberships & Academic Roles</div>
+      <ul class="roles-list">
+        <li><strong>Member, Board of Studies</strong> - UG and PG for Pre and Para Clinical and Allied Health Sciences including Ayurveda at KAHER, Belgaum</li>
+        <li><strong>Board Member</strong> - Europe Ayurveda Academy, France</li>
+        <li><strong>Academic Examiner</strong> - RGUHS, Bengaluru for Research Methodology and Bio Statistics</li>
+      </ul>
+      
+      <div class="section-title">Research Interests & Innovation</div>
+      <p><strong>Specialized Focus:</strong> Integrated research and developing new Research Designs in Ayurveda</p>
+      <p>Dr. Aakash is pioneering innovative approaches to Ayurvedic research methodology, bridging traditional practice with modern scientific validation. His work focuses on creating robust research frameworks that honor Ayurvedic principles while meeting contemporary academic standards.</p>
+      
+      <div class="section-title">Practice Philosophy</div>
+      <p><strong>Practicing Authentic Ayurveda, Yoga, Naturopathy and Acupuncture since 1999</strong> in partnership with Dr. Anita Kadagad Kembhavi.</p>
+      <p>With over 25 years of combined academic leadership, clinical practice, and research excellence, Dr. Aakash brings unparalleled expertise to Ayurvedic education and surgical practice. His international teaching experience and editorial leadership position him as a global authority in Ayurvedic medicine and research methodology.</p>
     </div>
 
     <!-- Dr. Anita Profile -->
@@ -349,8 +421,12 @@ nav a:hover {
       </div>
       <div class="contact-item">
         <strong>Contact Details</strong><br>
+        <strong>Dr. Aakash Kembhavi:</strong><br>
+        Mobile: 9886759499<br>
+        Email: drkembhavi@astangawellness.org<br><br>
+        <strong>Dr. Anita Kadagad Kembhavi:</strong><br>
         Mobile: 9886759399<br>
-        Email: drkembhavi@gmail.com
+        Email: drkembhavi@astangawellness.com
       </div>
     </div>
   </div>
