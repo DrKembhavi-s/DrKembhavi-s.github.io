@@ -217,6 +217,68 @@
 .category-tag.research { background: #9f7aea; color: white; }
 .category-tag.blogging { background: #ed8936; color: white; }
 
+/* Author Cards */
+.authors-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+}
+
+.author-card {
+  padding: 2rem;
+  background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
+  border-radius: 15px;
+  border-left: 6px solid #2c5530;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.author-card h4 {
+  font-size: 1.5rem;
+  color: #2c5530;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.author-role {
+  font-size: 1.1rem;
+  color: #c17c47;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+.qualification-list, .role-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0.5rem 0;
+}
+
+.qualification-list li, .role-list li {
+  padding: 0.3rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+  font-size: 0.95rem;
+}
+
+.qualification-list li::before {
+  content: "🎓";
+  position: absolute;
+  left: 0;
+  font-size: 1rem;
+}
+
+.role-list li::before {
+  content: "🏥";
+  position: absolute;
+  left: 0;
+  font-size: 1rem;
+}
+
+.qualifications, .author-card > p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
 /* Navigation styles */
 nav {
   background: #f7fafc;
@@ -265,13 +327,14 @@ nav a:hover {
     <div class="hero-content">
         <h1>Welcome to Dr Kembhavi's Ayurveda Blog</h1>
         <p class="hero-subtitle">Insights from 25+ years of experience in Ayurvedic medicine</p>
-        <p class="hero-description">I share evidence-based perspectives across four key areas of Ayurveda:</p>
+        <p class="hero-description">We share evidence-based perspectives across five key areas of Ayurveda and Yoga:</p>
         
         <div class="expertise-tags">
             <span class="expertise-tag">🏛️ Administrative</span>
             <span class="expertise-tag">📚 Academic</span>
             <span class="expertise-tag">🩺 Clinical</span>
             <span class="expertise-tag">🔬 Research</span>
+            <span class="expertise-tag">🧘 Yoga & Wellness</span>
         </div>
     </div>
 </div>
@@ -279,8 +342,9 @@ nav a:hover {
 <!-- Tabbed Information Section -->
 <div class="info-tabs-section">
     <div class="tab-buttons">
-        <button class="tab-btn active" onclick="openTab(event, 'about-areas')">About My Focus Areas</button>
-        <button class="tab-btn" onclick="openTab(event, 'mission')">My Mission</button>
+        <button class="tab-btn active" onclick="openTab(event, 'about-areas')">About Our Focus Areas</button>
+        <button class="tab-btn" onclick="openTab(event, 'about-us')">About Us</button>
+        <button class="tab-btn" onclick="openTab(event, 'mission')">Our Mission</button>
         <button class="tab-btn" onclick="openTab(event, 'disclaimer')">Important Disclaimer</button>
     </div>
     
@@ -303,13 +367,53 @@ nav a:hover {
                 <h3>🔬 Research</h3>
                 <p>Scientific validation, methodology, and evidence-based approaches - bridging ancient wisdom with modern research to advance Ayurveda's credibility.</p>
             </div>
+            <div class="area-card">
+                <h3>🧘 Yoga & Wellness</h3>
+                <p>Holistic wellness approaches combining Ayurveda with Yoga, Naturopathy, and lifestyle medicine - integrating mind-body practices for comprehensive health management.</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Tab Content: About Us -->
+    <div id="about-us" class="tab-content">
+        <h3>About the Authors</h3>
+        <div class="authors-grid">
+            <div class="author-card">
+                <h4>Dr. Kembhavi</h4>
+                <p class="author-role">Principal, Ayurveda College</p>
+                <p><strong>Experience:</strong> 25+ years in Ayurvedic academia, clinical practice, and research</p>
+                <p><strong>Expertise:</strong> Educational administration, curriculum development, clinical protocols, and research methodology in Ayurveda</p>
+                <p><strong>Focus:</strong> Transforming Ayurvedic education, improving clinical standards, and advancing evidence-based practice</p>
+            </div>
+            <div class="author-card">
+                <h4>Dr. Anita Kadagad Kembhavi</h4>
+                <p class="author-role">Consulting Physician & Panchakarma Specialist</p>
+                <div class="qualifications">
+                    <p><strong>Qualifications:</strong></p>
+                    <ul class="qualification-list">
+                        <li>MD Kayachikitsa (2007) - Rajiv Gandhi University</li>
+                        <li>BAMS (1992) - Karnataka University</li>
+                        <li>MSc Yoga (2019) - SVYASA University</li>
+                        <li>MA Child Psychology (2014) - Kuvempu University</li>
+                        <li>DYS, D.NAT-Yoga, D.Ac (Acupuncture)</li>
+                    </ul>
+                </div>
+                <p><strong>Current Roles:</strong></p>
+                <ul class="role-list">
+                    <li>Director & Consultant at Astanga Wellness Pvt Ltd, Hubli</li>
+                    <li>Medical Superintendent & Professor, Jain AGM Ayurvedic Medical College</li>
+                    <li>Board Member, Europe Ayurveda Academy, France</li>
+                </ul>
+                <p><strong>Specializations:</strong> Diabetes, Arthritis, Obesity, Respiratory diseases, PCOS, Mental Health Counseling</p>
+                <p><strong>Practicing Since:</strong> 1999 - Authentic Ayurveda, Yoga, Naturopathy & Acupuncture</p>
+            </div>
         </div>
     </div>
     
     <!-- Tab Content: Mission -->
     <div id="mission" class="tab-content">
-        <h3>My Mission</h3>
-        <p>Through this blog, I aim to:</p>
+        <h3>Our Mission</h3>
+        <p>Through this blog, we aim to:</p>
         <ul class="mission-list">
             <li><strong>Inspire Excellence</strong> in Ayurvedic education and practice</li>
             <li><strong>Encourage Innovation</strong> while respecting traditional wisdom</li>
