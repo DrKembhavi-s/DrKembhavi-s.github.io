@@ -1,17 +1,8 @@
 ---
-layout: default
 ---
 
 <style>
 /* Inline CSS for immediate effect */
-/* Hide the duplicate site title at top */
-.site-header .site-title,
-header h1,
-header .site-title,
-.page-header h1 {
-  display: none !important;
-}
-
 .hero-section {
   background: linear-gradient(135deg, #2c5530 0%, #4a7c59 100%);
   color: white;
@@ -226,6 +217,30 @@ header .site-title,
 .category-tag.research { background: #9f7aea; color: white; }
 .category-tag.blogging { background: #ed8936; color: white; }
 
+/* Navigation styles */
+nav {
+  background: #f7fafc;
+  padding: 1rem 0;
+  text-align: center;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+nav a {
+  color: #2c5530;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  background: #2c5530;
+  color: white;
+}
+
 @media (max-width: 768px) {
   .hero-content h1 { font-size: 2rem; }
   .expertise-tags { flex-direction: column; align-items: center; }
@@ -235,6 +250,15 @@ header .site-title,
   .articles-grid { grid-template-columns: 1fr; }
 }
 </style>
+
+<!-- Simple Navigation -->
+<nav>
+  <a href="/">Home</a>
+  <a href="/categories">Categories</a>
+  <a href="/publications">Publications</a>
+  <a href="/about">About</a>
+  <a href="/archives">Archives</a>
+</nav>
 
 <!-- Hero Section -->
 <div class="hero-section">
@@ -346,7 +370,7 @@ header .site-title,
     </div>
     
     <div style="text-align: center; margin-top: 2rem;">
-        <a href="{{ '/archives' | relative_url }}" style="background: #2c5530; color: white; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 600;">View All Articles</a>
+        <a href="/archives" style="background: #2c5530; color: white; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 600;">View All Articles</a>
     </div>
 </div>
 
