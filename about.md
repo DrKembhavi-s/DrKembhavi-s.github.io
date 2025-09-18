@@ -1,155 +1,359 @@
 ---
-layout: page
-title: About Dr Aakash Kembhavi
 ---
 
-# About Dr Aakash Kembhavi
+<style>
+/* About Page Styling */
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  line-height: 1.7;
+  color: #2d3748;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
 
-Welcome to my professional journey in Ayurveda - a path dedicated to bridging ancient wisdom with modern healthcare through education, research, and clinical practice.
+.about-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+}
 
-## Educational Achievements
+.page-header {
+  text-align: center;
+  background: linear-gradient(135deg, #2c5530 0%, #4a7c59 100%);
+  color: white;
+  padding: 3rem 2rem;
+  margin: -2rem -2rem 3rem -2rem;
+  border-radius: 0 0 15px 15px;
+}
 
-**BAMS (1994)** - **Double Gold Medalist & University Topper for All Years**
-*Bachelor of Ayurvedic Medicine and Surgery*
+.page-header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: white !important;
+}
 
-**MD (1998)** - IPGTR&A, Gujarat Ayurveda University, Jamnagar
-*Doctor of Medicine in Ayurveda*
+.page-header p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+  margin-bottom: 0;
+}
 
-**PGDMLS** - Symbiosis University, Pune
-*Post Graduate Diploma in Management and Leadership Studies*
+.authors-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
 
-**MS Counseling and Psychotherapy** - Kuvempu University, Shivamogga
-*7th Rank - Master of Science in Counseling and Psychotherapy*
+.author-profile {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  padding: 3rem;
+  border-left: 6px solid #2c5530;
+}
 
-## Current Professional Roles
+.author-profile:nth-child(2) {
+  border-left-color: #c17c47;
+}
 
-### Director & Consultant Surgeon
-**Astanga Wellness Pvt Ltd., Hubli, Karnataka, India**
-- Practicing authentic Ayurveda, Yoga, Naturopathy, and Acupuncture since 1999
-- Working alongside my wife, Dr Anita Kadagad Kembhavi
-- Specializing in integrated holistic healthcare approaches
+.author-name {
+  font-size: 2rem;
+  color: #2c5530;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
 
-### Principal
-**Jain AGM Ayurvedic Medical College & Hospital, Varur, Karnataka, India**
-*February 2022 - Current*
-- Leading institutional excellence and academic innovation
-- Overseeing comprehensive medical education and hospital operations
-- Driving strategic initiatives for institutional growth and development
+.author-title {
+  font-size: 1.2rem;
+  color: #c17c47;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  font-style: italic;
+}
 
-## Previous Professional Experience
+.section-title {
+  font-size: 1.3rem;
+  color: #2c5530;
+  margin: 2rem 0 1rem 0;
+  font-weight: 600;
+  border-bottom: 2px solid #e2e8f0;
+  padding-bottom: 0.5rem;
+}
 
-### Professor and Director of PG Studies
-**SGVVT'S SJG Ayurvedic Medical College and Hospital, Koppal, Karnataka, India**
-- Led postgraduate education and research initiatives
-- Mentored the next generation of Ayurvedic scholars and practitioners
-- Established research protocols and academic excellence standards
+.qualifications-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0;
+}
 
-## Academic & Teaching Expertise
+.qualification-item {
+  background: #f7fafc;
+  padding: 1rem;
+  border-radius: 8px;
+  border-left: 4px solid #4a7c59;
+}
 
-### Core Subject Teaching
-- **Shalya Tantra** (Ayurvedic Surgery) for PG and UG students
-- **Research Methodology and Bio Statistics**
-- **Shareera Rachana** (Anatomy), **Dravya Guna** (Pharmacology)
-- **Shalakya Tantra** (ENT & Ophthalmology), **Roga Nidana** (Pathology)
+.qualification-item strong {
+  color: #2c5530;
+}
 
-### International Teaching Experience
-- **Thames Valley University, London** - BA (Hons) and BSc (Hons) programs
-- **Mayur, the Ayurvedic University of Europe, London**
-- **Europe Ayurveda Academy, France** - Fundamentals of Ayurveda
+.roles-list, .specialization-list {
+  list-style: none;
+  padding-left: 0;
+}
 
-## Clinical Specialization
+.roles-list li, .specialization-list li {
+  padding: 0.5rem 0;
+  padding-left: 2rem;
+  position: relative;
+  border-bottom: 1px solid #e2e8f0;
+}
 
-With **over 20 years of clinical experience**, I specialize in the management of:
-- Piles and Fistula-in-Ano
-- Varicose Veins and Vascular Disorders
-- Diabetic Foot and Arterial Ulcers
-- Urinary Tract Diseases
-- Prostate Disorders
-- Cancer Care through Ayurvedic Approaches
+.roles-list li:last-child, .specialization-list li:last-child {
+  border-bottom: none;
+}
 
-## Awards & Professional Affiliations
+.roles-list li::before {
+  content: "🏥";
+  position: absolute;
+  left: 0;
+  font-size: 1.1rem;
+}
 
-### Editorial & Academic Positions
-- **Subject Associate Editor** - ARMARC, Peer Reviewed Journal of Ayurveda
-- **Editorial Board Member** - RJAS, RGUHS, Bengaluru
-- **Editorial Board Member** - JONAM, Journal of Natural and Ayurvedic Medicine, MedWin Publishers, USA
-- **Editorial Board Member** - Advanced Journal of Ayush Research
-- **Reviewer** - Journal of Research and Education in Indian Medicine
-- **Reviewer** - Annals of Ayurveda Medicine
+.specialization-list li::before {
+  content: "🩺";
+  position: absolute;
+  left: 0;
+  font-size: 1.1rem;
+}
 
-### International Recognition
-- **Visiting Professor** - Thames Valley University, London
-- **Board Member** - Europe Ayurveda Academy, France
-- **Member, Research Board** - Ayurveda Council for Research, USA
+.contact-section {
+  background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
+  padding: 2rem;
+  border-radius: 15px;
+  margin-top: 3rem;
+  text-align: center;
+}
 
-### University Roles
-- **Board Member** - Board of Studies UG and PG, KAHER, Belgaum
-- **RGUHS Recognized PG and PhD Guide** - Research Methodology and Bio Statistics
-- **Resource Person** - IV BAMS Shalya Tantra Syllabus Restructuring Workshop, RGUHS
+.contact-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
 
-## Research & Mentorship
+.contact-item {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  border-left: 4px solid #2c5530;
+}
 
-### Research Guidance
-- **4 PG scholars** have successfully submitted dissertations under my guidance to RGUHS
-- **6 ongoing research projects** currently under supervision
-- **Recognized PhD Guide** for Research Methodology and Bio Statistics
+.back-to-home {
+  display: inline-block;
+  background: #2c5530;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  margin: 2rem auto;
+  display: block;
+  text-align: center;
+  max-width: 200px;
+  transition: all 0.3s ease;
+}
 
-### Areas of Research Interest
-- **Integrated Research** approaches in Ayurveda
-- **Developing New Research Designs** specific to Ayurvedic methodology
-- **Evidence-based Clinical Practice** in traditional medicine
+.back-to-home:hover {
+  background: #1a3d1f;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
 
-## Publications & Professional Development
+/* Navigation styles */
+nav {
+  background: #f7fafc;
+  padding: 1rem 0;
+  text-align: center;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid #e2e8f0;
+}
 
-- **10 published articles** in peer-reviewed journals
-- **Resource Person** at State, National, and International Seminars, Conferences, and Workshops  
-- **Completed 4 Certificate Courses** on COVID-19 management
-- Regular speaker at academic and professional gatherings
+nav a {
+  color: #2c5530;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
 
-## Key Publications
+nav a:hover {
+  background: #2c5530;
+  color: white;
+}
 
-### Recent Research Articles
+@media (max-width: 768px) {
+  .page-header h1 {
+    font-size: 2rem;
+  }
+  
+  .author-profile {
+    padding: 2rem;
+  }
+  
+  .author-name {
+    font-size: 1.5rem;
+  }
+  
+  .qualifications-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
 
-**"Is It Time to Reboot the System of Ayurveda in India?"** (2020)
-*Journal of Bio Innovation*, 9(4), pp: 541-549
-DOI: 10.46344/JBINO.2020.v09i04.15
+<!-- Simple Navigation -->
+<nav>
+  <a href="/">Home</a>
+  <a href="/categories">Categories</a>
+  <a href="/publications">Publications</a>
+  <a href="/about">About</a>
+  <a href="/archives">Archives</a>
+</nav>
 
-**"Ayurveda for Covid 19" Survey Analysis** (2020)
-*Scholars International Journal of Traditional and Complementary Medicine*, 3(5), pp: 81-89
+<div class="about-container">
+  <!-- Page Header -->
+  <div class="page-header">
+    <h1>About the Authors</h1>
+    <p>Meet the experienced practitioners behind this blog</p>
+  </div>
 
-**"Is It Time for Ayurveda to Reinvent Itself?"** (2021)
-*Journal of Bio Innovation*, 10(2b), pp: 131-140
+  <!-- Authors Section -->
+  <div class="authors-section">
+    
+    <!-- Dr. Kembhavi Profile -->
+    <div class="author-profile">
+      <h2 class="author-name">Dr. Kembhavi</h2>
+      <p class="author-title">Principal, Ayurveda College</p>
+      
+      <div class="section-title">Professional Experience</div>
+      <p>With over 25 years of dedicated service in Ayurvedic academia, clinical practice, and research, Dr. Kembhavi brings unparalleled expertise to the field of traditional medicine education and practice.</p>
+      
+      <div class="section-title">Areas of Expertise</div>
+      <ul class="specialization-list">
+        <li><strong>Educational Administration:</strong> Leading institutional reforms and academic excellence initiatives</li>
+        <li><strong>Curriculum Development:</strong> Designing comprehensive Ayurvedic education programs</li>
+        <li><strong>Clinical Protocols:</strong> Establishing evidence-based treatment standards</li>
+        <li><strong>Research Methodology:</strong> Advancing scientific validation of Ayurvedic principles</li>
+      </ul>
+      
+      <div class="section-title">Mission & Focus</div>
+      <p>Dedicated to transforming Ayurvedic education, improving clinical standards, and advancing evidence-based practice. Committed to bridging traditional wisdom with modern educational methodologies to prepare competent, confident practitioners for the future of healthcare.</p>
+    </div>
 
-**"Emerging Healthcare Trends that Ayurveda has to Harness to become a true Global Healthcare Provider"** (2021)
-*Journal of Pharma and Ayurved Research*, 1(2), pp: 48-50
+    <!-- Dr. Anita Profile -->
+    <div class="author-profile">
+      <h2 class="author-name">Dr. Anita Kadagad Kembhavi</h2>
+      <p class="author-title">MD Kayachikitsa, Consulting Physician & Panchakarma Specialist</p>
+      
+      <div class="section-title">Educational Qualifications</div>
+      <div class="qualifications-grid">
+        <div class="qualification-item">
+          <strong>MD Kayachikitsa (2007)</strong><br>
+          Rajiv Gandhi University of Health Sciences, Bengaluru
+        </div>
+        <div class="qualification-item">
+          <strong>BAMS (1992)</strong><br>
+          Karnataka University, Dharwad
+        </div>
+        <div class="qualification-item">
+          <strong>MSc Yoga (2019)</strong><br>
+          SVYASA University, Bengaluru
+        </div>
+        <div class="qualification-item">
+          <strong>MA Child Psychology (2014)</strong><br>
+          Kuvempu University, Shivamogga
+        </div>
+        <div class="qualification-item">
+          <strong>DYS (1996)</strong><br>
+          Department of Yoga Studies, Karnataka University
+        </div>
+        <div class="qualification-item">
+          <strong>D.NAT-Yoga (AYU) (1998)</strong><br>
+          Gujarat Ayurveda University, Jamnagar
+        </div>
+        <div class="qualification-item">
+          <strong>Diploma in Acupuncture (2001)</strong><br>
+          Certified Acupuncture Practitioner
+        </div>
+      </div>
+      
+      <div class="section-title">Current Positions</div>
+      <ul class="roles-list">
+        <li><strong>Director & Consultant Physician</strong> - Astanga Wellness Pvt Ltd, Hubli, Karnataka</li>
+        <li><strong>Medical Superintendent & Professor</strong> - HOD, Dept of Kaya Chikitsa, Jain AGM Ayurvedic Medical College</li>
+        <li><strong>Board Member</strong> - Europe Ayurveda Academy, France</li>
+        <li><strong>Resource Person</strong> - State, National and International Seminars & Conferences</li>
+        <li><strong>Secretary</strong> - Smt Nagammatai Mahila Mandal</li>
+        <li><strong>Life Member</strong> - Red Cross Society and Hemophilia Society</li>
+        <li><strong>Member</strong> - Gandhi Peace Foundation, Dharwad</li>
+      </ul>
+      
+      <div class="section-title">Clinical Specializations</div>
+      <ul class="specialization-list">
+        <li><strong>Diabetes Management</strong> - Comprehensive Ayurvedic approach to metabolic disorders</li>
+        <li><strong>Rheumatoid & Osteoarthritis</strong> - Joint health and mobility restoration</li>
+        <li><strong>Osteoporosis</strong> - Bone health and strength enhancement</li>
+        <li><strong>Obesity Management</strong> - Holistic weight management programs</li>
+        <li><strong>Respiratory Diseases</strong> - Pulmonary health and breathing disorders</li>
+        <li><strong>Allergies & Skin Diseases</strong> - Immune system balance and dermatological care</li>
+        <li><strong>PCOS</strong> - Women's hormonal health and reproductive wellness</li>
+        <li><strong>Mental Health Counseling</strong> - Psychological well-being and mind-body balance</li>
+      </ul>
+      
+      <div class="section-title">Practice Philosophy</div>
+      <p><strong>Practicing Authentic Ayurveda, Yoga, Naturopathy and Acupuncture since 1999.</strong></p>
+      <p>Dr. Anita combines traditional Ayurvedic wisdom with modern understanding of health and disease. Her integrated approach encompasses the complete spectrum of wellness - from preventive care through therapeutic intervention to long-term health maintenance.</p>
+      
+      <p>Her practice emphasizes:</p>
+      <ul class="specialization-list">
+        <li><strong>Panchakarma Specialization</strong> - Authentic detoxification and rejuvenation therapies</li>
+        <li><strong>Mind-Body Integration</strong> - Combining Ayurveda with Yoga and psychological counseling</li>
+        <li><strong>Holistic Patient Care</strong> - Addressing root causes rather than just symptoms</li>
+        <li><strong>Evidence-Based Practice</strong> - Integrating traditional methods with modern health understanding</li>
+      </ul>
+      
+      <div class="section-title">Academic & Research Contributions</div>
+      <p>Published 3 papers in International journals and regularly invited as a resource person at various conferences. Her diverse educational background spanning Ayurveda, Yoga, Psychology, and Naturopathy provides a unique multidisciplinary perspective to patient care and academic discourse.</p>
+      
+      <div class="section-title">Areas of Interest</div>
+      <p>Beyond clinical practice, Dr. Anita is passionate about Ayurveda, Yoga, Nature, Waste Management, Eco-friendly Living, Organic Agriculture, and Women & Child Welfare - reflecting her commitment to holistic wellness that extends to environmental and social health.</p>
+    </div>
+  </div>
 
-**"Reforms in Ayurveda Education: Challenges & Roadblocks"** (2020)
-*Journal of Natural & Ayurvedic Medicine*, 4(1): 000224
-DOI: 10.23880/jonam-16000224
+  <!-- Contact Information -->
+  <div class="contact-section">
+    <h3>Professional Contact Information</h3>
+    <div class="contact-info">
+      <div class="contact-item">
+        <strong>Astanga Wellness Pvt Ltd</strong><br>
+        Shop 1 F-C, Om Annexe, Above SBI Bank<br>
+        Shirur Park Main Road, Near The Oaks Hotel<br>
+        Prashant Colony, Vidyanagar, Hubli - 580031<br>
+        Karnataka, India
+      </div>
+      <div class="contact-item">
+        <strong>Contact Details</strong><br>
+        Mobile: 9886759399<br>
+        Email: drkembhavi@gmail.com
+      </div>
+    </div>
+  </div>
 
-**"Surgical Training in Ayurveda: Reality Check, Challenges And Solutions"** (2021)
-*Innovative Research in Ayurvedic Sciences*, 1(2), pp: 26-35
-
-**"Does Ayurveda Qualify As A Public Healthcare System?"** (2021)
-*Newsletter of ARMARC*, Vol 27 Series 5-6
-
-## My Vision
-
-Through this blog and my professional work, I aim to contribute to the transformation of Ayurveda by:
-- Promoting evidence-based practice while honoring traditional wisdom
-- Fostering international collaboration and recognition
-- Mentoring the next generation of Ayurvedic practitioners
-- Bridging the gap between classical knowledge and contemporary healthcare needs
-
-## Contact
-
-**Email:** drkembhavi@live.com
-
-**Clinical Practice:** Astanga Wellness Pvt Ltd.
-Shop No 1- FC, OM Annexe, Shirur Park Main Road, Prashant Colony, Vidyanagar, Hubli, Karnataka, India
-
-**Academic Position:** Principal, Jain AGM Ayurvedic Medical College & Hospital, Varur, Karnataka, India
-
----
-
-*Thank you for visiting my blog. I look forward to engaging in meaningful dialogue about the future of Ayurveda with fellow practitioners, educators, researchers, and students from around the world.*
+  <a href="/" class="back-to-home">← Back to Home</a>
+</div>
