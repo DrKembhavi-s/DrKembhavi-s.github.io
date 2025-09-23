@@ -42,6 +42,13 @@ Personal observations, philosophical thoughts, and contemplative insights - shar
 - [{{ post.title }}]({{ post.url }}) - {{ post.date | date: "%B %d, %Y" }}
 {% endfor %}
 
+## 🧘 Yoga & Wellness
+Holistic approaches to health and wellbeing - exploring the interconnection between yoga, Ayurveda, and comprehensive wellness practices.
+
+{% for post in site.categories.yoga %}
+- [{{ post.title }}]({{ post.url }}) - {{ post.date | date: "%B %d, %Y" }}
+{% endfor %}
+
 ---
 
 *Browse by month in the [Archives](/archives) or return to [Home](/) for latest posts.*
