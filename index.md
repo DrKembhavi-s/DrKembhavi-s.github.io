@@ -350,30 +350,35 @@ nav a:hover {
     </div>
     
     <!-- Tab Content: Focus Areas -->
-    <div id="about-areas" class="tab-content active">
-        <div class="areas-grid">
-            <div class="area-card">
-                <h3>🏛️ Administrative</h3>
-                <p>Healthcare management and policy in Ayurvedic institutions - exploring leadership challenges, institutional governance, and systemic improvements needed in Ayurveda administration.</p>
-            </div>
-            <div class="area-card">
-                <h3>📚 Academic</h3>
-                <p>Teaching methodologies, curriculum development, and educational reforms - examining how we can better prepare the next generation of Ayurvedic practitioners.</p>
-            </div>
-            <div class="area-card">
-                <h3>🩺 Clinical</h3>
-                <p>Patient care approaches, treatment protocols, and clinical practice insights - sharing observations from years of clinical experience in real-world Ayurvedic practice.</p>
-            </div>
-            <div class="area-card">
-                <h3>🔬 Research</h3>
-                <p>Scientific validation, methodology, and evidence-based approaches - bridging ancient wisdom with modern research to advance Ayurveda's credibility.</p>
-            </div>
-            <div class="area-card">
-                <h3>🧘 Yoga & Wellness</h3>
-                <p>Holistic wellness approaches combining Ayurveda with Yoga, Naturopathy, and lifestyle medicine - integrating mind-body practices for comprehensive health management.</p>
-            </div>
+    <!-- Tab Content: Focus Areas -->
+<div id="about-areas" class="tab-content active">
+    <div class="areas-grid">
+        <div class="area-card">
+            <h3>🏛️ Administrative</h3>
+            <p>Healthcare management and policy in Ayurvedic institutions - exploring leadership challenges, institutional governance, and systemic improvements needed in Ayurveda administration.</p>
+        </div>
+        <div class="area-card">
+            <h3>📚 Academic</h3>
+            <p>Teaching methodologies, curriculum development, and educational reforms - examining how we can better prepare the next generation of Ayurvedic practitioners.</p>
+        </div>
+        <div class="area-card">
+            <h3>🩺 Clinical</h3>
+            <p>Patient care approaches, treatment protocols, and clinical practice insights - sharing observations from years of clinical experience in real-world Ayurvedic practice.</p>
+        </div>
+        <div class="area-card">
+            <h3>🔬 Research</h3>
+            <p>Scientific validation, methodology, and evidence-based approaches - bridging ancient wisdom with modern research to advance Ayurveda's credibility.</p>
+        </div>
+        <div class="area-card">
+            <h3>🤔 Reflections & Musings</h3>
+            <p>Personal observations, philosophical thoughts, and contemplative insights - sharing deeper reflections on life, practice, and the journey of understanding Ayurveda beyond academic and clinical realms.</p>
+        </div>
+        <div class="area-card">
+            <h3>🧘 Yoga & Wellness</h3>
+            <p>Holistic wellness approaches combining Ayurveda with Yoga, Naturopathy, and lifestyle medicine - integrating mind-body practices for comprehensive health management.</p>
         </div>
     </div>
+</div>
     
     <!-- Tab Content: About Us -->
     <div id="about-us" class="tab-content">
