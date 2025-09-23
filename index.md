@@ -330,12 +330,13 @@ nav a:hover {
         <p class="hero-description">We share evidence-based perspectives across five key areas of Ayurveda and Yoga:</p>
         
         <div class="expertise-tags">
-            <span class="expertise-tag">🏛️ Administrative</span>
-            <span class="expertise-tag">📚 Academic</span>
-            <span class="expertise-tag">🩺 Clinical</span>
-            <span class="expertise-tag">🔬 Research</span>
-            <span class="expertise-tag">🧘 Yoga & Wellness</span>
-        </div>
+    <span class="expertise-tag">🏛️ Administrative</span>
+    <span class="expertise-tag">📚 Academic</span>
+    <span class="expertise-tag">🩺 Clinical</span>
+    <span class="expertise-tag">🔬 Research</span>
+    <span class="expertise-tag">🤔 Reflections & Musings</span>
+    <span class="expertise-tag">🧘 Yoga & Wellness</span>
+</div>
     </div>
 </div>
 
