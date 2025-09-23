@@ -327,7 +327,7 @@ nav a:hover {
     <div class="hero-content">
         <h1>Welcome to Dr Kembhavi's Ayurveda Blog</h1>
         <p class="hero-subtitle">Insights from 25+ years of experience in Ayurvedic medicine</p>
-        <p class="hero-description">We share evidence-based perspectives across five key areas of Ayurveda and Yoga:</p>
+        <p class="hero-description">We share evidence-based perspectives across the following key areas of Ayurveda and Yoga:</p>
         
         <div class="expertise-tags">
     <span class="expertise-tag">🏛️ Administrative</span>
