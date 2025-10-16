@@ -1,0 +1,141 @@
+---
+layout: default
+---
+
+<article class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}">
+        {{ page.date | date: "%B %d, %Y" }}
+      </time>
+      {% if page.categories %}
+        • <span class="post-category">{{ page.categories | first | capitalize }}</span>
+      {% endif %}
+    </p>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+  <!-- Author Bio / Call to Action -->
+  <div class="post-footer" style="margin-top: 3rem; padding-top: 2rem; border-top: 2px solid #e9ecef;">
+    <p style="font-style: italic; color: #666;">
+      💬 <strong>Join the conversation!</strong> Share your thoughts, experiences, or questions in the comments below. 
+      Your insights contribute to our collective understanding of Ayurveda.
+    </p>
+  </div>
+
+  <!-- Giscus Comments Section -->
+  <div class="comments-section" style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid #e9ecef;">
+    <h3 style="margin-bottom: 1.5rem;">💬 Comments & Discussion</h3>
+    
+    <script src="https://giscus.app/client.js"
+            data-repo="drkembhavi-s/drkembhavi-s.github.io"
+            data-repo-id="R_kgDOPqaZ9g"
+            data-category="General"
+            data-category-id="DIC_kwDOPqaZ9s4CwugB"
+            data-mapping="pathname"
+            data-strict="0"
+            data-reactions-enabled="1"
+            data-emit-metadata="1"
+            data-input-position="bottom"
+            data-theme="preferred_color_scheme"
+            data-lang="en"
+            crossorigin="anonymous"
+            async>
+    </script>
+  </div>
+</article>
+
+<style>
+.post {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.post-header {
+  margin-bottom: 2rem;
+}
+
+.post-title {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+  color: #2c3e50;
+}
+
+.post-meta {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.post-category {
+  background-color: #e9ecef;
+  padding: 0.3rem 0.7rem;
+  border-radius: 15px;
+  font-weight: 600;
+}
+
+.post-content {
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+.post-content h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+.post-content h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: #34495e;
+}
+
+.post-content p {
+  margin-bottom: 1rem;
+}
+
+.post-content ul, .post-content ol {
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+}
+
+.post-content li {
+  margin-bottom: 0.5rem;
+}
+
+.post-content blockquote {
+  border-left: 4px solid #667eea;
+  padding-left: 1.5rem;
+  margin: 1.5rem 0;
+  font-style: italic;
+  color: #555;
+}
+
+.post-footer {
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.comments-section {
+  background-color: #fafbfc;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .post-title {
+    font-size: 2rem;
+  }
+  
+  .post-content {
+    font-size: 1rem;
+  }
+}
+</style>
