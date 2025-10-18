@@ -12,6 +12,8 @@ author: Dr Kembhavi
 
 **Or: How I Learned to Stop Worrying and Love the Cognitive Dissonance**
 
+**Dr Aakash Kembhavi**
+
 Happy Dhanteras, everyone! Today we honor Lord Dhanwantari, the divine physician who emerged from the cosmic ocean carrying the nectar of immortality and the ancient wisdom of Ayurveda. Naturally, I will celebrate this auspicious day by eating approximately seventeen gulab jamuns and purchasing gold jewelry I don't need while scrolling through Instagram to see who bought *more* gold jewelry they don't need.
 
 **The Physician God Would Like a Word With Us**
