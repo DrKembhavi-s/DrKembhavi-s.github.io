@@ -10,6 +10,7 @@ author: Dr Kembhavi
 
 **The Clinical Skills Crisis: Why Indian BAMS Graduates Are Increasingly Unskilled**
 
+Dr Aakash Kembhavi MD, PGDMLS, MS (Counseling & Psychotherapy)
 **Author's Note**: This article represents my personal opinions and observations based on over 25 years of experience in Ayurvedic medical education. It has been created with AI collaboration to structure and articulate these concerns systematically. I must apologize to my readers—just yesterday I published a blog article, and here I am again today. But after reading the report on declining math skills among American students, I could not remain silent. The parallels to our own crisis in Ayurvedic medical education were too stark to ignore. Whether you choose to acknowledge these facts or dismiss them is entirely up to you as readers. What I present here is what I have witnessed, what the data shows when we dare to look, and what we must confront if we care about the future of Ayurveda and patient safety.
 
 In the teaching hospitals of India's Ayurvedic colleges, a quiet catastrophe is unfolding. Institutions once devoted to preserving millennia-old healing traditions are now graduating doctors who cannot perform basic clinical assessments—skills that every Ayurvedic physician should master. The reckoning has arrived, and it demands we confront an uncomfortable truth: we have been certifying incompetent doctors for decades.
@@ -197,8 +198,6 @@ The question facing Indian Ayurvedic education isn't whether reform is necessary
 Until we can answer those questions affirmatively, we will continue the cruel charade of admitting unprepared students, providing inadequate education, certifying incompetent graduates, and wondering why Ayurveda struggles for credibility in the modern world.
 
 The math crisis at UCSD shocked observers because a prestigious institution measured and acknowledged its failing. The clinical competence crisis in Ayurvedic education should shock us more—because we haven't even bothered to measure it, let alone fix it. That indifference to our own institutional failure may be the greatest failure of all.
-
-**Dr. Aakash Kembhavi is Principal of Jain AGM Ayurvedic Medical College &amp; Hospital and Director of PG Studies at SJG Ayurvedic Medical College. He has served in Ayurvedic medical education for over 25 years and advocates for systemic reform in traditional medical education.**
 
 ---
 
