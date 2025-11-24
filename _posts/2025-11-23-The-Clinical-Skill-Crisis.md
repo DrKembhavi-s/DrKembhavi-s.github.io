@@ -11,6 +11,7 @@ author: Dr Kembhavi
 **The Clinical Skills Crisis: Why Indian BAMS Graduates Are Increasingly Unskilled**
 
 Dr Aakash Kembhavi MD, PGDMLS, MS (Counseling & Psychotherapy)
+
 **Author's Note**: This article represents my personal opinions and observations based on over 25 years of experience in Ayurvedic medical education. It has been created with AI collaboration to structure and articulate these concerns systematically. I must apologize to my readers—just yesterday I published a blog article, and here I am again today. But after reading the report on declining math skills among American students, I could not remain silent. The parallels to our own crisis in Ayurvedic medical education were too stark to ignore. Whether you choose to acknowledge these facts or dismiss them is entirely up to you as readers. What I present here is what I have witnessed, what the data shows when we dare to look, and what we must confront if we care about the future of Ayurveda and patient safety.
 
 In the teaching hospitals of India's Ayurvedic colleges, a quiet catastrophe is unfolding. Institutions once devoted to preserving millennia-old healing traditions are now graduating doctors who cannot perform basic clinical assessments—skills that every Ayurvedic physician should master. The reckoning has arrived, and it demands we confront an uncomfortable truth: we have been certifying incompetent doctors for decades.
