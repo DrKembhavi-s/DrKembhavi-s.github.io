@@ -18,11 +18,11 @@ As someone who has dedicated my life to authentic Ayurvedic practice and educati
 
 The goal is not to diminish Ayurveda but to strengthen it by demanding excellence, accountability, and honest self-examination from all stakeholders.
 
-## The Uncomfortable Truth No One Wants to DiscussDr. Devi Shetty, the renowned cardiac surgeon, has issued a stark warning: antibiotics are losing their effectiveness due to rampant abuse, and we risk returning to a pre-penicillin era where routine infections become untreatable. His observations about surgical patients developing resistant infections are chilling. Yet while the medical establishment rushes to blame patient behavior and over-the-counter sales, there's a massive elephant in the room that the Ministry of AYUSH refuses to acknowledge: **the vast majority of BAMS (Bachelor of Ayurvedic Medicine and Surgery) graduates are practicing modern medicine and prescribing broad-spectrum antibiotics without proper training.**
+## The Uncomfortable Truth No One Wants to Discuss: Dr. Devi Shetty, the renowned cardiac surgeon, has issued a stark warning: antibiotics are losing their effectiveness due to rampant abuse, and we risk returning to a pre-penicillin era where routine infections become untreatable. His observations about surgical patients developing resistant infections are chilling. Yet while the medical establishment rushes to blame patient behavior and over-the-counter sales, there's a massive elephant in the room that the Ministry of AYUSH refuses to acknowledge: **the vast majority of BAMS (Bachelor of Ayurvedic Medicine and Surgery) graduates are practicing modern medicine and prescribing broad-spectrum antibiotics without proper training.**
 
 **This isn't a fringe issue. This is a systemic failure of staggering proportions.**
 
-## The Data Doesn't LieResearch reveals that BAMS students acquire training in allopathic medicine by working as understudies in allopathic practitioners' clinics, and later start independent allopathic practice or join smaller hospitals on cheaper salaries. It is also a fact that majority of Ayurveda college faculties irrespective of cadre practice modern medicine. This is a common phenomenon across multiple states.
+## The Data Doesn't Lie: Research reveals that BAMS students acquire training in allopathic medicine by working as understudies in allopathic practitioners' clinics, and later start independent allopathic practice or join smaller hospitals on cheaper salaries. It is also a fact that majority of Ayurveda college faculties irrespective of cadre practice modern medicine. This is a common phenomenon across multiple states.
 
 Let's be brutally clear: Private BAMS graduates are in high demand in urban areas where nursing homes and hospitals employ them to function as second-line workforce—even managing post-operative and ICU work. These are not trained allopathic doctors. These are Ayurveda graduates practicing modern medicine, prescribing antibiotics, and managing critical care situations for which they have received no systematic training.
 
@@ -50,7 +50,7 @@ But the regulatory chaos doesn't end there. In November 2020, the Central Counci
 
 The Indian Medical Association organized demonstrations protesting this notification, and the matter is currently sub judice before the Supreme Court. Most recently, when Andhra Pradesh's Health Minister approved Ayurvedic practitioners with postgraduate surgical training to perform select surgeries independently in December 2024, the IMA's state branch strongly condemned the move.
 
-### The Uncomfortable Truth About Ayurvedic Surgery TrainingHere's what nobody in the Ayurveda establishment wants to acknowledge openly: **Over decades, ALL Ayurveda postgraduates who learned modern surgical techniques have ALWAYS been taught and trained by modern surgeons, who then went on to train other students.**
+### The Uncomfortable Truth About Ayurvedic Surgery Training: Here's what nobody in the Ayurveda establishment wants to acknowledge openly: **Over decades, ALL Ayurveda postgraduates who learned modern surgical techniques have ALWAYS been taught and trained by modern surgeons, who then went on to train other students.**
 
 This isn't speculation. Pioneers like Prof. K.N. Udupa and Prof. P.J. Deshpande, though from Ayurveda backgrounds, received their surgical training from the University of Michigan and Vienna Academy of Medicine respectively. These modern medical institutions welcomed them and trained them well in surgery. These teachers then trained students—including MBBS students—at Banaras Hindu University.
 
@@ -66,7 +66,7 @@ If we're honest enough to acknowledge that our surgical training comes from mode
 
 The result of all this regulatory chaos? Confusion, inconsistent practice, and zero accountability—whether it's about prescribing antibiotics or performing surgeries.
 
-## The Educational Failure: Learning by OsmosisBAMS degree holders generally lack required exposure to essential clinical skills. Think about that. These graduates are entering practice without adequate clinical training even in their own system, let alone in modern medicine.
+## The Educational Failure: Learning by Osmosis: BAMS degree holders generally lack required exposure to essential clinical skills. Think about that. These graduates are entering practice without adequate clinical training even in their own system, let alone in modern medicine.
 
 Yet they're prescribing antibiotics. They're managing ICU patients. They're conducting surgeries.
 
@@ -84,7 +84,7 @@ While the Ministry of AYUSH busily promotes Ayurveda as the answer to antibiotic
 
 This isn't just hypocrisy. This is willful negligence.
 
-## Modern Medicine Must Clean Its Own House—But That Doesn't Absolve UsBefore we go further, let's be absolutely clear about something: Modern medicine is rightly acknowledging that antibiotic overuse and misuse within its own system is causing catastrophic problems. MBBS doctors, surgeons, and specialists contribute significantly to antibiotic resistance through unnecessary prescriptions, inadequate patient education, and failure to follow antibiotic stewardship protocols.
+## Modern Medicine Must Clean Its Own House—But That Doesn't Absolve Us: Before we go further, let's be absolutely clear about something: Modern medicine is rightly acknowledging that antibiotic overuse and misuse within its own system is causing catastrophic problems. MBBS doctors, surgeons, and specialists contribute significantly to antibiotic resistance through unnecessary prescriptions, inadequate patient education, and failure to follow antibiotic stewardship protocols.
 
 This is modern medicine's problem to resolve. They need to educate their fraternity, enforce stricter prescribing guidelines, improve diagnostic practices, and hold their practitioners accountable. The modern medical establishment bears primary responsibility for addressing antibiotic resistance within their system.
 
@@ -112,7 +112,7 @@ The refusal to acknowledge our contribution to antibiotic resistance isn't just 
 
 Modern medicine must clean its house. Absolutely. But that fact doesn't exempt us from the responsibility to not trash the neighborhood while they're doing it.
 
-## The System Has Failed—CompletelyAyurveda as a medical system deserves to be preserved, studied, and developed. If practiced properly by well-trained Ayurvedic physicians, it may indeed have value in preventive medicine and certain therapeutic applications.
+## The System Has Failed Completely - Ayurveda as a medical system deserves to be preserved, studied, and developed. If practiced properly by well-trained Ayurvedic physicians, it may indeed have value in preventive medicine and certain therapeutic applications.
 
 But let's be honest about what's happened: **The Ayurveda educational system has failed to produce trained Ayurveda healthcare professionals who can practice their own system effectively.** Instead, it has produced an army of half-trained practitioners who default to prescribing allopathic drugs—particularly antibiotics—because that's where they see immediate results, immediate patient satisfaction, and immediate income.
 
@@ -120,7 +120,7 @@ Research confirms that continued dependence on inadequately trained practitioner
 
 Every time an untrained BAMS graduate prescribes a broad-spectrum antibiotic for a self-limiting viral infection, they're not just failing an individual patient. They're contributing to a crisis that could push humanity back to a pre-penicillin era where routine surgeries become deadly and simple bacterial infections routinely kill.
 
-## Questions That Demand AnswersThe stakeholders in this crisis need to answer some very uncomfortable questions:
+## Questions That Demand Answers: The stakeholders in this crisis need to answer some very uncomfortable questions:
 
 **To the Ministry of AYUSH:**
 
@@ -147,7 +147,7 @@ Every time an untrained BAMS graduate prescribes a broad-spectrum antibiotic for
 - Do you feel adequately trained to prescribe antibiotics and manage acute medical conditions?
 - Are you comfortable being complicit in the antibiotic resistance crisis?
 
-## The Path Forward: Accountability, Not ExcusesThe solution isn't to ban BAMS graduates from practice. The solution is accountability and honest acknowledgment of the problem:
+## The Path Forward: Accountability, Not Excuses: The solution isn't to ban BAMS graduates from practice. The solution is accountability and honest acknowledgment of the problem:
 
 - **Enforce existing regulations**: Either BAMS graduates practice Ayurveda exclusively, or they obtain proper allopathic training through bridge courses with rigorous standards—not weekend workshops, but genuine medical education.
 - **Transparent data collection**: Track antibiotic prescribing patterns among all practitioners, including AYUSH graduates. Publish the data. Let sunlight be the disinfectant.
@@ -155,7 +155,7 @@ Every time an untrained BAMS graduate prescribes a broad-spectrum antibiotic for
 - **End the charade**: The Ministry of AYUSH must stop promoting Ayurveda as an antibiotic alternative while tolerating its graduates being antibiotic prescribers. Pick one position and defend it honestly.
 - **Consumer protection**: Patients have successfully taken legal action against AYUSH practitioners for misrepresentation when they believed they were receiving treatment from an MBBS doctor. This needs to become the norm, not the exception. Patients deserve to know exactly what qualifications their healthcare provider possesses.
 
-## The Uncomfortable ConclusionDr. Shetty's warning is clear: if we continue on this path, we will run out of effective antibiotics and return to a pre-penicillin era. This isn't fear-mongering. This is medical reality.
+## The Uncomfortable Conclusion: Dr. Shetty's warning is clear: if we continue on this path, we will run out of effective antibiotics and return to a pre-penicillin era. This isn't fear-mongering. This is medical reality.
 
 Every stakeholder in the Indian healthcare system—from the Ministry of AYUSH to individual practitioners, from medical councils to educational institutions—must confront this crisis honestly. The BAMS graduates practicing modern medicine without adequate training aren't heroes filling healthcare gaps. They're undertrained practitioners contributing to one of the gravest public health threats of our time.
 
