@@ -8,7 +8,9 @@ author: Dr Kembhavi
 
 # The Ayurveda Paradox: How BAMS Graduates Are Fueling India's Antibiotic Crisis
 
-# The Ayurveda Paradox: How BAMS Graduates Are Fueling India's Antibiotic Crisis**Dr Aakash Kembhavi, **MD, PGDMLS, MS (Counseling &amp; Psychotherapy)
+# The Ayurveda Paradox: How BAMS Graduates Are Fueling India's Antibiotic Crisis
+
+**Dr Aakash Kembhavi, **MD, PGDMLS, MS (Counseling &amp; Psychotherapy)
 
 ## Author's Note and Disclaimer**About the Author:** Dr. Aakash Kembhavi is a double gold medalist and university topper (BAMS 1994, Karnataka University, Dharwad), MD (1998 – Shalya Tantra – IPGTR&amp;A, Gujarat Ayurveda University, Jamnagar), with additional qualifications in Medico Legal Sciences (Symbiosis University of Health Sciences, Pune) and Counseling &amp; Psychotherapy (Kuvempu University, Shivamogga). He has been practicing authentic Ayurveda, Yoga, Naturopathy, and Acupuncture since 1999 through Astanga Wellness Pvt Ltd, Hubli. He brings over 25 years of clinical experience and academic leadership to this discussion. He is a recognized PG and PhD guide at RGUHS Bengaluru, visiting professor at Thames Valley University London, and serves on multiple editorial boards and research councils internationally.
 
