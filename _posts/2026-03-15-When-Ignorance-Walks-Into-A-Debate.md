@@ -6,6 +6,7 @@ categories: [Reflections]
 author: Dr Kembhavi
 ---
 
+# When Ignorance Walks Into A Debate
 
 **When Ignorance Walks Into a Debate: The Dr Vasundhara–TheLiverDoc Affair and What It Really Indicts**
 
@@ -20,6 +21,8 @@ On the 14th of March 2026, a live YouTube debate was streamed on the Neuronz cha
 What followed was not a defeat. It was a diagnosis.
 
 And if you are an Ayurveda educator, a PG guide, a faculty member, or an institutional administrator, this article is not about Dr Vasundhara Sadineni. It is about you.
+
+There is one detail about the date that TheLiverDoc himself noted in his opening remarks — with characteristic precision. The 14th of March is International Pi Day, the annual celebration of the mathematical constant π, observed on 3.14 in honour of its first three digits. It is, by informal consensus, the calendar's designated tribute to rational thought, mathematical rigour, and the scientific method. TheLiverDoc observed that it could not have been a better day to hold this particular debate. It was a small remark, but not a trivial one. Pi does not negotiate with belief systems. It does not yield to tradition or volume of feeling. It is what it is, to infinite decimal places, regardless of who is measuring it. That the Ayurvedic side of the debate appeared entirely unaware of the irony only sharpened it.
 
 **II. She Entered with Confidence. That Was the First Problem.**
 
