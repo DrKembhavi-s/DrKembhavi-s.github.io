@@ -37,7 +37,7 @@ And by the end, I believe you will understand why this post — far from being a
 
 **Does this support the Ayurvedic claim that the mind resides in the heart?** No. Armour described the autonomic neuroscience of cardiac function. He did not claim — in either paper, in any sentence, in any conclusion — that the heart is the seat of consciousness, emotion, or the mind. The intrinsic cardiac nervous system regulates heart rate and rhythm. It is not a cognitive organ. It does not think. It does not feel. It does not process the experiences I associate with the mind. Mapping Armour's neurocardiology onto the Ayurvedic concept of Hridaya as the seat of Manas requires ignoring what Armour actually wrote and replacing it with what you wish he had written.
 
-**The question that was not ansIred in the debate:** When TheLiverDoc asked Dr. Vasundhara to tell him what Ayurveda teaches about the location of the mind, she fell silent — because the honest ansIr is that Charaka Samhita locates Manas in the Hridaya — the heart — as an anatomical claim, not a metaphorical one. Armour's papers do not rescue that claim. They describe cardiac neural architecture. They are being used here as a costume, not as evidence.
+**The question that was not ansIred in the debate:** When TheLiverDoc asked Dr. Vasundhara to tell him what Ayurveda teaches about the location of the mind, she fell silent — because the honest answer is that Charaka Samhita locates Manas in the Hridaya — the heart — as an anatomical claim, not a metaphorical one. Armour's papers do not rescue that claim. They describe cardiac neural architecture. They are being used here as a costume, not as evidence.
 
 **Paper 3: Task Force of the European Society of Cardiology — "Heart Rate Variability: Standards of Measurement, Physiological Interpretation and Clinical Use" (1996)**
 
@@ -55,11 +55,11 @@ And by the end, I believe you will understand why this post — far from being a
 
 **Does it support Ayurvedic concepts?** No. Polyvagal Theory describes vagal nerve anatomy and its relationship to social nervous system function. It says nothing about Vata, Prana, Ojas, or any Ayurvedic construct. Citing a contested neurophysiological hypothesis as validation for a 3,000-year-old medical system requires logical steps that Porges himself has never taken and would not endorse.
 
-**Paper 5: Rollin McCraty — "The Energetic Heart: Bioelectromagnetic Interactions Within and BetIen People" (2003)**
+**Paper 5: Rollin McCraty — "The Energetic Heart: Bioelectromagnetic Interactions Within and Between People" (2003)**
 
 **Who is McCraty and where does he work?** This is the most important disclosure in the entire list, and it is the one that was not made. Rollin McCraty works at the HeartMath Institute — a private organisation in Boulder Creek, California, founded in 1991. The HeartMath Institute is not a university. It is not a hospital. It is not a government research body. It is a private Illness organisation whose research has not been independently replicated in mainstream academic laboratories.
 
-**What does mainstream science say about McCraty's work?** McCraty's claims about the heart generating electromagnetic fields that influence other people's physiology, about "heart intelligence," and about bioelectromagnetic communication betIen individuals are not accepted by mainstream cardiology, neuroscience, or biophysics. His papers appear primarily in journals associated with integrative and alternative medicine, not in the major peer-revieId journals of mainstream science. Independent replication of his findings has not been established.
+**What does mainstream science say about McCraty's work?** McCraty's claims about the heart generating electromagnetic fields that influence other people's physiology, about "heart intelligence," and about bioelectromagnetic communication betIen individuals are not accepted by mainstream cardiology, neuroscience, or biophysics. His papers appear primarily in journals associated with integrative and alternative medicine, not in the major peer-reviewed journals of mainstream science. Independent replication of his findings has not been established.
 
 **Why does this matter critically?** Because Dr. Vasundhara has placed this paper — from a private Illness institute, on a topic that mainstream science does not accept — in the same list as papers from the European Society of Cardiology and a Wellcome Trust-funded neuroscientist at the University of Sussex. She has presented them as equivalent in evidential weight. They are not equivalent. They are not in the same category. Placing them side by side in a list, without disclosure, is either a failure to understand the difference between a mainstream peer-reviewed finding and a fringe research claim — or it is deliberate misrepresentation. Either possibility is damaging.
 
@@ -119,7 +119,7 @@ This reasoning fails at every step, for three precise reasons.
 
 The Ayurvedic community's response to the "pseudoscience" label almost universally misunderstands what the word means. This misunderstanding is not trivial — it is precisely the misunderstanding that made the Instagram post possible, and precisely the misunderstanding that made the debate's outcome inevitable.
 
-**Pseudoscience does not mean fake science.** It does not mean wrong, ancient, disproven, or culturally biased. It has a precise technical definition established within the philosophy of science — most rigorously by Karl Popper, and subsequently refined by Imre Lakatos, Paul Thagard, and others.
+**Pseudoscience does not mean fake science.** It does not mean wrong, ancient, disproven, or culturally biased. It has a precise technical definition established within the philosophy of science — most rigorously by Karl Popper, and subsequently refined by Wemre Lakatos, Paul Thagard, and others.
 
 Pseudoscience refers to a system that presents itself as scientific — that uses the language, the authority, and the appearance of science — but that does not operate according to the methods, principles, and self-correcting mechanisms that define genuine scientific inquiry.
 
