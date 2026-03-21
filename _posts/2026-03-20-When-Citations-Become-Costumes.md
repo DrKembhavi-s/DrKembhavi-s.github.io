@@ -13,7 +13,7 @@ author: Dr Kembhavi
 
 *This article was developed with the assistance of an AI language model and has been reviewed, verified, and finalised by the author.*
 
-**I. The Post That Needs an AnsIr**
+**I. The Post That Needs an Answer**
 
 In the days following the March 14 debate, Dr. Vasundhara Sadineni posted on her Instagram account a list of research papers — eleven in total — accompanied by the following argument:
 
