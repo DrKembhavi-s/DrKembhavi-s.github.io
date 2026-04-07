@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "4 THE SAMHITA SHIELD"
+title: "THE SAMHITA SHIELD"
 date: 2026-04-06
 categories: [Academic]
 author: Dr Kembhavi
