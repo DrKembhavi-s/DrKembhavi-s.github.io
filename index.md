@@ -325,7 +325,7 @@ nav a:hover {
 <!-- Hero Section -->
 <div class="hero-section">
     <div class="hero-content">
-        <h1>Welcome to Dr Kembhavi's Ayurveda Blog</h1>
+        <h1>Welcome to Dr Kembhavi's Ayurveda Unfiltered Blog</h1>
         <p class="hero-subtitle">Insights from 25+ years of experience in Ayurvedic medicine</p>
         <p class="hero-description">We share evidence-based perspectives across the following key areas of Ayurveda and Yoga:</p>
         
