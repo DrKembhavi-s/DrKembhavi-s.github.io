@@ -423,10 +423,10 @@ nav a:hover {
         <strong>Contact Details</strong><br>
         <strong>Dr. Aakash Kembhavi:</strong><br>
         Mobile: 9886759499<br>
-        Email: drkembhavi@astangawellness.org<br><br>
+        Email: drkembhavi@live.com<br><br>
         <strong>Dr. Anita Kadagad Kembhavi:</strong><br>
         Mobile: 9886759399<br>
-        Email: drkembhavi@astangawellness.com
+        Email: drkembhavi@gmail.com
       </div>
     </div>
   </div>
