@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "MISSING DATA CRISIS IN AYURVEDA"
+title: "Ayurveda's Missing Data Crisis"
 date: 2026-04-19
 categories: [Research]
 author: Dr Kembhavi
