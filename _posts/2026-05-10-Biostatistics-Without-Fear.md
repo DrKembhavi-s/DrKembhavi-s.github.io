@@ -6,8 +6,9 @@ categories: [Research]
 author: Dr Kembhavi
 ---
 
-# Biostatistics Without Fear: A Plain-Language Guide for Ayurveda Scholars** 
+# Biostatistics Without Fear: A Plain-Language Guide for Ayurveda Scholars 
 **Part 1: Foundations, Concepts, and the p-value Problem**
+
 **Dr. Aakash Kembhavi**
 
 "Statistics is the grammar of science." — Karl Pearson
