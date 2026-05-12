@@ -6,7 +6,6 @@ categories: [Research]
 author: Dr Kembhavi
 ---
 
-## Images
 
 ![Image 1](/assets/images/posts/Biostatistics Without Fear.jpeg)
 
