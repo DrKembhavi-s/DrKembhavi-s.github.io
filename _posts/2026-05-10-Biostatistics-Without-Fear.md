@@ -1,15 +1,15 @@
 ---
 layout: post
-title: "Part 1 Biostatistics Without Fear"
+title: "Biostatistics Without Fear"
 date: 2026-05-10
 categories: [Research]
 author: Dr Kembhavi
 ---
 
-# Biostatistics Without Fear: A Plain-Language Guide for Ayurveda Scholars 
-**Part 1: Foundations, Concepts, and the p-value Problem**
+# Biostatistics Without Fear: A Plain-Language Guide for Ayurveda Scholars## 
 
-**Dr. Aakash Kembhavi**
+Part 1: Foundations, Concepts, and the p-value Problem
+**Dr. Aakash Kembhavi**, MD (Ayu), PGDMLS, MS (Counselling &amp; Psychotherapy)
 
 "Statistics is the grammar of science." — Karl Pearson
 
@@ -274,6 +274,12 @@ Do not stop here. The foundation you have built in Part 1 is only useful if you 
 *Ayurveda Unfiltered is a forum for critical engagement with Ayurvedic education, practice, and research. Articles are posted on this blog every week. A companion WhatsApp discussion community engages with each article through structured weekend conversations. If you would like to join the discussion, reach out through the blog.*
 
 *© 2026 Astanga Wellness Pvt. Ltd. All rights reserved.*
+
+## Images
+
+![Image 1](/assets/images/posts/Biostatistics Without Fear.jpeg)
+
+
 
 ---
 
