@@ -6,6 +6,10 @@ categories: [Research]
 author: Dr Kembhavi
 ---
 
+## Images
+
+![Image 1](/assets/images/posts/Biostatistics Without Fear.jpeg)
+
 # Biostatistics Without Fear: A Plain-Language Guide for Ayurveda Scholars
 
 Part 1: Foundations, Concepts, and the p-value Problem
@@ -276,9 +280,6 @@ Do not stop here. The foundation you have built in Part 1 is only useful if you 
 
 *© 2026 Astanga Wellness Pvt. Ltd. All rights reserved.*
 
-## Images
-
-![Image 1](/assets/images/posts/Biostatistics Without Fear.jpeg)
 
 
 
