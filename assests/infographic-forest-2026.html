@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Forest We Forgot — India's Ecological Crisis | Ayurveda Unfiltered</title>
+<style>
+  :root {
+    --bg:       #ffffff;
+    --bg2:      #f5f4f0;
+    --bg3:      #eeedea;
+    --text:     #1a1a18;
+    --text2:    #5f5e5a;
+    --border:   rgba(0,0,0,0.12);
+    --green:    #3B6D11; --green-bg: #EAF3DE;
+    --amber:    #854F0B; --amber-bg: #FAEEDA;
+    --red:      #A32D2D; --red-bg:   #FCEBEB;
+    --blue:     #185FA5; --blue-bg:  #E6F1FB;
+    --teal:     #0F6E56; --teal-bg:  #E1F5EEA0;
+    --radius:   10px;
+    --font: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg:       #1e1e1c;
+      --bg2:      #282825;
+      --bg3:      #323230;
+      --text:     #e8e6de;
+      --text2:    #9c9a92;
+      --border:   rgba(255,255,255,0.1);
+      --green:    #97C459; --green-bg: #173404;
+      --amber:    #EF9F27; --amber-bg: #412402;
+      --red:      #E24B4A; --red-bg:   #501313;
+      --blue:     #85B7EB; --blue-bg:  #042C53;
+      --teal:     #5DCAA5; --teal-bg:  #04342C80;
+    }
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: var(--font);
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.5;
+    padding: 0;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 0 0 2.5rem; }
+
+  /* Header */
+  .hdr {
+    background: var(--bg2);
+    border-bottom: 1px solid var(--border);
+    padding: 2rem 2rem 1.5rem;
+    text-align: center;
+  }
+  .hdr-eyebrow {
+    font-size: 11px; font-weight: 600; letter-spacing: .1em;
+    text-transform: uppercase; color: var(--green); margin-bottom: 10px;
+  }
+  .hdr-title {
+    font-size: 22px; font-weight: 700; color: var(--text);
+    line-height: 1.3; margin-bottom: 8px;
+  }
+  .hdr-sub { font-size: 13px; color: var(--text2); }
+  .hdr-rule { width: 48px; height: 3px; background: var(--green); border-radius: 2px; margin: 14px auto 0; }
+
+  /* Sections */
+  .section { padding: 1.5rem 2rem 0; }
+  .sec-label {
+    font-size: 11px; font-weight: 700; letter-spacing: .09em;
+    text-transform: uppercase; color: var(--text2);
+    margin-bottom: 1rem; display: flex; align-items: center; gap: 8px;
+  }
+  .sec-label::after {
+    content: ''; flex: 1; height: 0.5px; background: var(--border);
+  }
+  hr.div { border: none; border-top: 1px solid var(--border); margin: 1.5rem 2rem 0; }
+
+  /* Stat grid */
+  .stat-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px; margin-bottom: 1rem;
+  }
+  .stat-card {
+    background: var(--bg2); border-radius: var(--radius);
+    padding: .85rem 1rem; border: 1px solid var(--border);
+  }
+  .stat-num { font-size: 24px; font-weight: 700; line-height: 1; margin-bottom: 5px; }
+  .stat-lbl { font-size: 12px; color: var(--text2); line-height: 1.4; }
+  .green { color: var(--green); } .amber { color: var(--amber); }
+  .red   { color: var(--red);   } .blue  { color: var(--blue);  }
+
+  /* Bar chart */
+  .bar-row { display: flex; align-items: center; gap: 10px; margin-bottom: 9px; }
+  .bar-lbl { font-size: 12px; color: var(--text2); min-width: 70px; text-align: right; line-height: 1.3; }
+  .bar-track {
+    flex: 1; height: 26px; background: var(--bg2);
+    border-radius: 5px; overflow: hidden; border: 1px solid var(--border);
+  }
+  .bar-fill {
+    height: 100%; display: flex; align-items: center;
+    padding-left: 8px; font-size: 12px; font-weight: 600;
+    color: #fff; border-radius: 4px; white-space: nowrap;
+  }
+  .fill-green { background: #3B6D11; }
+  .fill-blue  { background: #185FA5; }
+  .fill-amber { background: #BA7517; }
+  .fill-red   { background: #A32D2D; }
+
+  /* AC dot grid */
+  .dot-grid { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 10px; }
+  .dot {
+    width: 12px; height: 12px; border-radius: 3px;
+  }
+  .dot.has { background: var(--blue); }
+  .dot.no  { background: var(--bg3); border: 1px solid var(--border); }
+  .legend  { display: flex; gap: 16px; font-size: 12px; color: var(--text2); flex-wrap: wrap; margin-bottom: 1rem; }
+  .legend span { display: flex; align-items: center; gap: 6px; }
+  .legend-dot { width: 11px; height: 11px; border-radius: 3px; display: inline-block; }
+
+  /* Timeline */
+  .timeline { position: relative; padding-left: 26px; margin-top: 1rem; }
+  .timeline::before {
+    content: ''; position: absolute; left: 7px; top: 6px; bottom: 6px;
+    width: 1px; background: var(--border);
+  }
+  .tl-item { position: relative; margin-bottom: 18px; }
+  .tl-dot {
+    position: absolute; left: -22px; top: 4px;
+    width: 12px; height: 12px; border-radius: 50%; border: 2px solid;
+  }
+  .tl-dot.red   { border-color: var(--red);   background: var(--red-bg);   }
+  .tl-dot.amber { border-color: var(--amber); background: var(--amber-bg); }
+  .tl-dot.green { border-color: var(--green); background: var(--green-bg); }
+  .tl-year { font-size: 11px; font-weight: 700; color: var(--text2); }
+  .tl-event { font-size: 13px; color: var(--text); margin-top: 2px; }
+
+  /* Pill tags */
+  .tag-row { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: .75rem; }
+  .tag {
+    font-size: 12px; font-weight: 600; padding: 5px 11px;
+    border-radius: 20px; border: 1px solid transparent;
+  }
+  .tag.g { background: var(--green-bg); color: var(--green); border-color: var(--green-bg); }
+  .tag.t { background: var(--teal-bg);  color: var(--teal);  }
+  .tag.a { background: var(--amber-bg); color: var(--amber); }
+  .tag.b { background: var(--blue-bg);  color: var(--blue);  }
+
+  /* Quote callout */
+  .callout {
+    background: var(--green-bg); border-left: 4px solid var(--green);
+    border-radius: 0 var(--radius) var(--radius) 0;
+    padding: 1rem 1.25rem; margin: 1.5rem 2rem 0;
+    font-size: 14px; color: var(--text); font-style: italic; line-height: 1.7;
+  }
+  .callout cite { display: block; font-style: normal; font-size: 12px; color: var(--text2); margin-top: 8px; }
+
+  /* Footer */
+  .footer {
+    margin: 1.5rem 2rem 0;
+    border-top: 1px solid var(--border);
+    padding-top: 1rem;
+    font-size: 10.5px; color: var(--text2); line-height: 1.7;
+  }
+  .footer strong { color: var(--text); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <!-- HEADER -->
+  <div class="hdr">
+    <div class="hdr-eyebrow">Ayurveda Unfiltered · Dr. Aakash Kembhavi · 2026</div>
+    <div class="hdr-title">The Forest We Forgot —<br>India's Ecological Crisis at a Glance</div>
+    <div class="hdr-sub">Deforestation · Heat · El Niño · The 91% · The Ayurvedic Conscience</div>
+    <div class="hdr-rule"></div>
+  </div>
+
+  <!-- SECTION 1: Forest Cover Stats -->
+  <div class="section">
+    <div class="sec-label">🌳 Forest cover — seven decades of retreat</div>
+    <div class="stat-grid">
+      <div class="stat-card"><div class="stat-num green">33%</div><div class="stat-lbl">Target set by National Forest Policy, 1952 — never achieved</div></div>
+      <div class="stat-card"><div class="stat-num amber">21.76%</div><div class="stat-lbl">Actual forest cover today (ISFR 2023, Forest Survey of India)</div></div>
+      <div class="stat-card"><div class="stat-num red">4.2M ha</div><div class="stat-lbl">Forest lost from Independence to 1982 alone</div></div>
+      <div class="stat-card"><div class="stat-num red">93,000 km²</div><div class="stat-lbl">Forest degraded in a single decade (2011–2021)</div></div>
+      <div class="stat-card"><div class="stat-num red">18,200 ha</div><div class="stat-lbl">Primary (old-growth) forest lost in 2024 alone</div></div>
+      <div class="stat-card"><div class="stat-num red">#2</div><div class="stat-lbl">India's global rank in deforestation rate, 2015–20 (UN FAO)</div></div>
+    </div>
+  </div>
+
+  <!-- BAR CHART -->
+  <div class="section" style="padding-top:1rem;">
+    <div class="sec-label">Forest cover as % of land area — benchmarks</div>
+    <div class="bar-row">
+      <span class="bar-lbl">Policy target</span>
+      <div class="bar-track"><div class="bar-fill fill-green" style="width:66%">33%</div></div>
+    </div>
+    <div class="bar-row">
+      <span class="bar-lbl">1947 est.*</span>
+      <div class="bar-track"><div class="bar-fill fill-blue" style="width:48%">~24%</div></div>
+    </div>
+    <div class="bar-row">
+      <span class="bar-lbl">1982</span>
+      <div class="bar-track"><div class="bar-fill fill-amber" style="width:38%">~19%</div></div>
+    </div>
+    <div class="bar-row">
+      <span class="bar-lbl">2023 (ISFR)</span>
+      <div class="bar-track"><div class="bar-fill fill-red" style="width:43.5%">21.76%</div></div>
+    </div>
+    <div class="bar-row">
+      <span class="bar-lbl">W. Ghats eco-zones</span>
+      <div class="bar-track"><div class="bar-fill fill-red" style="width:20%">−58 km² since 2013</div></div>
+    </div>
+    <p style="font-size:11px;color:var(--text2);margin-top:8px;">*Scholarly estimate. Colonial-era surveys used different methodology — see editorial caveat in the full article.</p>
+  </div>
+
+  <hr class="div">
+
+  <!-- SECTION 2: Heat crisis -->
+  <div class="section">
+    <div class="sec-label">🌡 The heat that is already here</div>
+    <div class="stat-grid">
+      <div class="stat-card"><div class="stat-num red">76%</div><div class="stat-lbl">Of India's population in high-to-very-high heat risk districts (CEEW 2026)</div></div>
+      <div class="stat-card"><div class="stat-num red">24,000+</div><div class="stat-lbl">Deaths from heat in India, 1992–2015 (NDMA)</div></div>
+      <div class="stat-card"><div class="stat-num red">41,000+</div><div class="stat-lbl">Heatstroke cases reported in summer 2024</div></div>
+      <div class="stat-card"><div class="stat-num red">$194B</div><div class="stat-lbl">Economic losses from heat exposure, 2024 (Lancet Countdown)</div></div>
+      <div class="stat-card"><div class="stat-num amber">247B hrs</div><div class="stat-lbl">Labour hours lost to heat in India, 2024</div></div>
+      <div class="stat-card"><div class="stat-num red">+62.2%</div><div class="stat-lbl">Rise in heatwave mortality rate over last 20 years</div></div>
+    </div>
+  </div>
+
+  <hr class="div">
+
+  <!-- SECTION 3: AC cooling divide -->
+  <div class="section">
+    <div class="sec-label">❄ The cooling divide — who has air conditioning?</div>
+    <p style="font-size:13px;color:var(--text2);margin-bottom:12px;">Each square = 1% of Indian households. <strong style="color:var(--blue)">Blue</strong> = have AC.</p>
+    <div class="dot-grid" id="dots"></div>
+    <div class="legend">
+      <span><span class="legend-dot" style="background:var(--blue)"></span>Have AC (~8% of households)</span>
+      <span><span class="legend-dot" style="background:var(--bg3);border:1px solid var(--border)"></span>No AC (~92% of households)</span>
+    </div>
+    <div class="stat-grid">
+      <div class="stat-card"><div class="stat-num blue">8%</div><div class="stat-lbl">Households with AC — concentrated among urban elite, top income decile</div></div>
+      <div class="stat-card"><div class="stat-num red">~1%</div><div class="stat-lbl">Rural household AC ownership (CLASP India, 2025)</div></div>
+      <div class="stat-card"><div class="stat-num amber">1 Billion+</div><div class="stat-lbl">Indians with no AC, exposed to intensifying heatwaves every summer</div></div>
+    </div>
+  </div>
+
+  <hr class="div">
+
+  <!-- SECTION 4: El Nino -->
+  <div class="section">
+    <div class="sec-label">🌊 El Niño 2026 — the approaching storm</div>
+    <div class="stat-grid">
+      <div class="stat-card"><div class="stat-num red">35%</div><div class="stat-lbl">IMD probability of significantly below-normal monsoon rainfall in 2026</div></div>
+      <div class="stat-card"><div class="stat-num amber">13 of 23</div><div class="stat-lbl">Indian droughts in past century linked to El Niño events</div></div>
+      <div class="stat-card"><div class="stat-num red">80%+</div><div class="stat-lbl">Of India's annual rainfall falls in just 4 monsoon months (June–September)</div></div>
+    </div>
+    <div class="timeline">
+      <div class="tl-item"><div class="tl-dot red"></div><div class="tl-year">1997–98</div><div class="tl-event">Strong El Niño — major droughts and crop losses across South Asia</div></div>
+      <div class="tl-item"><div class="tl-dot red"></div><div class="tl-year">2015–16</div><div class="tl-event">Strong El Niño — severe drought and agrarian distress across India</div></div>
+      <div class="tl-item"><div class="tl-dot amber"></div><div class="tl-year">2024</div><div class="tl-event">Hottest year on record globally and in India (WMO / IMD 2025)</div></div>
+      <div class="tl-item"><div class="tl-dot red"></div><div class="tl-year">2026 →</div><div class="tl-event">Super El Niño developing — below-normal monsoon predicted; drought risk elevated</div></div>
+    </div>
+  </div>
+
+  <hr class="div">
+
+  <!-- SECTION 5: Ayurveda concepts -->
+  <div class="section">
+    <div class="sec-label">🌿 The Ayurvedic ecological vocabulary we have abandoned</div>
+    <div class="tag-row">
+      <span class="tag g">Loka Purusha Samya</span>
+      <span class="tag t">Janapadodhvamsa</span>
+      <span class="tag a">Ritucharya</span>
+      <span class="tag b">Dinacharya</span>
+      <span class="tag g">Panchamahabhuta</span>
+      <span class="tag t">Vrikshayurveda</span>
+      <span class="tag a">Ojakshaya</span>
+      <span class="tag b">Vyadhikshamatva</span>
+      <span class="tag g">Dravyaguna conservation</span>
+      <span class="tag t">Swasthyasya Swasthya Rakshanam</span>
+    </div>
+    <p style="font-size:12.5px;color:var(--text2);line-height:1.7;margin-top:4px;">Ayurveda's foundational texts encoded a sophisticated ecological ethic millennia before modern environmentalism. The health of the body and the health of the world are one question, not two. The question now is whether the Ayurvedic community will invoke that ethic — or remain silent.</p>
+  </div>
+
+  <!-- CALLOUT QUOTE -->
+  <div class="callout">
+    "The forest we forgot was never just trees. It was the ecological memory of a civilisation that knew how to live within its means on this particular piece of earth, in these particular seasons, with these particular plants and rains and soils. Ayurveda was that memory's medical expression."
+    <cite>— Dr. Aakash Kembhavi, <em>The Forest We Forgot</em>, Ayurveda Unfiltered, 2026</cite>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    <strong>Data sources:</strong> India State of Forest Report 2023 (FSI/MoEFCC) · NFHS-5 (2019–21) · Lancet Countdown 2024 ·
+    CLASP India Cooling Reports (2025) · CEEW Heat Risk District Analysis 2026 · NDMA Heatwave Data ·
+    IMD Monsoon Forecast 2026 · FAO Global Forest Resources Assessment 2020 · Global Forest Watch ·
+    India Water Portal Climate Reports · ScienceDirect (Deforestation studies).<br><br>
+    <strong>Published by:</strong> Astanga Wellness Pvt. Ltd. · <strong>Blog:</strong> drkembhavi-s.github.io ·
+    Research framework developed with assistance of Claude (Anthropic AI). All editorial positions are the author's own.
+  </div>
+
+</div>
+
+<script>
+  const grid = document.getElementById('dots');
+  for (let i = 0; i < 100; i++) {
+    const d = document.createElement('div');
+    d.className = 'dot ' + (i < 8 ? 'has' : 'no');
+    grid.appendChild(d);
+  }
+</script>
+</body>
+</html>
