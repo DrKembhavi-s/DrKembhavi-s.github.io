@@ -51,8 +51,8 @@ For those of us in Karnataka, there is a number that deserves particular attenti
   height="1600"
   style="border:none; border-radius:12px;"
   title="The Forest We Forgot — India's Ecological Crisis Infographic">
-{% include infographic-forest-2026.html %}
-
+<iframe src="/assets/infographic-forest-2026.html" ...>
+  
 **III. The Cooling Divide: Who Bears the Heat**
 
 There is a statistic that should end every comfortable dinner-table conversation about India's "development story." According to National Family Health Survey (NFHS-5) data, only 24% of Indian households own any mechanical cooling device — including air coolers, not just air conditioners. The figure for air conditioning alone: approximately 8% of India's 300 million households. Rural AC ownership sits at around 1%. The richest 10% of households hold the overwhelming majority of ACs in the country.
