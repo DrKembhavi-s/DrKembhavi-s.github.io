@@ -45,13 +45,7 @@ Here is what the statistics do not say but the Ayurvedic physician must: a plant
 **The Western Ghats: A Medical Emergency by Another Name**
 
 For those of us in Karnataka, there is a number that deserves particular attention. The Western Ghats — one of the world's eight "hottest biodiversity hotspots," the source of the rivers that irrigate peninsular India, the habitat of species found nowhere else on earth — lost 58.22 sq km of forest cover in its eco-sensitive zones since 2013. The Western Ghats is not merely a UNESCO World Heritage landscape. For Ayurveda, it is a living formulary. It is where *Nalpamaram*, *Jeevanti*, *Bala*, *Ashwagandha*, *Brahmi*, and hundreds of irreplaceable dravyas grow in their natural ecological context. When we lose that forest, we do not merely lose timber and carbon. We lose the ecological conditions in which thousands of years of botanical knowledge was generated and validated. You cannot replicate a rainforest on a Google Sheet.
-<iframe
-  src="/assets/infographic-forest-2026.html"
-  width="100%"
-  height="1600"
-  style="border:none; border-radius:12px;"
-  title="The Forest We Forgot — India's Ecological Crisis Infographic">
-<iframe src="/assets/infographic-forest-2026.html" ...>
+{% include infographic-forest-2026.html %}
   
 **III. The Cooling Divide: Who Bears the Heat**
 
