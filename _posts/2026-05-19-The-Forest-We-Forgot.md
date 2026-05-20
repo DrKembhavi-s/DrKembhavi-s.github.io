@@ -205,7 +205,7 @@ The question before us is not whether we can reverse the deforestation statistic
 
 The forests are waiting for that voice. And so, I suspect, are our patients.
 
-*Dr. Aakash Kembhavi is Principal, Jain AGM Ayurvedic Medical College &amp; Hospital, Varur; Director of PG Studies, SJG Ayurvedic Medical College, Koppal; PhD Guide, RGUHS; Chief Editor, International Journal of Ayurveda; and Director, Astanga Wellness Pvt. Ltd. He writes at drkembhavi-s.github.io under the banner "Ayurveda Unfiltered."*
+*Dr. Aakash Kembhavi is a PhD Guide, RGUHS; Chief Editor, International Journal of Ayurveda; and Director, Astanga Wellness Pvt. Ltd. He writes at drkembhavi-s.github.io under the banner "Ayurveda Unfiltered."*
 
 *[Transparency note: Data research and structural framework for this article were developed with the assistance of Claude (Anthropic AI). All analysis, editorial positions, and clinical perspectives are the author's own.]*
 
