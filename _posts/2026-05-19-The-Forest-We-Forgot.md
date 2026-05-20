@@ -51,7 +51,7 @@ For those of us in Karnataka, there is a number that deserves particular attenti
   height="1600"
   style="border:none; border-radius:12px;"
   title="The Forest We Forgot — India's Ecological Crisis Infographic">
-</iframe>
+{% include infographic-forest-2026.html %}
 
 **III. The Cooling Divide: Who Bears the Heat**
 
