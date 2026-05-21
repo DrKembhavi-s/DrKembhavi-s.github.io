@@ -211,11 +211,23 @@
   text-transform: uppercase;
 }
 
-.category-tag.administrative { background: #3182ce; color: white; }
-.category-tag.academic { background: #38a169; color: white; }
-.category-tag.clinical { background: #d69e2e; color: white; }
-.category-tag.research { background: #9f7aea; color: white; }
-.category-tag.blogging { background: #ed8936; color: white; }
+/* ── Category colours ─────────────────────────────────────────
+   CSS class names are generated from the Liquid filter below:
+   | downcase | replace: ' ', '-' | remove: '&' | replace: '--', '-'
+   So "Reflections & Musings" → reflections-musings
+      "Yoga & Wellness"       → yoga-wellness
+      "Healthcare Policy"     → healthcare-policy
+      "Public Health"         → public-health
+─────────────────────────────────────────────────────────────── */
+.category-tag.administrative    { background: #3182ce; color: white; }
+.category-tag.academic          { background: #38a169; color: white; }
+.category-tag.clinical          { background: #d69e2e; color: white; }
+.category-tag.research          { background: #9f7aea; color: white; }
+.category-tag.reflections-musings { background: #ed8936; color: white; }
+.category-tag.yoga-wellness     { background: #48bb78; color: white; }
+/* ✅ NEW */
+.category-tag.healthcare-policy { background: #c53030; color: white; }
+.category-tag.public-health     { background: #2b6cb0; color: white; }
 
 /* Author Cards */
 .authors-grid {
@@ -328,15 +340,18 @@ nav a:hover {
         <h1>Welcome to Dr Kembhavi's Ayurveda Unfiltered Blog</h1>
         <p class="hero-subtitle">Insights from 25+ years of experience in Ayurvedic medicine</p>
         <p class="hero-description">We share evidence-based perspectives across the following key areas of Ayurveda and Yoga:</p>
-        
+
         <div class="expertise-tags">
-    <span class="expertise-tag">🏛️ Administrative</span>
-    <span class="expertise-tag">📚 Academic</span>
-    <span class="expertise-tag">🩺 Clinical</span>
-    <span class="expertise-tag">🔬 Research</span>
-    <span class="expertise-tag">🤔 Reflections & Musings</span>
-    <span class="expertise-tag">🧘 Yoga & Wellness</span>
-</div>
+            <span class="expertise-tag">🏛️ Administrative</span>
+            <span class="expertise-tag">📚 Academic</span>
+            <span class="expertise-tag">🩺 Clinical</span>
+            <span class="expertise-tag">🔬 Research</span>
+            <span class="expertise-tag">🤔 Reflections &amp; Musings</span>
+            <span class="expertise-tag">🧘 Yoga &amp; Wellness</span>
+            <!-- ✅ NEW -->
+            <span class="expertise-tag">📋 Healthcare Policy</span>
+            <span class="expertise-tag">🌐 Public Health</span>
+        </div>
     </div>
 </div>
 
@@ -348,38 +363,47 @@ nav a:hover {
         <button class="tab-btn" onclick="openTab(event, 'mission')">Our Mission</button>
         <button class="tab-btn" onclick="openTab(event, 'disclaimer')">Important Disclaimer</button>
     </div>
-    
+
     <!-- Tab Content: Focus Areas -->
-    <!-- Tab Content: Focus Areas -->
-<div id="about-areas" class="tab-content active">
-    <div class="areas-grid">
-        <div class="area-card">
-            <h3>🏛️ Administrative</h3>
-            <p>Healthcare management and policy in Ayurvedic institutions - exploring leadership challenges, institutional governance, and systemic improvements needed in Ayurveda administration.</p>
-        </div>
-        <div class="area-card">
-            <h3>📚 Academic</h3>
-            <p>Teaching methodologies, curriculum development, and educational reforms - examining how we can better prepare the next generation of Ayurvedic practitioners.</p>
-        </div>
-        <div class="area-card">
-            <h3>🩺 Clinical</h3>
-            <p>Patient care approaches, treatment protocols, and clinical practice insights - sharing observations from years of clinical experience in real-world Ayurvedic practice.</p>
-        </div>
-        <div class="area-card">
-            <h3>🔬 Research</h3>
-            <p>Scientific validation, methodology, and evidence-based approaches - bridging ancient wisdom with modern research to advance Ayurveda's credibility.</p>
-        </div>
-        <div class="area-card">
-            <h3>🤔 Reflections & Musings</h3>
-            <p>Personal observations, philosophical thoughts, and contemplative insights - sharing deeper reflections on life, practice, and the journey of understanding Ayurveda beyond academic and clinical realms.</p>
-        </div>
-        <div class="area-card">
-            <h3>🧘 Yoga & Wellness</h3>
-            <p>Holistic wellness approaches combining Ayurveda with Yoga, Naturopathy, and lifestyle medicine - integrating mind-body practices for comprehensive health management.</p>
+    <div id="about-areas" class="tab-content active">
+        <div class="areas-grid">
+            <div class="area-card">
+                <h3>🏛️ Administrative</h3>
+                <p>Healthcare management and policy in Ayurvedic institutions - exploring leadership challenges, institutional governance, and systemic improvements needed in Ayurveda administration.</p>
+            </div>
+            <div class="area-card">
+                <h3>📚 Academic</h3>
+                <p>Teaching methodologies, curriculum development, and educational reforms - examining how we can better prepare the next generation of Ayurvedic practitioners.</p>
+            </div>
+            <div class="area-card">
+                <h3>🩺 Clinical</h3>
+                <p>Patient care approaches, treatment protocols, and clinical practice insights - sharing observations from years of clinical experience in real-world Ayurvedic practice.</p>
+            </div>
+            <div class="area-card">
+                <h3>🔬 Research</h3>
+                <p>Scientific validation, methodology, and evidence-based approaches - bridging ancient wisdom with modern research to advance Ayurveda's credibility.</p>
+            </div>
+            <div class="area-card">
+                <h3>🤔 Reflections &amp; Musings</h3>
+                <p>Personal observations, philosophical thoughts, and contemplative insights - sharing deeper reflections on life, practice, and the journey of understanding Ayurveda beyond academic and clinical realms.</p>
+            </div>
+            <div class="area-card">
+                <h3>🧘 Yoga &amp; Wellness</h3>
+                <p>Holistic wellness approaches combining Ayurveda with Yoga, Naturopathy, and lifestyle medicine - integrating mind-body practices for comprehensive health management.</p>
+            </div>
+            <!-- ✅ NEW -->
+            <div class="area-card">
+                <h3>📋 Healthcare Policy</h3>
+                <p>Critical analysis of AYUSH policy, regulatory frameworks, institutional governance, and the gap between policy intent and ground-level healthcare delivery — examined through an honest insider lens.</p>
+            </div>
+            <!-- ✅ NEW -->
+            <div class="area-card">
+                <h3>🌐 Public Health</h3>
+                <p>Ayurveda's real and potential contribution to India's public health infrastructure — including hospital beds, workforce deployment, burden of disease, and the honest arithmetic of what the system delivers at population scale.</p>
+            </div>
         </div>
     </div>
-</div>
-    
+
     <!-- Tab Content: About Us -->
     <div id="about-us" class="tab-content">
         <h3>About the Authors</h3>
@@ -393,7 +417,7 @@ nav a:hover {
             </div>
             <div class="author-card">
                 <h4>Dr. Anita Kadagad Kembhavi</h4>
-                <p class="author-role">MD Kayachikitsa, Consulting Physician & Panchakarma Specialist</p>
+                <p class="author-role">MD Kayachikitsa, Consulting Physician &amp; Panchakarma Specialist</p>
                 <p><strong>Experience:</strong> 25+ years in Ayurvedic academic and clinical practice</p>
                 <p><strong>Expertise:</strong> Authentic Ayurveda practice, Yoga, Wellness therapies, and Mental Health Counseling</p>
                 <p><strong>Focus:</strong> Holistic patient care, Panchakarma specialization, and integrative mind-body wellness approaches</p>
@@ -401,7 +425,7 @@ nav a:hover {
             </div>
         </div>
     </div>
-    
+
     <!-- Tab Content: Mission -->
     <div id="mission" class="tab-content">
         <h3>Our Mission</h3>
@@ -415,10 +439,10 @@ nav a:hover {
             <li><strong>Contribute to Policy Discussions</strong> that can improve our field</li>
         </ul>
     </div>
-    
+
     <!-- Tab Content: Disclaimer -->
     <div id="disclaimer" class="tab-content">
-        <h3>Important Disclaimer & Platform Mission</h3>
+        <h3>Important Disclaimer &amp; Platform Mission</h3>
         <div class="disclaimer-grid">
             <div class="disclaimer-item">
                 <h4>Personal Perspectives</h4>
@@ -443,12 +467,23 @@ nav a:hover {
 <!-- Articles Section -->
 <div class="articles-section">
     <h2>Latest Articles</h2>
-    
+
     <div class="articles-grid">
         {% for post in site.posts limit: 6 %}
         <div class="article-card">
             <div class="article-meta">
-                <span class="category-tag {{ post.categories[0] | downcase }}">{{ post.categories[0] }}</span>
+                <!--
+                  ✅ FIX: Liquid filter chain converts any category name to a
+                  valid CSS class, handling spaces and & characters:
+                    "Healthcare Policy"     → healthcare-policy
+                    "Public Health"         → public-health
+                    "Reflections & Musings" → reflections-musings
+                    "Yoga & Wellness"       → yoga-wellness
+                    "Administrative"        → administrative  (unchanged)
+                -->
+                <span class="category-tag {{ post.categories[0] | downcase | replace: ' ', '-' | remove: '&' | replace: '--', '-' }}">
+                    {{ post.categories[0] }}
+                </span>
                 <span style="margin-left: 1rem; color: #718096;">{{ post.date | date: "%B %d, %Y" }}</span>
             </div>
             <h3 class="article-title">
@@ -464,7 +499,7 @@ nav a:hover {
         </div>
         {% endfor %}
     </div>
-    
+
     <div style="text-align: center; margin-top: 2rem;">
         <a href="/archives" style="background: #2c5530; color: white; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 600;">View All Articles</a>
     </div>
@@ -473,20 +508,14 @@ nav a:hover {
 <script>
 function openTab(evt, tabName) {
     var i, tabcontent, tablinks;
-    
-    // Hide all tab content
     tabcontent = document.getElementsByClassName("tab-content");
     for (i = 0; i < tabcontent.length; i++) {
         tabcontent[i].classList.remove("active");
     }
-    
-    // Remove active class from all tab buttons
     tablinks = document.getElementsByClassName("tab-btn");
     for (i = 0; i < tablinks.length; i++) {
         tablinks[i].classList.remove("active");
     }
-    
-    // Show selected tab and mark button as active
     document.getElementById(tabName).classList.add("active");
     evt.currentTarget.classList.add("active");
 }
