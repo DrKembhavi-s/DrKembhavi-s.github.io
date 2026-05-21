@@ -10,7 +10,7 @@ permalink: /archives/
   
   {% assign postsByYearMonth = site.posts | group_by_exp:"post", "post.date | date: '%Y-%m'" %}
   {% for yearMonth in postsByYearMonth %}
-    {% assign year = yearMonth.name | slice: 0, 4 %}
+    {% assign year  = yearMonth.name | slice: 0, 4 %}
     {% assign month = yearMonth.name | slice: 5, 2 %}
     {% case month %}
       {% when '01' %}{% assign monthName = 'January' %}
@@ -30,7 +30,7 @@ permalink: /archives/
     <div class="archive-month">
       <h2 class="archive-month-header" onclick="toggleMonth('{{ yearMonth.name }}')">
         <span class="archive-toggle">▼</span>
-        {{ monthName }} {{ year }} 
+        {{ monthName }} {{ year }}
         <span class="post-count">({{ yearMonth.items | size }} posts)</span>
       </h2>
       
@@ -38,7 +38,10 @@ permalink: /archives/
         {% for post in yearMonth.items %}
           <div class="archive-post-item">
             <span class="post-date">{{ post.date | date: "%b %d" }}</span>
-            <span class="post-category">[{{ post.categories | first | capitalize }}]</span>
+            <!-- ✅ FIX 1: removed | capitalize — it was lowercasing multi-word
+                 categories like "Healthcare Policy" → "Healthcare policy".
+                 Categories are already correctly cased in front matter. -->
+            <span class="post-category">[{{ post.categories | first }}]</span>
             <a href="{{ post.url | relative_url }}" class="post-title">{{ post.title }}</a>
           </div>
         {% endfor %}
@@ -48,7 +51,6 @@ permalink: /archives/
 </div>
 
 <style>
-/* Archive Styles */
 .archive-container {
   max-width: 800px;
   margin: 0 auto;
@@ -127,7 +129,10 @@ permalink: /archives/
 }
 
 .post-category {
-  min-width: 110px;
+  /* ✅ FIX 2: increased from 110px to 160px so that longer category
+     names like "Healthcare Policy" and "Reflections & Musings"
+     display on one line without clipping or wrapping. */
+  min-width: 160px;
   color: #495057;
   font-size: 0.8em;
   margin-right: 1rem;
@@ -156,27 +161,32 @@ permalink: /archives/
   .archive-container {
     padding: 1rem 0.5rem;
   }
-  
+
   .archive-month-header {
     padding: 0.75rem 1rem;
     font-size: 1.1rem;
   }
-  
+
   .archive-month-posts {
     padding: 1rem;
   }
-  
+
   .archive-post-item {
     flex-direction: column;
     align-items: flex-start;
     padding: 1rem 0;
   }
-  
+
   .post-date, .post-category {
     margin-bottom: 0.5rem;
     margin-right: 0;
   }
-  
+
+  /* On mobile, let the category badge size to content */
+  .post-category {
+    min-width: unset;
+  }
+
   .post-count {
     float: none;
     margin-left: 0.5rem;
@@ -187,8 +197,7 @@ permalink: /archives/
 <script>
 function toggleMonth(monthId) {
   var element = document.getElementById('month-' + monthId);
-  var toggle = element.previousElementSibling.querySelector('.archive-toggle');
-  
+  var toggle  = element.previousElementSibling.querySelector('.archive-toggle');
   if (element.style.display === 'none') {
     element.style.display = 'block';
     toggle.innerHTML = '▼';
@@ -198,11 +207,11 @@ function toggleMonth(monthId) {
   }
 }
 
-// Initially hide all months except the most recent
-document.addEventListener('DOMContentLoaded', function() {
+// Keep most recent month open; collapse all others on load
+document.addEventListener('DOMContentLoaded', function () {
   var months = document.querySelectorAll('.archive-month-posts');
-  months.forEach(function(month, index) {
-    if (index > 0) { // Keep first month (most recent) open
+  months.forEach(function (month, index) {
+    if (index > 0) {
       month.style.display = 'none';
       month.previousElementSibling.querySelector('.archive-toggle').innerHTML = '▶';
     }
