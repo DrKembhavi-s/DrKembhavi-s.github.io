@@ -3,7 +3,7 @@ layout: post
 title: "Ayurveda's Real Contribution to India's Healthcare"
 subtitle: "The Bed That Wasn't There"
 date: 2026-05-20
-categories: Research
+categories: Public Health
 tags: [AYUSH, hospital-beds, public-health, crosspathy, integrative-medicine, infrastructure, Ayurveda-reform]
 author: "Dr Aakash Kembhavi"
 excerpt: "India has 0.6 public hospital beds per 1000 population. The entire AYUSH system contributes 0.043 beds per 1000. A marketing professional's LinkedIn post prompted this reckoning — one that the Ayurvedic establishment has consistently avoided."
