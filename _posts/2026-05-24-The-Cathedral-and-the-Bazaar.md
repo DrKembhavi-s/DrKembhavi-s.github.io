@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Cathedral And The Bazaar Why Ayurveda Research Remains Invisible To Global Science"
+title: "The Cathedral And The Bazaar: Why Ayurveda Research Remains Invisible To Global Science"
 date: 2026-05-24 09:00:00 +0530
 categories: [Research]
 author: "Dr Aakash Kembhavi"
