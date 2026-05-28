@@ -14,6 +14,8 @@ author: "Dr Aakash Kembhavi"
 
 **Disclosure:** This article was developed with AI-assisted drafting and research support, in keeping with my practice of transparent human-AI collaboration. All arguments, positions, and editorial judgments are my own.
 
+![Image 1](/assets/images/posts/Tryst With Inquiry.jpeg)
+
 **A Personal Note Before We Begin**
 
 The opinions expressed in this article are entirely my own. They are the product of a lifetime of reading — not curated reading, not reading assigned by a curriculum, but the kind of wide, hungry, restless reading that my grandfather first modelled for me and that I have never been able to stop.
