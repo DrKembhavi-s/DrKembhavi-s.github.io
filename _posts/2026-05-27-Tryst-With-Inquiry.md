@@ -10,7 +10,6 @@ author: "Dr Aakash Kembhavi"
 
 ***Dr Aakash Kembhavi***
 
-*Ayurveda Unfiltered | Category: Reflections & Musings*
 
 **Disclosure:** This article was developed with AI-assisted drafting and research support, in keeping with my practice of transparent human-AI collaboration. All arguments, positions, and editorial judgments are my own.
 
