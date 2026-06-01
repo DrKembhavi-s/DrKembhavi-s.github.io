@@ -3,8 +3,10 @@ layout: post
 title: "Public Money, Public Trust, and the 4% Question"
 date: 2026-06-01
 author: Aakash Kembhavi
-tags: [public-health, AYUSH, budget, healthcare-economics]
+categories: [Health Policy]
+tags: [public-health, AYUSH, budget, healthcare-economics, Ayurveda]
 ---
+
 # Public Money, Public Trust, and the 4% Question
 
 ### India has never spent more on health. So why do we still pay twice — and where does Ayurveda actually fit?
@@ -12,11 +14,15 @@ tags: [public-health, AYUSH, budget, healthcare-economics]
 *Ayurveda Unfiltered*
 
 ---
-<img src="/assets/images/public-money-header.jpg" alt="Balance of public money and Ayurveda" style="width:100%;height:auto;border-radius:8px;">
 
 > **A note before you read.** What follows are my personal reflections — not the official position of any institution I serve, and not an attack on any individual or body. This piece grew out of a simple, growing curiosity. As an ordinary citizen living through the same economic pressures as everyone else — rising costs, the steady weight of healthcare and education bills — I found myself wanting to understand where our public money actually goes, and where my own field sits within that larger picture. Everything here rests on published data and budget documents already in the public domain; I have tried to point at facts, not personalities. So please read this not as a critique thrown from the outside, but as **introspection from within** — a vaidya asking hard questions of the system he belongs to, in the belief that honest self-examination is the first step toward doing better.
 
 ---
+
+<figure>
+  <img src="/assets/images/public-money-header.jpg" alt="Balance of public money and Ayurveda" style="width:100%;height:auto;border-radius:8px;">
+  <figcaption style="text-align:center;font-size:0.85em;color:#6b7280;">Where does public money go — and where does Ayurveda fit?</figcaption>
+</figure>
 
 India has never collected more tax. It has never budgeted more for health. And it has never talked more loudly about Ayurveda's "civilizational potential."
 
