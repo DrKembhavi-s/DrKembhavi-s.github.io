@@ -19,10 +19,7 @@ tags: [public-health, AYUSH, budget, healthcare-economics, Ayurveda]
 
 ---
 
-<figure>
-  <img src="/assets/images/public-money-header.jpg" alt="Balance of public money and Ayurveda" style="width:100%;height:auto;border-radius:8px;">
-  <figcaption style="text-align:center;font-size:0.85em;color:#6b7280;">Where does public money go — and where does Ayurveda fit?</figcaption>
-</figure>
+![Image 1](/assets/images/posts/public-money-header.jpeg)
 
 India has never collected more tax. It has never budgeted more for health. And it has never talked more loudly about Ayurveda's "civilizational potential."
 
