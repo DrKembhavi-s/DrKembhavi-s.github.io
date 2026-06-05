@@ -72,6 +72,105 @@ What is striking is not the dependency itself — it is historically inevitable 
 
 The Hormuz crisis of 2026 is forcing that analysis into existence, whether the profession is ready for it or not.
 
+<!-- VISUALISATION 1: Hormuz Crisis Dashboard -->
+<div style="margin: 2rem 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;">
+
+  <div style="background:#1a1a2e; border-radius:10px; padding:1.25rem 1.5rem; margin-bottom:1rem;">
+    <div style="color:#fff; font-size:17px; font-weight:500; margin-bottom:4px;">The Hormuz Crisis &amp; Ayurveda's Supply Chain <span style="display:inline-block;background:#e24b4a22;color:#e24b4a;border:1px solid #e24b4a55;font-size:11px;padding:2px 8px;border-radius:20px;margin-left:8px;">Live crisis · June 2026</span></div>
+    <div style="color:rgba(255,255,255,0.5);font-size:12px;">US–Israel–Iran conflict began 28 Feb 2026 · Strait of Hormuz effectively closed · Impact on India's energy, fertiliser, metals, and Ayurvedic manufacturing chains</div>
+  </div>
+
+  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:10px;">
+    <div style="background:#fff;border:0.5px solid #e0ddd5;border-left:3px solid #e24b4a;border-radius:10px;padding:1rem;">
+      <div style="font-size:11px;color:#888;text-transform:uppercase;letter-spacing:.05em;margin-bottom:6px;">Oil through Hormuz (pre-crisis)</div>
+      <div style="font-size:26px;font-weight:500;color:#e24b4a;">20.1M</div>
+      <div style="font-size:12px;color:#666;">barrels/day · 20–25% of world seaborne oil</div>
+    </div>
+    <div style="background:#fff;border:0.5px solid #e0ddd5;border-left:3px solid #e24b4a;border-radius:10px;padding:1rem;">
+      <div style="font-size:11px;color:#888;text-transform:uppercase;letter-spacing:.05em;margin-bottom:6px;">Brent crude surge (end-March 2026)</div>
+      <div style="font-size:26px;font-weight:500;color:#e24b4a;">+65%</div>
+      <div style="font-size:12px;color:#666;">$46/barrel rise · largest monthly spike ever</div>
+    </div>
+    <div style="background:#fff;border:0.5px solid #e0ddd5;border-left:3px solid #e24b4a;border-radius:10px;padding:1rem;">
+      <div style="font-size:11px;color:#888;text-transform:uppercase;letter-spacing:.05em;margin-bottom:6px;">India crude flows lost</div>
+      <div style="font-size:26px;font-weight:500;color:#e24b4a;">&gt;40%</div>
+      <div style="font-size:12px;color:#666;">of normal supply since closure began</div>
+    </div>
+  </div>
+
+  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:10px;">
+    <div style="background:#fff;border:0.5px solid #e0ddd5;border-left:3px solid #EF9F27;border-radius:10px;padding:1rem;">
+      <div style="font-size:11px;color:#888;text-transform:uppercase;letter-spacing:.05em;margin-bottom:6px;">OMC losses (daily)</div>
+      <div style="font-size:26px;font-weight:500;color:#BA7517;">₹1,000 Cr</div>
+      <div style="font-size:12px;color:#666;">Indian Oil, BPCL, HPCL bleeding daily</div>
+    </div>
+    <div style="background:#fff;border:0.5px solid #e0ddd5;border-left:3px solid #EF9F27;border-radius:10px;padding:1rem;">
+      <div style="font-size:11px;color:#888;text-transform:uppercase;letter-spacing:.05em;margin-bottom:6px;">FII equity outflows Jan–Apr 2026</div>
+      <div style="font-size:26px;font-weight:500;color:#BA7517;">&gt;$20B</div>
+      <div style="font-size:12px;color:#666;">surpassed full-year 2025 record</div>
+    </div>
+    <div style="background:#fff;border:0.5px solid #e0ddd5;border-left:3px solid #EF9F27;border-radius:10px;padding:1rem;">
+      <div style="font-size:11px;color:#888;text-transform:uppercase;letter-spacing:.05em;margin-bottom:6px;">India GDP growth (FY 2026–27)</div>
+      <div style="font-size:26px;font-weight:500;color:#BA7517;">6.7%</div>
+      <div style="font-size:12px;color:#666;">revised down from 7.7% (BMI/Fitch)</div>
+    </div>
+  </div>
+
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:10px;">
+    <div style="background:#fff;border:0.5px solid #e0ddd5;border-radius:10px;padding:1rem;">
+      <div style="font-size:13px;font-weight:500;color:#1a1a1a;margin-bottom:3px;">Crude oil import dependence (%)</div>
+      <div style="font-size:11px;color:#888;margin-bottom:10px;">Domestic production falling; imports at all-time high</div>
+      <div style="display:flex;gap:12px;margin-bottom:8px;font-size:11px;color:#666;">
+        <span style="display:flex;align-items:center;gap:4px;"><span style="width:10px;height:10px;border-radius:2px;background:#E24B4A;display:inline-block;"></span>Historical</span>
+        <span style="display:flex;align-items:center;gap:4px;"><span style="width:10px;height:10px;border-radius:2px;background:#F09595;border:1px dashed #E24B4A;display:inline-block;"></span>Projected</span>
+      </div>
+      <div style="position:relative;width:100%;height:180px;">
+        <canvas id="crudeDep" role="img" aria-label="Bar chart showing India crude oil import dependence rising from 85% to 89%, projected 92% by 2035">India crude dependence rising from 85% in 2015-16 to 89% in 2024-25, projected 92% by 2035.</canvas>
+      </div>
+    </div>
+    <div style="background:#fff;border:0.5px solid #e0ddd5;border-radius:10px;padding:1rem;">
+      <div style="font-size:13px;font-weight:500;color:#1a1a1a;margin-bottom:3px;">Ayurveda inputs: price surge since Feb 2026</div>
+      <div style="font-size:11px;color:#888;margin-bottom:10px;">Cumulative cost pressure on the manufacturing chain</div>
+      <div style="display:flex;gap:12px;margin-bottom:8px;font-size:11px;color:#666;">
+        <span style="display:flex;align-items:center;gap:4px;"><span style="width:10px;height:10px;border-radius:2px;background:#E24B4A;display:inline-block;"></span>% increase since Feb 2026</span>
+      </div>
+      <div style="position:relative;width:100%;height:180px;">
+        <canvas id="inputCosts" role="img" aria-label="Horizontal bar chart showing cost increases for Ayurvedic manufacturing inputs">Tanker freight +90%, Brent crude +65%, Asian gas +54%, DAP fertiliser +23%, fertiliser index +15%.</canvas>
+      </div>
+    </div>
+  </div>
+
+  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:10px;">
+    <div style="background:#fff;border:0.5px solid #e0ddd5;border-left:3px solid #378ADD;border-radius:10px;padding:1rem;">
+      <div style="font-size:11px;color:#888;text-transform:uppercase;letter-spacing:.05em;margin-bottom:6px;">Still wild-harvested</div>
+      <div style="font-size:26px;font-weight:500;color:#185FA5;">70–80%</div>
+      <div style="font-size:12px;color:#666;">of Ayurvedic raw material (20th century)</div>
+    </div>
+    <div style="background:#fff;border:0.5px solid #e0ddd5;border-left:3px solid #e24b4a;border-radius:10px;padding:1rem;">
+      <div style="font-size:11px;color:#888;text-transform:uppercase;letter-spacing:.05em;margin-bottom:6px;">Demand increase (high-value herbs)</div>
+      <div style="font-size:26px;font-weight:500;color:#e24b4a;">+50%</div>
+      <div style="font-size:12px;color:#666;">since 2019 · availability fell 26%</div>
+    </div>
+    <div style="background:#fff;border:0.5px solid #e0ddd5;border-left:3px solid #EF9F27;border-radius:10px;padding:1rem;">
+      <div style="font-size:11px;color:#888;text-transform:uppercase;letter-spacing:.05em;margin-bottom:6px;">Species at extinction risk</div>
+      <div style="font-size:26px;font-weight:500;color:#BA7517;">200</div>
+      <div style="font-size:12px;color:#666;">of 800 traded species (25%) at overharvest risk</div>
+    </div>
+  </div>
+
+  <div style="font-size:10px;color:#aaa;margin-top:.5rem;padding-top:.5rem;border-top:0.5px solid #e0ddd5;">
+    Sources: US EIA · World Bank Commodity Markets Outlook, Apr 2026 · OilPrice.com, May 2026 · PPAC · Ministry of Chemicals &amp; Fertilisers · UNCTAD, Apr 2026 · IFPRI, Apr 2026 · Kpler · BMI/Fitch · Silver Institute World Silver Survey 2025 · World Gold Council 2024 · All India Trade Survey of Prioritised Medicinal Plants, 2019
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script>
+(function(){
+  var grid='rgba(0,0,0,0.06)', tick='rgba(0,0,0,0.45)';
+  new Chart(document.getElementById('crudeDep'),{type:'bar',data:{labels:['2015–16','2017–18','2019–20','2021–22','2022–23','2023–24','2024–25','2035\n(proj.)'],datasets:[{label:'Import dependence %',data:[85.5,86.2,85.5,87.4,87.7,87.8,89,92],backgroundColor:['#E24B4A','#E24B4A','#E24B4A','#E24B4A','#E24B4A','#E24B4A','#E24B4A','#F09595'],borderWidth:0,borderRadius:3}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{y:{min:82,max:94,ticks:{color:tick,callback:function(v){return v+'%'},font:{size:10}},grid:{color:grid}},x:{ticks:{color:tick,font:{size:9},maxRotation:30},grid:{display:false}}}}});
+  new Chart(document.getElementById('inputCosts'),{type:'bar',data:{labels:['Tanker freight','Brent crude','Asian gas','DAP fertiliser','Global fert. index','LPG domestic'],datasets:[{label:'% increase',data:[90,65,54,23,15,15],backgroundColor:['#A32D2D','#E24B4A','#E24B4A','#EF9F27','#EF9F27','#EF9F27'],borderWidth:0,borderRadius:3}]},options:{indexAxis:'y',responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:{ticks:{color:tick,callback:function(v){return '+'+v+'%'},font:{size:10}},grid:{color:grid}},y:{ticks:{color:tick,font:{size:10}},grid:{display:false}}}}});
+})();
+</script>
 **SECTION 3 — THE THREE METALS: COPPER, SILVER, GOLD — AND THE GEOPOLITICAL SQUEEZE**
 
 **Tamra, Rajata, Suvarna: The Classical Hierarchy**
@@ -113,6 +212,119 @@ In Rasashastra, Suvarna Bhasma is not merely an expensive formulation — it is,
 All of this requires high-purity gold. And gold is now being consumed by the electronics industry at rates that the World Gold Council describes as accelerating. Technology demand for gold reached approximately 326 tonnes in 2024 — a 7 percent year-on-year increase. A typical smartphone contains 7 to 34 milligrams of gold; at 1.4 billion smartphones produced annually, the consumption is staggering before accounting for servers, AI accelerators, networking equipment, and industrial electronics. As AI hardware deployments, electric vehicle rollouts, solar installations, and grid infrastructure upgrades scale concurrently, all gold demand streams are expanding simultaneously.
 
 The clinical consequence is one that many Ayurvedic physicians already observe but rarely articulate as a systemic issue: an authentic course of Suvarna Bhasma treatment, at genuine therapeutic dosage and quality, is priced out of reach for the vast majority of patients in India. This is not merely a matter of pharmaceutical economics — it is a therapeutic access failure with ethical dimensions that the profession has largely avoided confronting. The AI-driven demand for gold in electronics will deepen this inaccessibility. The patient who might have benefited from Suvarna Bhasma will instead receive the cheaper alternative — and the cheaper alternative is not Suvarna Bhasma.
+
+<!-- VISUALISATION 2: The Three Metals -->
+<div style="margin:2rem 0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;">
+
+  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:1rem;">
+
+    <!-- GOLD -->
+    <div style="background:#fff;border:0.5px solid #e0ddd5;border-radius:10px;overflow:hidden;">
+      <div style="background:#FAEEDA;padding:10px 14px 8px;border-bottom:0.5px solid #e0ddd5;">
+        <div style="font-size:22px;font-weight:500;color:#412402;line-height:1;">Au</div>
+        <div style="font-size:11px;color:#854F0B;margin-top:2px;">Gold · Suvarna</div>
+        <div style="font-size:12px;font-weight:500;color:#412402;margin-top:6px;">~$3,300 / troy oz</div>
+        <div style="font-size:11px;color:#854F0B;">+38% over 24 months · all-time high</div>
+      </div>
+      <div style="padding:10px 14px;">
+        <span style="background:#E1F5EE;color:#085041;font-size:10px;font-weight:500;padding:3px 7px;border-radius:20px;display:inline-block;margin-bottom:6px;">Rasashastra</span>
+        <div style="font-size:11px;color:#1a1a1a;padding:3px 0;border-bottom:0.5px solid #eee;">Suvarna Bhasma<div style="font-size:10px;color:#666;">Supreme Rasayana · Mahayogavahi</div></div>
+        <div style="font-size:11px;color:#1a1a1a;padding:3px 0;border-bottom:0.5px solid #eee;">Suvarna Prashan<div style="font-size:10px;color:#666;">Paediatric immunomodulation</div></div>
+        <div style="font-size:11px;color:#1a1a1a;padding:3px 0;">Hiranyagarbha Pottali<div style="font-size:10px;color:#666;">Complex compound formulation</div></div>
+        <div style="text-align:center;font-size:10px;font-weight:500;color:#666;padding:5px 0;border-top:0.5px solid #eee;border-bottom:0.5px solid #eee;margin:5px 0;letter-spacing:.05em;">vs.</div>
+        <span style="background:#EEEDFE;color:#26215C;font-size:10px;font-weight:500;padding:3px 7px;border-radius:20px;display:inline-block;margin-bottom:6px;">AI &amp; semiconductors</span>
+        <div style="font-size:11px;color:#1a1a1a;padding:3px 0;border-bottom:0.5px solid #eee;">Chip bonding wire<div style="font-size:10px;color:#666;">GPU, CPU, AI accelerator packages</div></div>
+        <div style="font-size:11px;color:#1a1a1a;padding:3px 0;border-bottom:0.5px solid #eee;">7–34 mg per smartphone<div style="font-size:10px;color:#666;">1.4 billion units/yr = 10–48 t demand</div></div>
+        <div style="margin-top:8px;font-size:11px;">
+          <div style="display:flex;justify-content:space-between;padding:2px 0;"><span style="color:#666;">Tech demand 2024</span><span style="font-weight:500;color:#A32D2D;">326 t (+7% YoY)</span></div>
+          <div style="display:flex;justify-content:space-between;padding:2px 0;"><span style="color:#666;">AI hardware outlook</span><span style="font-weight:500;color:#A32D2D;">Double-digit growth</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SILVER -->
+    <div style="background:#fff;border:0.5px solid #e0ddd5;border-radius:10px;overflow:hidden;">
+      <div style="background:#F1EFE8;padding:10px 14px 8px;border-bottom:0.5px solid #e0ddd5;">
+        <div style="font-size:22px;font-weight:500;color:#2C2C2A;line-height:1;">Ag</div>
+        <div style="font-size:11px;color:#5F5E5A;margin-top:2px;">Silver · Rajata</div>
+        <div style="font-size:12px;font-weight:500;color:#2C2C2A;margin-top:6px;">~$33 / troy oz</div>
+        <div style="font-size:11px;color:#5F5E5A;">Industrial demand record 465.6 M oz (2024)</div>
+      </div>
+      <div style="padding:10px 14px;">
+        <span style="background:#E1F5EE;color:#085041;font-size:10px;font-weight:500;padding:3px 7px;border-radius:20px;display:inline-block;margin-bottom:6px;">Rasashastra</span>
+        <div style="font-size:11px;color:#1a1a1a;padding:3px 0;border-bottom:0.5px solid #eee;">Rajata Bhasma<div style="font-size:10px;color:#666;">Neurological · cardiac · Kshaya</div></div>
+        <div style="font-size:11px;color:#1a1a1a;padding:3px 0;border-bottom:0.5px solid #eee;">Rajata Jala<div style="font-size:10px;color:#666;">Antimicrobial stored water therapy</div></div>
+        <div style="font-size:11px;color:#1a1a1a;padding:3px 0;">Silver Vark<div style="font-size:10px;color:#666;">Coating on premium formulations</div></div>
+        <div style="text-align:center;font-size:10px;font-weight:500;color:#666;padding:5px 0;border-top:0.5px solid #eee;border-bottom:0.5px solid #eee;margin:5px 0;letter-spacing:.05em;">vs.</div>
+        <span style="background:#EEEDFE;color:#26215C;font-size:10px;font-weight:500;padding:3px 7px;border-radius:20px;display:inline-block;margin-bottom:6px;">AI &amp; semiconductors</span>
+        <div style="font-size:11px;color:#1a1a1a;padding:3px 0;border-bottom:0.5px solid #eee;">Circuit breakers &amp; switchgear<div style="font-size:10px;color:#666;">AI racks draw 60–130 kW vs. 10–15 kW</div></div>
+        <div style="font-size:11px;color:#1a1a1a;padding:3px 0;border-bottom:0.5px solid #eee;">GPU/TPU connections<div style="font-size:10px;color:#666;">429 W/m·K — highest thermal conductivity</div></div>
+        <div style="margin-top:8px;font-size:11px;">
+          <div style="display:flex;justify-content:space-between;padding:2px 0;"><span style="color:#666;">Industrial demand growth 2024</span><span style="font-weight:500;color:#A32D2D;">+7%</span></div>
+          <div style="display:flex;justify-content:space-between;padding:2px 0;"><span style="color:#666;">Supply trend (decade)</span><span style="font-weight:500;color:#A32D2D;">Stagnant · structural deficit</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- COPPER -->
+    <div style="background:#fff;border:0.5px solid #e0ddd5;border-radius:10px;overflow:hidden;">
+      <div style="background:#FAECE7;padding:10px 14px 8px;border-bottom:0.5px solid #e0ddd5;">
+        <div style="font-size:22px;font-weight:500;color:#4A1B0C;line-height:1;">Cu</div>
+        <div style="font-size:11px;color:#993C1D;margin-top:2px;">Copper · Tamra</div>
+        <div style="font-size:12px;font-weight:500;color:#4A1B0C;margin-top:6px;">~$10,200 / tonne</div>
+        <div style="font-size:11px;color:#993C1D;">+12–20% forecast 2025 · AI/EV structural demand</div>
+      </div>
+      <div style="padding:10px 14px;">
+        <span style="background:#E1F5EE;color:#085041;font-size:10px;font-weight:500;padding:3px 7px;border-radius:20px;display:inline-block;margin-bottom:6px;">Rasashastra</span>
+        <div style="font-size:11px;color:#1a1a1a;padding:3px 0;border-bottom:0.5px solid #eee;">Tamra Bhasma<div style="font-size:10px;color:#666;">Liver disorders · anaemia · skin</div></div>
+        <div style="font-size:11px;color:#1a1a1a;padding:3px 0;border-bottom:0.5px solid #eee;">Copper vessels · Jala Dharana<div style="font-size:10px;color:#666;">Global wellness trend</div></div>
+        <div style="font-size:11px;color:#1a1a1a;padding:3px 0;">Tuttha (copper sulphate)<div style="font-size:10px;color:#666;">Eye preparations · antiseptics</div></div>
+        <div style="text-align:center;font-size:10px;font-weight:500;color:#666;padding:5px 0;border-top:0.5px solid #eee;border-bottom:0.5px solid #eee;margin:5px 0;letter-spacing:.05em;">vs.</div>
+        <span style="background:#EEEDFE;color:#26215C;font-size:10px;font-weight:500;padding:3px 7px;border-radius:20px;display:inline-block;margin-bottom:6px;">AI &amp; semiconductors</span>
+        <div style="font-size:11px;color:#1a1a1a;padding:3px 0;border-bottom:0.5px solid #eee;">Data centre wiring<div style="font-size:10px;color:#666;">AI infra uses far more Cu per sq ft</div></div>
+        <div style="font-size:11px;color:#1a1a1a;padding:3px 0;border-bottom:0.5px solid #eee;">EV motors &amp; batteries<div style="font-size:10px;color:#666;">83 kg/EV vs. 23 kg/ICE vehicle</div></div>
+        <div style="margin-top:8px;font-size:11px;">
+          <div style="display:flex;justify-content:space-between;padding:2px 0;"><span style="color:#666;">Price forecast 2025</span><span style="font-weight:500;color:#A32D2D;">+12–20% over 2024</span></div>
+          <div style="display:flex;justify-content:space-between;padding:2px 0;"><span style="color:#666;">New mine lead time</span><span style="font-weight:500;color:#A32D2D;">10–15 years</span></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div style="background:#fff;border:0.5px solid #e0ddd5;border-radius:10px;padding:1rem;margin-bottom:.75rem;">
+    <div style="font-size:13px;font-weight:500;color:#1a1a1a;margin-bottom:3px;">Industrial demand — the AI-driven surge (indexed, 2019 = 100)</div>
+    <div style="font-size:11px;color:#888;margin-bottom:8px;">All three Rasashastra metals on structurally rising demand curves</div>
+    <div style="display:flex;gap:14px;margin-bottom:8px;font-size:11px;color:#666;">
+      <span style="display:flex;align-items:center;gap:4px;"><span style="width:10px;height:10px;border-radius:2px;background:#EF9F27;display:inline-block;"></span>Gold tech demand</span>
+      <span style="display:flex;align-items:center;gap:4px;"><span style="width:10px;height:2px;background:#888780;display:inline-block;border-top:2px dashed #888780;"></span>Silver industrial</span>
+      <span style="display:flex;align-items:center;gap:4px;"><span style="width:10px;height:2px;background:#D85A30;display:inline-block;border-top:2px dotted #D85A30;"></span>Copper demand</span>
+    </div>
+    <div style="position:relative;width:100%;height:200px;">
+      <canvas id="metalDemand" role="img" aria-label="Line chart showing indexed demand growth for gold, silver, and copper from 2019 to 2025">All three metals showing demand growth from index 100 in 2019 to 135-148 by 2025.</canvas>
+    </div>
+  </div>
+
+  <div style="background:#fff;border:0.5px solid #e0ddd5;border-radius:10px;padding:1rem;">
+    <div style="font-size:13px;font-weight:500;color:#1a1a1a;margin-bottom:3px;">Gold price trajectory — the Rasashastra affordability squeeze (USD/troy oz)</div>
+    <div style="font-size:11px;color:#888;margin-bottom:8px;">Nearly tripled over a decade — Suvarna Bhasma priced out of reach for most patients</div>
+    <div style="position:relative;width:100%;height:180px;">
+      <canvas id="goldPrice" role="img" aria-label="Bar chart of gold price 2015 to 2026, rising from $1160 to over $3300">Gold price rose from $1,160 in 2015 to over $3,300 in 2026.</canvas>
+    </div>
+  </div>
+
+  <div style="margin-top:.75rem;background:#F5F3FF;border-radius:8px;padding:.75rem 1rem;font-size:12px;color:#444;border-left:3px solid #7F77DD;">
+    <strong style="color:#1a1a1a;">The competition nobody anticipated:</strong> For the first time in history, the pharmaceutical metals of Rasashastra are in direct resource competition with the AI industry. The price consequence falls entirely on Bhasma manufacturers, and ultimately on the patient.
+  </div>
+</div>
+
+<script>
+(function(){
+  var grid='rgba(0,0,0,0.06)',tick='rgba(0,0,0,0.45)';
+  new Chart(document.getElementById('metalDemand'),{type:'line',data:{labels:['2019','2020','2021','2022','2023','2024','2025'],datasets:[{label:'Gold tech demand',data:[100,92,105,110,115,123,135],borderColor:'#EF9F27',backgroundColor:'rgba(239,159,39,0.08)',borderWidth:2,pointRadius:3,pointBackgroundColor:'#EF9F27',tension:0.3,fill:false,borderDash:[]},{label:'Silver industrial',data:[100,88,108,118,125,134,148],borderColor:'#888780',backgroundColor:'rgba(136,135,128,0.08)',borderWidth:2,pointRadius:3,pointBackgroundColor:'#888780',tension:0.3,fill:false,borderDash:[5,3]},{label:'Copper demand',data:[100,94,112,119,124,131,142],borderColor:'#D85A30',backgroundColor:'rgba(216,90,48,0.08)',borderWidth:2,pointRadius:3,pointBackgroundColor:'#D85A30',tension:0.3,fill:false,borderDash:[2,2]}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{y:{min:80,ticks:{color:tick,font:{size:10}},grid:{color:grid}},x:{ticks:{color:tick,font:{size:10}},grid:{display:false}}}}});
+  new Chart(document.getElementById('goldPrice'),{type:'bar',data:{labels:['2015','2016','2017','2018','2019','2020','2021','2022','2023','2024','2025','2026'],datasets:[{label:'Gold USD/troy oz',data:[1160,1250,1300,1270,1390,1770,1800,1800,1940,2390,2900,3300],backgroundColor:function(ctx){var v=ctx.raw;if(v>=2900)return'#A32D2D';if(v>=2000)return'#E24B4A';if(v>=1700)return'#EF9F27';return'#BA7517';},borderWidth:0,borderRadius:3}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{y:{ticks:{color:tick,font:{size:10},callback:function(v){return'$'+v.toLocaleString()}},grid:{color:grid}},x:{ticks:{color:tick,font:{size:9},maxRotation:30},grid:{display:false}}}}});
+})();
+</script>
 
 **SECTION 4 — SULPHUR: THE ELEMENT AYURVEDA REVERES AND INDUSTRY MONOPOLISES**
 
@@ -181,6 +393,141 @@ Against this macroeconomic backdrop, what is happening — right now, in the fin
 **Metal cost escalation** for Rasashastra formulations is accelerating through the gold, silver, and copper price increases driven by both conflict-related safe-haven demand and the structural AI-driven industrial demand discussed in the previous section. A manufacturer of Suvarna Bhasma, already operating on thin margins due to the specialised nature of the preparation, faces a double pressure: higher raw material costs and, in some cases, difficulty sourcing high-purity gold in the current market.
 
 **The asymmetry of impact across the industry** deserves explicit acknowledgment. Large, well-capitalised manufacturers — the Daburs, Himalayas, Patanjalis, Kottakkals, and Nagarjunas of the sector — have procurement buffers, long-term supplier contracts, and the financial capacity to absorb short-term cost shocks or pass them through gradually. It is the small and medium Ayurvedic manufacturer — the regional GMP unit, the hospital pharmacy, the teaching institution's pharmacy department — that is most immediately and severely exposed. These are precisely the institutions most likely to be producing classical Rasashastra formulations with genuine quality commitment. The crisis disproportionately harms the most conscientious segment of the manufacturing sector.
+
+<!-- VISUALISATION 3: Fertiliser-to-Formulation Cascade -->
+<div style="margin:2rem 0;background:#fff;border:0.5px solid #e0ddd5;border-radius:10px;padding:1.25rem;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;">
+<div style="font-size:13px;font-weight:500;color:#1a1a1a;margin-bottom:3px;">The fertiliser-to-formulation cascade</div>
+<div style="font-size:11px;color:#888;margin-bottom:1rem;">From a closed strait to the pharmacy shelf — nine steps, operating right now</div>
+
+<svg width="100%" viewBox="0 0 660 960" role="img">
+<title>Fertiliser to formulation cascade</title>
+<desc>Nine-step flowchart from Hormuz closure through Gulf fertiliser halt, Indian price surge, farm input costs, two parallel tracks of medicinal plant cultivation and cattle feed inflation, converging into formulation cost escalation and finally patient impact.</desc>
+<defs>
+  <marker id="arr2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M2 1L8 5L2 9" fill="none" stroke="#888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </marker>
+  <marker id="arr-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M2 1L8 5L2 9" fill="none" stroke="#E24B4A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </marker>
+  <marker id="arr-amb" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M2 1L8 5L2 9" fill="none" stroke="#BA7517" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </marker>
+  <marker id="arr-teal" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M2 1L8 5L2 9" fill="none" stroke="#0F6E56" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </marker>
+  <marker id="arr-grn" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M2 1L8 5L2 9" fill="none" stroke="#3B6D11" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </marker>
+</defs>
+
+<!-- Step 1: Hormuz closes -->
+<rect x="150" y="30" width="360" height="52" rx="8" fill="#FCEBEB" stroke="#E24B4A" stroke-width="1.5"/>
+<text x="330" y="51" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="500" fill="#501313">Strait of Hormuz closes</text>
+<text x="330" y="69" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#791F1F">28 Feb 2026 · 20M bbl/day blocked</text>
+
+<line x1="330" y1="82" x2="330" y2="108" stroke="#E24B4A" stroke-width="1.5" fill="none" marker-end="url(#arr-red)"/>
+
+<!-- Step 2: Gulf fertiliser plants halt -->
+<rect x="150" y="108" width="360" height="52" rx="8" fill="#FCEBEB" stroke="#E24B4A" stroke-width="0.5"/>
+<text x="330" y="129" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="500" fill="#501313">Gulf fertiliser production halts</text>
+<text x="330" y="147" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#791F1F">Iran urea/ammonia stops · Qatar LNG force majeure</text>
+
+<line x1="330" y1="160" x2="330" y2="186" stroke="#E24B4A" stroke-width="1.5" fill="none" marker-end="url(#arr-red)"/>
+
+<!-- Step 3: Indian fertiliser prices surge -->
+<rect x="150" y="186" width="360" height="52" rx="8" fill="#FAEEDA" stroke="#BA7517" stroke-width="0.5"/>
+<text x="330" y="207" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="500" fill="#412402">Indian fertiliser prices surge</text>
+<text x="330" y="225" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#633806">Global index +15% · DAP +23% · TSP +43%</text>
+
+<line x1="330" y1="238" x2="330" y2="264" stroke="#BA7517" stroke-width="1.5" fill="none" marker-end="url(#arr-amb)"/>
+
+<!-- Step 4: Farm input costs rise -->
+<rect x="150" y="264" width="360" height="52" rx="8" fill="#FAEEDA" stroke="#BA7517" stroke-width="0.5"/>
+<text x="330" y="285" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="500" fill="#412402">Farm input costs rise across India</text>
+<text x="330" y="303" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#633806">Urea · DAP · pesticides · diesel transport</text>
+
+<!-- Split into two branches -->
+<path d="M330 316 L330 338 L195 338 L195 360" stroke="#BA7517" stroke-width="1" fill="none" marker-end="url(#arr-amb)"/>
+<path d="M330 316 L330 338 L465 338 L465 360" stroke="#BA7517" stroke-width="1" fill="none" marker-end="url(#arr-amb)"/>
+
+<!-- Branch A: Medicinal plant cultivation -->
+<rect x="50" y="360" width="290" height="62" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"/>
+<text x="195" y="381" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="500" fill="#04342C">Medicinal plant farm costs rise</text>
+<text x="195" y="397" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#085041">Ashwagandha · Shatavari · Guduchi</text>
+<text x="195" y="412" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#085041">Brahmi · Shankhapushpi</text>
+
+<!-- Branch B: Cattle feed -->
+<rect x="320" y="360" width="290" height="62" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"/>
+<text x="465" y="381" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="500" fill="#04342C">Cattle feed costs rise</text>
+<text x="465" y="397" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#085041">Maize · soybean · groundnut cake</text>
+<text x="465" y="412" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#085041">all fertiliser-intensive crops</text>
+
+<line x1="195" y1="422" x2="195" y2="450" stroke="#0F6E56" stroke-width="1" fill="none" marker-end="url(#arr-teal)"/>
+<line x1="465" y1="422" x2="465" y2="450" stroke="#0F6E56" stroke-width="1" fill="none" marker-end="url(#arr-teal)"/>
+
+<!-- Branch A step 2 -->
+<rect x="50" y="450" width="290" height="52" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"/>
+<text x="195" y="471" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="500" fill="#04342C">Wild harvest pressure increases</text>
+<text x="195" y="489" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#085041">70–80% already wild-sourced · 25% spp. at risk</text>
+
+<!-- Branch B step 2 -->
+<rect x="320" y="450" width="290" height="52" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"/>
+<text x="465" y="471" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="500" fill="#04342C">Milk procurement costs rise</text>
+<text x="465" y="489" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#085041">Amul / Mother Dairy raised prices May 2026</text>
+
+<line x1="195" y1="502" x2="195" y2="530" stroke="#0F6E56" stroke-width="1" fill="none" marker-end="url(#arr-teal)"/>
+<line x1="465" y1="502" x2="465" y2="530" stroke="#0F6E56" stroke-width="1" fill="none" marker-end="url(#arr-teal)"/>
+
+<!-- Branch A step 3 -->
+<rect x="50" y="530" width="290" height="52" rx="8" fill="#EAF3DE" stroke="#3B6D11" stroke-width="0.5"/>
+<text x="195" y="551" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="500" fill="#173404">Herb raw material cost rises</text>
+<text x="195" y="569" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#27500A">Quality risk · adulteration incentive rises</text>
+
+<!-- Branch B step 3 -->
+<rect x="320" y="530" width="290" height="52" rx="8" fill="#EAF3DE" stroke="#3B6D11" stroke-width="0.5"/>
+<text x="465" y="551" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="500" fill="#173404">Ghrita &amp; Taila costs rise</text>
+<text x="465" y="569" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#27500A">Brahmi Ghrita · Ksheerabala Taila</text>
+
+<!-- Merge both branches -->
+<path d="M195 582 L195 610 L330 610 L330 632" stroke="#3B6D11" stroke-width="1" fill="none" marker-end="url(#arr-grn)"/>
+<path d="M465 582 L465 610 L330 610" stroke="#3B6D11" stroke-width="1" fill="none"/>
+<text x="330" y="625" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#27500A">both chains converge</text>
+
+<!-- Step 5: Formulation cost -->
+<rect x="110" y="632" width="440" height="66" rx="8" fill="#FCEBEB" stroke="#E24B4A" stroke-width="1"/>
+<text x="330" y="654" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="500" fill="#501313">Ayurvedic formulation cost rises</text>
+<text x="330" y="672" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#791F1F">Herbs + Sneha + LPG + excipients + packaging + metals</text>
+<text x="330" y="688" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#791F1F">all rising simultaneously</text>
+
+<!-- Fan to three outcomes -->
+<path d="M330 698 L330 718 L165 718 L165 732" stroke="#888" stroke-width="1" fill="none" marker-end="url(#arr2)"/>
+<line x1="330" y1="698" x2="330" y2="732" stroke="#888" stroke-width="1" fill="none" marker-end="url(#arr2)"/>
+<path d="M330 698 L330 718 L495 718 L495 732" stroke="#888" stroke-width="1" fill="none" marker-end="url(#arr2)"/>
+
+<!-- Outcome A -->
+<rect x="50" y="732" width="230" height="50" rx="8" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="0.5"/>
+<text x="165" y="752" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="500" fill="#2C2C2A">Price hike</text>
+<text x="165" y="769" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#5F5E5A">MRP rises · patient pays more</text>
+
+<!-- Outcome B -->
+<rect x="215" y="732" width="230" height="50" rx="8" fill="#FCEBEB" stroke="#E24B4A" stroke-width="0.5"/>
+<text x="330" y="752" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="500" fill="#501313">Quality risk</text>
+<text x="330" y="769" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#791F1F">Substitution · adulteration rises</text>
+
+<!-- Outcome C -->
+<rect x="380" y="732" width="230" height="50" rx="8" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="0.5"/>
+<text x="495" y="752" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="500" fill="#2C2C2A">Market exit</text>
+<text x="495" y="769" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#5F5E5A">SMEs exit · consolidation rises</text>
+
+<!-- Final convergence to patient -->
+<path d="M165 782 L165 808 L330 808 L330 820" stroke="#888" stroke-width="1" fill="none" marker-end="url(#arr2)"/>
+<line x1="330" y1="782" x2="330" y2="820" stroke="#888" stroke-width="1" fill="none" marker-end="url(#arr2)"/>
+<path d="M495 782 L495 808 L330 808" stroke="#888" stroke-width="1" fill="none"/>
+
+<rect x="110" y="820" width="440" height="30" rx="6" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="0.5"/>
+<text x="330" y="840" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="500" fill="#2C2C2A">Patient &amp; practitioner: higher cost · lower quality · reduced access</text>
+</svg>
+</div>
 
 **SECTION 5B — THE EDIBLE OIL CRISIS: WHEN TAILA AND GHRITA BECOME UNAFFORDABLE**
 
