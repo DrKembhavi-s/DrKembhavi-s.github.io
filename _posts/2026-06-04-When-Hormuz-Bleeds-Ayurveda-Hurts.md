@@ -1,13 +1,18 @@
 ---
 layout: post
-title: "WHEN HORMUZ BLEEDS, AYURVEDA HURTS"
-date: 2026-06-04 09:00:00 +0530
-categories: [Healthcare Policy]
-author: "Dr Aakash Kembhavi"
+title: "When Hormuz Bleeds, Ayurveda Hurts"
+date: 2026-06-04
+author: Aakash Kembhavi
+categories: [Healthcare-Policy, Public-Health, Geopolitics-and-Economy]
+tags: [hormuz, petroleum, rasashastra, fertiliser, supply-chain, metals, gandhaka, ghrita, taila, medicinal-plants, iran-war, india-energy, ayurveda-manufacturing]
 ---
-
-
-*"When the Strait of Hormuz closes, it does not merely halt oil tankers — it silently disrupts the ghrita that lubricates Ayurvedic tablet presses, the sulphur that purifies Gandhaka Rasayana, the copper that carries electricity to the bhavana chamber, the fertiliser that feeds the herb farm, and the sesame oil that is Tila Taila itself. The war in the Persian Gulf is not happening to someone else. It is happening to us."*
+# When Hormuz Bleeds, Ayurveda Hurts
+### The Strait Nobody in Our Tradition Is Talking About — and Why Every Vaidya, Manufacturer, and Student Must Pay Urgent Attention Right Now
+*Ayurveda Unfiltered*
+---
+> *"When the Strait of Hormuz closes, it does not merely halt oil tankers — it silently disrupts the ghrita that lubricates Ayurvedic tablet presses, the sulphur that purifies Gandhaka Rasayana, the copper that carries electricity to the bhavana chamber, the fertiliser that feeds the herb farm, and the sesame oil that is Tila Taila itself. The war in the Persian Gulf is not happening to someone else. It is happening to us."*
+---
+![Image 1](/assets/images/posts/hormuz-ayurveda.jpg)
 
 **SECTION 1 — THE BLINDSPOT: WHAT AYURVEDIC PRACTITIONERS DON'T SEE**
 
