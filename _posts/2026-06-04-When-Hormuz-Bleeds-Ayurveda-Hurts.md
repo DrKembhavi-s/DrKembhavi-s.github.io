@@ -7,7 +7,7 @@ author: Dr. Aakash Kembhavi
 categories: [Healthcare Policy, Public Health, Geopolitics & Economy]
 tags: [hormuz, petroleum, rasashastra, fertiliser, supply-chain, metals, gandhaka, ghrita, taila, medicinal-plants, iran-war, india-energy, ayurveda-manufacturing]
 excerpt: "When the Strait of Hormuz closes, it does not merely halt oil tankers — it silently disrupts the ghrita that lubricates Ayurvedic tablet presses, the sulphur that purifies Gandhaka Rasayana, the copper that carries electricity to the bhavana chamber, the fertiliser that feeds the herb farm, and the sesame oil that is Tila Taila itself."
-image: /assets/images/hormuz-ayurveda.jpg
+image: /assets/images/posts/hormuz-ayurveda.jpg
 ---
 
 > *"When the Strait of Hormuz closes, it does not merely halt oil tankers — it silently disrupts the ghrita that lubricates Ayurvedic tablet presses, the sulphur that purifies Gandhaka Rasayana, the copper that carries electricity to the bhavana chamber, the fertiliser that feeds the herb farm, and the sesame oil that is Tila Taila itself. The war in the Persian Gulf is not happening to someone else. It is happening to us."*
