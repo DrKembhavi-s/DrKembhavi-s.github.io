@@ -3,7 +3,7 @@ description: A critical insider's perspective on Ayurvedic research, education, 
 author: Dr Aakash Kembhavi, MD, PGDMLS, MS(Counseling & Psychotherapy)
 email: drkembhavi@live.com
 
-# Navigation menu - use the working URLs
+# Navigation menu
 header_pages:
   - about.md
   - categories.md
@@ -11,21 +11,22 @@ header_pages:
 
 # Build settings
 markdown: kramdown
-# theme: minima  # Comment out or remove this line to use your custom CSS
 plugins:
   - jekyll-feed
 
 # Site settings
 baseurl: ""
 url: "https://DrKembhavi-s.github.io"
-permalink: /:year/:month/:day/:title/
+
+# Permalink — date and title only, no categories in URL
+permalink: /:year/:month/:day/:title:output_ext
 
 # Custom CSS Configuration
 sass:
   style: compressed
   sass_dir: _sass
 
-# Defaults for better organization
+# Defaults
 defaults:
   - scope:
       path: ""
@@ -33,6 +34,7 @@ defaults:
     values:
       layout: "post"
       author: "Dr Kembhavi"
+      permalink: /:year/:month/:day/:title:output_ext
   - scope:
       path: "assets/css"
     values:
