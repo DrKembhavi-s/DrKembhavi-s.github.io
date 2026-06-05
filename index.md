@@ -2,7 +2,6 @@
 ---
 
 <style>
-/* Inline CSS for immediate effect */
 .hero-section {
   background: linear-gradient(135deg, #2c5530 0%, #4a7c59 100%);
   color: white;
@@ -11,26 +10,14 @@
   margin: -2rem -2rem 3rem -2rem;
   border-radius: 0 0 15px 15px;
 }
-
 .hero-content h1 {
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
   color: white !important;
 }
-
-.hero-subtitle {
-  font-size: 1.2rem;
-  margin-bottom: 1rem;
-  opacity: 0.9;
-}
-
-.hero-description {
-  font-size: 1.1rem;
-  margin-bottom: 2rem;
-  opacity: 0.9;
-}
-
+.hero-subtitle { font-size: 1.2rem; margin-bottom: 1rem; opacity: 0.9; }
+.hero-description { font-size: 1.1rem; margin-bottom: 2rem; opacity: 0.9; }
 .expertise-tags {
   display: flex;
   justify-content: center;
@@ -38,17 +25,15 @@
   gap: 1rem;
   margin-top: 1.5rem;
 }
-
 .expertise-tag {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255,255,255,0.2);
   color: white;
   padding: 0.5rem 1rem;
   border-radius: 25px;
   font-weight: 500;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(255,255,255,0.3);
   backdrop-filter: blur(10px);
 }
-
 .info-tabs-section {
   background: #f7fafc;
   padding: 2rem;
@@ -56,7 +41,6 @@
   border-radius: 15px;
   border: 1px solid #e2e8f0;
 }
-
 .tab-buttons {
   display: flex;
   justify-content: center;
@@ -64,7 +48,6 @@
   flex-wrap: wrap;
   gap: 0.5rem;
 }
-
 .tab-btn {
   background: white;
   border: 2px solid #2c5530;
@@ -76,17 +59,8 @@
   border-radius: 8px;
   transition: all 0.3s ease;
 }
-
-.tab-btn:hover {
-  background: #2c5530;
-  color: white;
-}
-
-.tab-btn.active {
-  background: #2c5530;
-  color: white;
-}
-
+.tab-btn:hover { background: #2c5530; color: white; }
+.tab-btn.active { background: #2c5530; color: white; }
 .tab-content {
   display: none;
   background: white;
@@ -94,41 +68,21 @@
   border-radius: 10px;
   box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
-
-.tab-content.active {
-  display: block;
-}
-
+.tab-content.active { display: block; }
 .areas-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1.5rem;
 }
-
 .area-card {
   padding: 1.5rem;
   border-left: 4px solid #c17c47;
   background: #f7fafc;
   border-radius: 0 8px 8px 0;
 }
-
-.area-card h3 {
-  font-size: 1.2rem;
-  margin-bottom: 1rem;
-  color: #2c5530;
-}
-
-.mission-list {
-  list-style: none;
-  padding-left: 0;
-}
-
-.mission-list li {
-  padding: 0.5rem 0;
-  padding-left: 2rem;
-  position: relative;
-}
-
+.area-card h3 { font-size: 1.2rem; margin-bottom: 1rem; color: #2c5530; }
+.mission-list { list-style: none; padding-left: 0; }
+.mission-list li { padding: 0.5rem 0; padding-left: 2rem; position: relative; }
 .mission-list li::before {
   content: "✓";
   position: absolute;
@@ -137,43 +91,31 @@
   font-weight: bold;
   font-size: 1.2rem;
 }
-
 .disclaimer-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1rem;
 }
-
 .disclaimer-item {
   padding: 1rem;
   background: #f7fafc;
   border-radius: 8px;
   border-left: 4px solid #d4af37;
 }
-
-.disclaimer-item h4 {
-  color: #c17c47;
-  margin-bottom: 0.5rem;
-}
-
-.articles-section {
-  margin-top: 3rem;
-}
-
+.disclaimer-item h4 { color: #c17c47; margin-bottom: 0.5rem; }
+.articles-section { margin-top: 3rem; }
 .articles-section h2 {
   text-align: center;
   font-size: 2rem;
   color: #2c5530;
   margin-bottom: 2rem;
 }
-
 .articles-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
   margin-bottom: 2rem;
 }
-
 .article-card {
   background: white;
   border-radius: 10px;
@@ -182,27 +124,10 @@
   border-left: 4px solid #4a7c59;
   transition: transform 0.3s ease;
 }
-
-.article-card:hover {
-  transform: translateY(-5px);
-}
-
-.article-title {
-  font-size: 1.3rem;
-  margin-bottom: 1rem;
-}
-
-.article-title a {
-  color: #2c5530;
-  text-decoration: none;
-}
-
-.article-meta {
-  color: #718096;
-  font-size: 0.9rem;
-  margin-bottom: 1rem;
-}
-
+.article-card:hover { transform: translateY(-5px); }
+.article-title { font-size: 1.3rem; margin-bottom: 1rem; }
+.article-title a { color: #2c5530; text-decoration: none; }
+.article-meta { color: #718096; font-size: 0.9rem; margin-bottom: 1rem; }
 .category-tag {
   padding: 0.25rem 0.5rem;
   border-radius: 4px;
@@ -220,23 +145,22 @@
       "Public Health"         → public-health
       "Geopolitics and Economy" → geopolitics-and-economy
 ─────────────────────────────────────────────────────────────── */
-.category-tag.administrative    { background: #3182ce; color: white; }
-.category-tag.academic          { background: #38a169; color: white; }
-.category-tag.clinical          { background: #d69e2e; color: white; }
-.category-tag.research          { background: #9f7aea; color: white; }
+.category-tag.administrative      { background: #3182ce; color: white; }
+.category-tag.academic            { background: #38a169; color: white; }
+.category-tag.clinical            { background: #d69e2e; color: white; }
+.category-tag.research            { background: #9f7aea; color: white; }
 .category-tag.reflections-musings { background: #ed8936; color: white; }
-.category-tag.yoga-wellness     { background: #48bb78; color: white; }
-/* ✅ NEW */
-.category-tag.healthcare-policy { background: #c53030; color: white; }
-.category-tag.public-health     { background: #2b6cb0; color: white; }
-.category-tag.geopolitics-and-economy { background: #6b46c1; color: white; 
+.category-tag.yoga-wellness       { background: #48bb78; color: white; }
+.category-tag.healthcare-policy   { background: #c53030; color: white; }
+.category-tag.public-health       { background: #2b6cb0; color: white; }
+.category-tag.geopolitics-and-economy { background: #6b46c1; color: white; }   /* ← FIX: closing } was missing */
+
 /* Author Cards */
 .authors-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 2rem;
 }
-
 .author-card {
   padding: 2rem;
   background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
@@ -244,14 +168,12 @@
   border-left: 6px solid #2c5530;
   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
-
 .author-card h4 {
   font-size: 1.5rem;
   color: #2c5530;
   margin-bottom: 0.5rem;
   font-weight: 700;
 }
-
 .author-role {
   font-size: 1.1rem;
   color: #c17c47;
@@ -259,40 +181,18 @@
   margin-bottom: 1rem;
   font-style: italic;
 }
-
-.qualification-list, .role-list {
-  list-style: none;
-  padding-left: 0;
-  margin: 0.5rem 0;
-}
-
+.qualification-list, .role-list { list-style: none; padding-left: 0; margin: 0.5rem 0; }
 .qualification-list li, .role-list li {
   padding: 0.3rem 0;
   padding-left: 1.5rem;
   position: relative;
   font-size: 0.95rem;
 }
+.qualification-list li::before { content: "🎓"; position: absolute; left: 0; font-size: 1rem; }
+.role-list li::before { content: "🏥"; position: absolute; left: 0; font-size: 1rem; }
+.qualifications, .author-card > p { margin-bottom: 1rem; line-height: 1.6; }
 
-.qualification-list li::before {
-  content: "🎓";
-  position: absolute;
-  left: 0;
-  font-size: 1rem;
-}
-
-.role-list li::before {
-  content: "🏥";
-  position: absolute;
-  left: 0;
-  font-size: 1rem;
-}
-
-.qualifications, .author-card > p {
-  margin-bottom: 1rem;
-  line-height: 1.6;
-}
-
-/* Navigation styles */
+/* Navigation */
 nav {
   background: #f7fafc;
   padding: 1rem 0;
@@ -300,7 +200,6 @@ nav {
   margin-bottom: 2rem;
   border-bottom: 2px solid #e2e8f0;
 }
-
 nav a {
   color: #2c5530;
   text-decoration: none;
@@ -310,11 +209,7 @@ nav a {
   border-radius: 5px;
   transition: all 0.3s ease;
 }
-
-nav a:hover {
-  background: #2c5530;
-  color: white;
-}
+nav a:hover { background: #2c5530; color: white; }
 
 @media (max-width: 768px) {
   .hero-content h1 { font-size: 2rem; }
@@ -337,193 +232,178 @@ nav a:hover {
 
 <!-- Hero Section -->
 <div class="hero-section">
-    <div class="hero-content">
-        <h1>Welcome to Dr Kembhavi's Ayurveda Unfiltered Blog</h1>
-        <p class="hero-subtitle">Insights from 25+ years of experience in Ayurvedic medicine</p>
-        <p class="hero-description">We share evidence-based perspectives across the following key areas of Ayurveda and Yoga:</p>
-
-        <div class="expertise-tags">
-            <span class="expertise-tag">🏛️ Administrative</span>
-            <span class="expertise-tag">📚 Academic</span>
-            <span class="expertise-tag">🩺 Clinical</span>
-            <span class="expertise-tag">🔬 Research</span>
-            <span class="expertise-tag">🤔 Reflections &amp; Musings</span>
-            <span class="expertise-tag">🧘 Yoga &amp; Wellness</span>
-            <!-- ✅ NEW -->
-            <span class="expertise-tag">📋 Healthcare Policy</span>
-            <span class="expertise-tag">🌐 Public Health</span>
-        <span class="expertise-tag">🌍 Geopolitics and Economy</span>
-        </div>
+  <div class="hero-content">
+    <h1>Welcome to Dr Kembhavi's Ayurveda Unfiltered Blog</h1>
+    <p class="hero-subtitle">Insights from 25+ years of experience in Ayurvedic medicine</p>
+    <p class="hero-description">We share evidence-based perspectives across the following key areas of Ayurveda and Yoga:</p>
+    <div class="expertise-tags">
+      <span class="expertise-tag">🏛️ Administrative</span>
+      <span class="expertise-tag">📚 Academic</span>
+      <span class="expertise-tag">🩺 Clinical</span>
+      <span class="expertise-tag">🔬 Research</span>
+      <span class="expertise-tag">🤔 Reflections &amp; Musings</span>
+      <span class="expertise-tag">🧘 Yoga &amp; Wellness</span>
+      <span class="expertise-tag">📋 Healthcare Policy</span>
+      <span class="expertise-tag">🌐 Public Health</span>
+      <span class="expertise-tag">🌍 Geopolitics and Economy</span>
     </div>
+  </div>
 </div>
 
 <!-- Tabbed Information Section -->
 <div class="info-tabs-section">
-    <div class="tab-buttons">
-        <button class="tab-btn active" onclick="openTab(event, 'about-areas')">About Our Focus Areas</button>
-        <button class="tab-btn" onclick="openTab(event, 'about-us')">About Us</button>
-        <button class="tab-btn" onclick="openTab(event, 'mission')">Our Mission</button>
-        <button class="tab-btn" onclick="openTab(event, 'disclaimer')">Important Disclaimer</button>
-    </div>
+  <div class="tab-buttons">
+    <button class="tab-btn active" onclick="openTab(event, 'about-areas')">About Our Focus Areas</button>
+    <button class="tab-btn" onclick="openTab(event, 'about-us')">About Us</button>
+    <button class="tab-btn" onclick="openTab(event, 'mission')">Our Mission</button>
+    <button class="tab-btn" onclick="openTab(event, 'disclaimer')">Important Disclaimer</button>
+  </div>
 
-    <!-- Tab Content: Focus Areas -->
-    <div id="about-areas" class="tab-content active">
-        <div class="areas-grid">
-            <div class="area-card">
-                <h3>🏛️ Administrative</h3>
-                <p>Healthcare management and policy in Ayurvedic institutions - exploring leadership challenges, institutional governance, and systemic improvements needed in Ayurveda administration.</p>
-            </div>
-            <div class="area-card">
-                <h3>📚 Academic</h3>
-                <p>Teaching methodologies, curriculum development, and educational reforms - examining how we can better prepare the next generation of Ayurvedic practitioners.</p>
-            </div>
-            <div class="area-card">
-                <h3>🩺 Clinical</h3>
-                <p>Patient care approaches, treatment protocols, and clinical practice insights - sharing observations from years of clinical experience in real-world Ayurvedic practice.</p>
-            </div>
-            <div class="area-card">
-                <h3>🔬 Research</h3>
-                <p>Scientific validation, methodology, and evidence-based approaches - bridging ancient wisdom with modern research to advance Ayurveda's credibility.</p>
-            </div>
-            <div class="area-card">
-                <h3>🤔 Reflections &amp; Musings</h3>
-                <p>Personal observations, philosophical thoughts, and contemplative insights - sharing deeper reflections on life, practice, and the journey of understanding Ayurveda beyond academic and clinical realms.</p>
-            </div>
-            <div class="area-card">
-                <h3>🧘 Yoga &amp; Wellness</h3>
-                <p>Holistic wellness approaches combining Ayurveda with Yoga, Naturopathy, and lifestyle medicine - integrating mind-body practices for comprehensive health management.</p>
-            </div>
-            <!-- ✅ NEW -->
-            <div class="area-card">
-                <h3>📋 Healthcare Policy</h3>
-                <p>Critical analysis of AYUSH policy, regulatory frameworks, institutional governance, and the gap between policy intent and ground-level healthcare delivery — examined through an honest insider lens.</p>
-            </div>
-            <!-- ✅ NEW -->
-            <div class="area-card">
-                <h3>🌐 Public Health</h3>
-                <p>Ayurveda's real and potential contribution to India's public health infrastructure — including hospital beds, workforce deployment, burden of disease, and the honest arithmetic of what the system delivers at population scale.</p>
-            </div>
-            <!-- ✅ NEW -->
-            <div class="area-card">
-            <h3>🌍 Geopolitics and Economy</h3>
-    <p>How global economic forces, supply chains, geopolitical conflicts, and commodity markets shape the conditions of Ayurvedic practice — examining the invisible threads connecting a 21-mile strait in the Persian Gulf to the pharmacy shelf.</p>
-</div>
-</div>
+  <!-- Tab: Focus Areas -->
+  <div id="about-areas" class="tab-content active">
+    <div class="areas-grid">
+      <div class="area-card">
+        <h3>🏛️ Administrative</h3>
+        <p>Healthcare management and policy in Ayurvedic institutions - exploring leadership challenges, institutional governance, and systemic improvements needed in Ayurveda administration.</p>
+      </div>
+      <div class="area-card">
+        <h3>📚 Academic</h3>
+        <p>Teaching methodologies, curriculum development, and educational reforms - examining how we can better prepare the next generation of Ayurvedic practitioners.</p>
+      </div>
+      <div class="area-card">
+        <h3>🩺 Clinical</h3>
+        <p>Patient care approaches, treatment protocols, and clinical practice insights - sharing observations from years of clinical experience in real-world Ayurvedic practice.</p>
+      </div>
+      <div class="area-card">
+        <h3>🔬 Research</h3>
+        <p>Scientific validation, methodology, and evidence-based approaches - bridging ancient wisdom with modern research to advance Ayurveda's credibility.</p>
+      </div>
+      <div class="area-card">
+        <h3>🤔 Reflections &amp; Musings</h3>
+        <p>Personal observations, philosophical thoughts, and contemplative insights - sharing deeper reflections on life, practice, and the journey of understanding Ayurveda beyond academic and clinical realms.</p>
+      </div>
+      <div class="area-card">
+        <h3>🧘 Yoga &amp; Wellness</h3>
+        <p>Holistic wellness approaches combining Ayurveda with Yoga, Naturopathy, and lifestyle medicine - integrating mind-body practices for comprehensive health management.</p>
+      </div>
+      <div class="area-card">
+        <h3>📋 Healthcare Policy</h3>
+        <p>Critical analysis of AYUSH policy, regulatory frameworks, institutional governance, and the gap between policy intent and ground-level healthcare delivery — examined through an honest insider lens.</p>
+      </div>
+      <div class="area-card">
+        <h3>🌐 Public Health</h3>
+        <p>Ayurveda's real and potential contribution to India's public health infrastructure — including hospital beds, workforce deployment, burden of disease, and the honest arithmetic of what the system delivers at population scale.</p>
+      </div>
+      <div class="area-card">
+        <h3>🌍 Geopolitics and Economy</h3>
+        <p>How global economic forces, supply chains, geopolitical conflicts, and commodity markets shape the conditions of Ayurvedic practice — examining the invisible threads connecting a 21-mile strait in the Persian Gulf to the pharmacy shelf.</p>
+      </div>
     </div>
-<div class="area-card">
-    <!-- Tab Content: About Us -->
-    <div id="about-us" class="tab-content">
-        <h3>About the Authors</h3>
-        <div class="authors-grid">
-            <div class="author-card">
-                <h4>Dr. Kembhavi</h4>
-                <p class="author-role">Principal, Ayurveda College</p>
-                <p><strong>Experience:</strong> 25+ years in Ayurvedic academia, clinical practice, and research</p>
-                <p><strong>Expertise:</strong> Educational administration, curriculum development, clinical protocols, and research methodology in Ayurveda</p>
-                <p><strong>Focus:</strong> Transforming Ayurvedic education, improving clinical standards, and advancing evidence-based practice</p>
-            </div>
-            <div class="author-card">
-                <h4>Dr. Anita Kadagad Kembhavi</h4>
-                <p class="author-role">MD Kayachikitsa, Consulting Physician &amp; Panchakarma Specialist</p>
-                <p><strong>Experience:</strong> 25+ years in Ayurvedic academic and clinical practice</p>
-                <p><strong>Expertise:</strong> Authentic Ayurveda practice, Yoga, Wellness therapies, and Mental Health Counseling</p>
-                <p><strong>Focus:</strong> Holistic patient care, Panchakarma specialization, and integrative mind-body wellness approaches</p>
-                <p><strong>Current Roles:</strong> Director at Astanga Wellness, Professor at Jain AGM Ayurvedic College, Board Member Europe Ayurveda Academy</p>
-            </div>
-        </div>
-    </div>
+  </div>  <!-- ← end #about-areas -->
 
-    <!-- Tab Content: Mission -->
-    <div id="mission" class="tab-content">
-        <h3>Our Mission</h3>
-        <p>Through this blog, we aim to:</p>
-        <ul class="mission-list">
-            <li><strong>Inspire Excellence</strong> in Ayurvedic education and practice</li>
-            <li><strong>Encourage Innovation</strong> while respecting traditional wisdom</li>
-            <li><strong>Foster Collaboration</strong> between traditional and modern approaches</li>
-            <li><strong>Promote Evidence-Based Practice</strong> in Ayurvedic medicine</li>
-            <li><strong>Support Professional Development</strong> of current and future practitioners</li>
-            <li><strong>Contribute to Policy Discussions</strong> that can improve our field</li>
-        </ul>
+  <!-- Tab: About Us -->
+  <div id="about-us" class="tab-content">
+    <h3>About the Authors</h3>
+    <div class="authors-grid">
+      <div class="author-card">
+        <h4>Dr. Kembhavi</h4>
+        <p class="author-role">Principal, Ayurveda College</p>
+        <p><strong>Experience:</strong> 25+ years in Ayurvedic academia, clinical practice, and research</p>
+        <p><strong>Expertise:</strong> Educational administration, curriculum development, clinical protocols, and research methodology in Ayurveda</p>
+        <p><strong>Focus:</strong> Transforming Ayurvedic education, improving clinical standards, and advancing evidence-based practice</p>
+      </div>
+      <div class="author-card">
+        <h4>Dr. Anita Kadagad Kembhavi</h4>
+        <p class="author-role">MD Kayachikitsa, Consulting Physician &amp; Panchakarma Specialist</p>
+        <p><strong>Experience:</strong> 25+ years in Ayurvedic academic and clinical practice</p>
+        <p><strong>Expertise:</strong> Authentic Ayurveda practice, Yoga, Wellness therapies, and Mental Health Counseling</p>
+        <p><strong>Focus:</strong> Holistic patient care, Panchakarma specialization, and integrative mind-body wellness approaches</p>
+        <p><strong>Current Roles:</strong> Director at Astanga Wellness, Professor at Jain AGM Ayurvedic College, Board Member Europe Ayurveda Academy</p>
+      </div>
     </div>
+  </div>  <!-- ← end #about-us -->
 
-    <!-- Tab Content: Disclaimer -->
-    <div id="disclaimer" class="tab-content">
-        <h3>Important Disclaimer &amp; Platform Mission</h3>
-        <div class="disclaimer-grid">
-            <div class="disclaimer-item">
-                <h4>Personal Perspectives</h4>
-                <p>All articles, opinions, and insights shared represent my personal views and experiences, developed through decades of analysis, research, clinical practice, and interactions with colleagues, students, and patients.</p>
-            </div>
-            <div class="disclaimer-item">
-                <h4>Constructive Intent</h4>
-                <p>This platform is created with sincere intention of fostering meaningful dialogue and contributing to the transformation and advancement of Ayurveda.</p>
-            </div>
-            <div class="disclaimer-item">
-                <h4>Respectful Dialogue</h4>
-                <p>While I share honest assessments and critical analyses, these are presented with utmost respect for all stakeholders in the Ayurvedic community.</p>
-            </div>
-            <div class="disclaimer-item">
-                <h4>Open Discussion</h4>
-                <p>I believe honest, open dialogue is essential for growth. I welcome respectful discourse and collaborative discussions for excellence in Ayurvedic practice.</p>
-            </div>
-        </div>
+  <!-- Tab: Mission -->
+  <div id="mission" class="tab-content">
+    <h3>Our Mission</h3>
+    <p>Through this blog, we aim to:</p>
+    <ul class="mission-list">
+      <li><strong>Inspire Excellence</strong> in Ayurvedic education and practice</li>
+      <li><strong>Encourage Innovation</strong> while respecting traditional wisdom</li>
+      <li><strong>Foster Collaboration</strong> between traditional and modern approaches</li>
+      <li><strong>Promote Evidence-Based Practice</strong> in Ayurvedic medicine</li>
+      <li><strong>Support Professional Development</strong> of current and future practitioners</li>
+      <li><strong>Contribute to Policy Discussions</strong> that can improve our field</li>
+    </ul>
+  </div>  <!-- ← end #mission -->
+
+  <!-- Tab: Disclaimer -->
+  <div id="disclaimer" class="tab-content">
+    <h3>Important Disclaimer &amp; Platform Mission</h3>
+    <div class="disclaimer-grid">
+      <div class="disclaimer-item">
+        <h4>Personal Perspectives</h4>
+        <p>All articles, opinions, and insights shared represent my personal views and experiences, developed through decades of analysis, research, clinical practice, and interactions with colleagues, students, and patients.</p>
+      </div>
+      <div class="disclaimer-item">
+        <h4>Constructive Intent</h4>
+        <p>This platform is created with sincere intention of fostering meaningful dialogue and contributing to the transformation and advancement of Ayurveda.</p>
+      </div>
+      <div class="disclaimer-item">
+        <h4>Respectful Dialogue</h4>
+        <p>While I share honest assessments and critical analyses, these are presented with utmost respect for all stakeholders in the Ayurvedic community.</p>
+      </div>
+      <div class="disclaimer-item">
+        <h4>Open Discussion</h4>
+        <p>I believe honest, open dialogue is essential for growth. I welcome respectful discourse and collaborative discussions for excellence in Ayurvedic practice.</p>
+      </div>
     </div>
-</div>
+  </div>  <!-- ← end #disclaimer -->
+
+</div>  <!-- ← end .info-tabs-section -->
 
 <!-- Articles Section -->
 <div class="articles-section">
-    <h2>Latest Articles</h2>
-
-    <div class="articles-grid">
-        {% for post in site.posts limit: 6 %}
-        <div class="article-card">
-            <div class="article-meta">
-                <!--
-                  ✅ FIX: Liquid filter chain converts any category name to a
-                  valid CSS class, handling spaces and & characters:
-                    "Healthcare Policy"     → healthcare-policy
-                    "Public Health"         → public-health
-                    "Reflections & Musings" → reflections-musings
-                    "Yoga & Wellness"       → yoga-wellness
-                    "Administrative"        → administrative  (unchanged)
-                -->
-                <span class="category-tag {{ post.categories[0] | downcase | replace: ' ', '-' | remove: '&' | replace: '--', '-' }}">
-                    {{ post.categories[0] }}
-                </span>
-                <span style="margin-left: 1rem; color: #718096;">{{ post.date | date: "%B %d, %Y" }}</span>
-            </div>
-            <h3 class="article-title">
-                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-            </h3>
-            <p>
-                {% if post.excerpt %}
-                    {{ post.excerpt | strip_html | truncate: 150 }}
-                {% else %}
-                    {{ post.content | strip_html | truncate: 150 }}
-                {% endif %}
-            </p>
-        </div>
-        {% endfor %}
+  <h2>Latest Articles</h2>
+  <div class="articles-grid">
+    {% for post in site.posts limit: 6 %}
+    <div class="article-card">
+      <div class="article-meta">
+        <span class="category-tag {{ post.categories[0] | downcase | replace: ' ', '-' | remove: '&' | replace: '--', '-' }}">
+          {{ post.categories[0] }}
+        </span>
+        <span style="margin-left: 1rem; color: #718096;">{{ post.date | date: "%B %d, %Y" }}</span>
+      </div>
+      <h3 class="article-title">
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </h3>
+      <p>
+        {% if post.excerpt %}
+          {{ post.excerpt | strip_html | truncate: 150 }}
+        {% else %}
+          {{ post.content | strip_html | truncate: 150 }}
+        {% endif %}
+      </p>
     </div>
-
-    <div style="text-align: center; margin-top: 2rem;">
-        <a href="/archives" style="background: #2c5530; color: white; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 600;">View All Articles</a>
-    </div>
+    {% endfor %}
+  </div>
+  <div style="text-align: center; margin-top: 2rem;">
+    <a href="/archives" style="background: #2c5530; color: white; padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 600;">View All Articles</a>
+  </div>
 </div>
 
 <script>
 function openTab(evt, tabName) {
-    var i, tabcontent, tablinks;
-    tabcontent = document.getElementsByClassName("tab-content");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].classList.remove("active");
-    }
-    tablinks = document.getElementsByClassName("tab-btn");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].classList.remove("active");
-    }
-    document.getElementById(tabName).classList.add("active");
-    evt.currentTarget.classList.add("active");
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tab-content");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].classList.remove("active");
+  }
+  tablinks = document.getElementsByClassName("tab-btn");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].classList.remove("active");
+  }
+  document.getElementById(tabName).classList.add("active");
+  evt.currentTarget.classList.add("active");
 }
 </script>
