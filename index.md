@@ -218,6 +218,7 @@
       "Yoga & Wellness"       → yoga-wellness
       "Healthcare Policy"     → healthcare-policy
       "Public Health"         → public-health
+      "Geopolitics and Economy" → geopolitics-and-economy
 ─────────────────────────────────────────────────────────────── */
 .category-tag.administrative    { background: #3182ce; color: white; }
 .category-tag.academic          { background: #38a169; color: white; }
@@ -228,7 +229,7 @@
 /* ✅ NEW */
 .category-tag.healthcare-policy { background: #c53030; color: white; }
 .category-tag.public-health     { background: #2b6cb0; color: white; }
-
+.category-tag.geopolitics-and-economy { background: #6b46c1; color: white; 
 /* Author Cards */
 .authors-grid {
   display: grid;
@@ -351,6 +352,7 @@ nav a:hover {
             <!-- ✅ NEW -->
             <span class="expertise-tag">📋 Healthcare Policy</span>
             <span class="expertise-tag">🌐 Public Health</span>
+        <span class="expertise-tag">🌍 Geopolitics and Economy</span>
         </div>
     </div>
 </div>
@@ -403,7 +405,10 @@ nav a:hover {
             </div>
         </div>
     </div>
-
+<div class="area-card">
+    <h3>🌍 Geopolitics and Economy</h3>
+    <p>How global economic forces, supply chains, geopolitical conflicts, and commodity markets shape the conditions of Ayurvedic practice — examining the invisible threads connecting a 21-mile strait in the Persian Gulf to the pharmacy shelf.</p>
+</div>
     <!-- Tab Content: About Us -->
     <div id="about-us" class="tab-content">
         <h3>About the Authors</h3>
