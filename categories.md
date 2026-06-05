@@ -129,4 +129,27 @@ Ayurveda's real and potential contribution to India's public health infrastructu
 
 ---
 
+---
+
+## 🌍 Geopolitics & Economy
+
+How global economic forces, supply chains, geopolitical conflicts, and commodity markets shape the conditions of Ayurvedic practice — examining the invisible threads connecting a 21-mile strait in the Persian Gulf to the pharmacy shelf.
+
+{% assign geo_posts = site.posts | where_exp: "post", "post.categories contains 'Geopolitics & Economy'" %}
+
+{% if geo_posts.size > 0 %}
+
+{% for post in geo_posts %}
+
+- [{{ post.title }}]({{ post.url }}) — {{ post.date | date: "%B %d, %Y" }}
+
+{% endfor %}
+
+{% else %}
+
+*No articles in this category yet.*
+
+{% endif %}
+
+---
 *Browse by month in the [Archives](/archives) or return to [Home](/) for the latest posts.*
