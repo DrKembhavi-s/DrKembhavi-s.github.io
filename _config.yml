@@ -18,6 +18,7 @@ plugins:
 # Site settings
 baseurl: ""
 url: "https://DrKembhavi-s.github.io"
+permalink: /:year/:month/:day/:title/
 
 # Custom CSS Configuration
 sass:
