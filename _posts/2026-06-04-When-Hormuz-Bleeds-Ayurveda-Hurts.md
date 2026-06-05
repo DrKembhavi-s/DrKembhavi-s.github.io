@@ -6,15 +6,6 @@ categories: [Healthcare Policy]
 author: "Dr Aakash Kembhavi"
 ---
 
-![Image 1](/assets/images/posts/hormuz-ayurveda.jpg)
-
-**WHEN HORMUZ BLEEDS, AYURVEDA HURTS**
-
-**The Strait Nobody in Our Tradition Is Talking About — and Why Every Vaidya, Manufacturer, and Student of Ayurveda Must Pay Urgent Attention Right Now**
-
-**Dr. Aakash Kembhavi** *Director, Astanga Wellness Pvt. Ltd. | Chief Editor, International Journal of Ayurveda*
-
-*Published on Ayurveda Unfiltered | June 2026*
 
 *"When the Strait of Hormuz closes, it does not merely halt oil tankers — it silently disrupts the ghrita that lubricates Ayurvedic tablet presses, the sulphur that purifies Gandhaka Rasayana, the copper that carries electricity to the bhavana chamber, the fertiliser that feeds the herb farm, and the sesame oil that is Tila Taila itself. The war in the Persian Gulf is not happening to someone else. It is happening to us."*
 
