@@ -4,7 +4,7 @@ title: "When Hormuz Bleeds, Ayurveda Hurts"
 subtitle: "The Strait Nobody in Our Tradition Is Talking About — and Why Every Vaidya, Manufacturer, and Student of Ayurveda Must Pay Urgent Attention Right Now"
 excerpt: "When the Strait of Hormuz closes, it does not merely halt oil tankers — it silently disrupts the ghrita that lubricates Ayurvedic tablet presses, the sulphur that purifies Gandhaka Rasayana, the copper that carries electricity to the bhavana chamber, the fertiliser that feeds the herb farm, and the sesame oil that is Tila Taila itself."
 date: 2026-06-05
-categories: [Healthcare Policy, Public Health, Geopolitics and Economy]
+categories: [Geopolitics]
 tags: ["hormuz", "petroleum", "rasashastra", "fertiliser", "supply-chain", "metals", "gandhaka", "ghrita", "taila", "medicinal-plants", "iran-war", "india-energy", "ayurveda-manufacturing"]
 author: "Dr Aakash Kembhavi"
 ---
