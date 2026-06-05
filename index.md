@@ -403,12 +403,14 @@ nav a:hover {
                 <h3>🌐 Public Health</h3>
                 <p>Ayurveda's real and potential contribution to India's public health infrastructure — including hospital beds, workforce deployment, burden of disease, and the honest arithmetic of what the system delivers at population scale.</p>
             </div>
-        </div>
-    </div>
-<div class="area-card">
-    <h3>🌍 Geopolitics and Economy</h3>
+            <!-- ✅ NEW -->
+            <div class="area-card">
+            <h3>🌍 Geopolitics and Economy</h3>
     <p>How global economic forces, supply chains, geopolitical conflicts, and commodity markets shape the conditions of Ayurvedic practice — examining the invisible threads connecting a 21-mile strait in the Persian Gulf to the pharmacy shelf.</p>
 </div>
+</div>
+    </div>
+<div class="area-card">
     <!-- Tab Content: About Us -->
     <div id="about-us" class="tab-content">
         <h3>About the Authors</h3>
