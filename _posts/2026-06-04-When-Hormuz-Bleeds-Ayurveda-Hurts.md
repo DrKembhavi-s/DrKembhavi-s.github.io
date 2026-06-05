@@ -3,7 +3,7 @@ layout: post
 title: "When Hormuz Bleeds, Ayurveda Hurts"
 date: 2026-06-04
 author: Aakash Kembhavi
-categories: [Healthcare-Policy, Public-Health, Geopolitics-and-Economy]
+categories: [Health Policy]
 tags: [hormuz, petroleum, rasashastra, fertiliser, supply-chain, metals, gandhaka, ghrita, taila, medicinal-plants, iran-war, india-energy, ayurveda-manufacturing]
 ---
 # When Hormuz Bleeds, Ayurveda Hurts
