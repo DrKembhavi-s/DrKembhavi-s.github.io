@@ -4,10 +4,10 @@ title: "When Hormuz Bleeds, Ayurveda Hurts"
 subtitle: "The Strait Nobody in Our Tradition Is Talking About — and Why Every Vaidya, Manufacturer, and Student of Ayurveda Must Pay Urgent Attention Right Now"
 date: 2026-06-04
 author: Dr. Aakash Kembhavi
-categories: [Healthcare Policy, Public Health, Geopolitics & Economy]
+categories: [Healthcare Policy, Public Health, Geopolitics and Economy]
 tags: [hormuz, petroleum, rasashastra, fertiliser, supply-chain, metals, gandhaka, ghrita, taila, medicinal-plants, iran-war, india-energy, ayurveda-manufacturing]
 excerpt: "When the Strait of Hormuz closes, it does not merely halt oil tankers — it silently disrupts the ghrita that lubricates Ayurvedic tablet presses, the sulphur that purifies Gandhaka Rasayana, the copper that carries electricity to the bhavana chamber, the fertiliser that feeds the herb farm, and the sesame oil that is Tila Taila itself."
-![Image 1](/assets/images/posts/hormuz-ayurveda.jpg)
+image: /assets/images/posts/hormuz-ayurveda.jpg
 ---
 
 > *"When the Strait of Hormuz closes, it does not merely halt oil tankers — it silently disrupts the ghrita that lubricates Ayurvedic tablet presses, the sulphur that purifies Gandhaka Rasayana, the copper that carries electricity to the bhavana chamber, the fertiliser that feeds the herb farm, and the sesame oil that is Tila Taila itself. The war in the Persian Gulf is not happening to someone else. It is happening to us."*
@@ -129,7 +129,7 @@ India now imports approximately 243 million metric tonnes of crude oil annually 
   </div>
 </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script src="/assets/js/chart.umd.js"></script>
 <script>
 (function(){
   var grid='rgba(0,0,0,0.06)', tick='rgba(0,0,0,0.45)';
