@@ -155,6 +155,11 @@
 .category-tag.public-health       { background: #2b6cb0; color: white; }
 .category-tag.geopolitics-and-economy { background: #6b46c1; color: white; }   /* ← FIX: closing } was missing */
 
+  /* Hide minima's anchor link icon next to post titles */
+a[href^="#"] svg { display: none !important; }
+a.post-link-icon { display: none !important; }
+.post-list .post-link + a { display: none !important; }
+  
 /* Author Cards */
 .authors-grid {
   display: grid;
