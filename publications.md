@@ -15,7 +15,10 @@ A three-part critical monograph on why Ayurveda lacks clinical decision support 
 
 ## Critical Analysis & Geopolitics of Ayurveda
 
-**[When Hormuz Bleeds, Ayurveda Hurts: The Strait Nobody in Our Tradition Is Talking About](https://drkembhavi-s.github.io/2026/06/04/When-Hormuz-Bleeds-Ayurveda-Hurts)**
+**[When Hormuz Bleeds, Ayurveda Hurts: The Strait Nobody in Our Tradition Is Talking About](/pdfs/kembhavi-2026-when-hormuz-bleeds-ayurveda-hurts.pdf)**
+
+*Also available as an interactive article with visualisations at:*
+*[drkembhavi-s.github.io — Ayurveda Unfiltered](https://drkembhavi-s.github.io/2026/06/04/When-Hormuz-Bleeds-Ayurveda-Hurts)*
 
 *Ayurveda Unfiltered*, June 2026
 
