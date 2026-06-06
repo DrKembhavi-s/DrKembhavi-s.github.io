@@ -13,6 +13,18 @@ A three-part critical monograph on why Ayurveda lacks clinical decision support 
 
 ---
 
+## Critical Analysis & Geopolitics of Ayurveda
+
+**[When Hormuz Bleeds, Ayurveda Hurts: The Strait Nobody in Our Tradition Is Talking About](https://drkembhavi-s.github.io/2026/06/05/When-Hormuz-Bleeds-Ayurveda-Hurts)**
+
+*Ayurveda Unfiltered*, June 2026
+
+Probably the first systematic analysis of Ayurvedic manufacturing's petrochemical and geopolitical supply chain dependency published anywhere in Ayurvedic discourse. The article examines how the closure of the Strait of Hormuz following the US–Israel–Iran conflict of February 2026 is disrupting, simultaneously, India's crude oil supply (88.6–89.4% import dependent), the sulphur used in Gandhaka Rasayana (a petroleum refinery byproduct), the metals of Rasashastra (now competing with the AI semiconductor industry), the fertiliser chain feeding India's medicinal plant farms, the cattle feed and ghee supply chain affecting Ghrita Kalpana formulations, and the edible oil price architecture that determines the cost of Tila Taila. Supported by 40+ sourced statistics, four interactive data visualisations, and a nine-step cascade diagram. Concludes with seven strategic imperatives for the profession.
+
+*Written in AI collaboration with Claude (Anthropic) — disclosed in full within the article.*
+
+---
+
 ## COVID-19 & Ayurveda Response
 
 **[Is It Time to Reboot the System of Ayurveda in India?](/pdfs/kembhavi-2020-reboot-ayurveda-system-jbino.pdf)**
