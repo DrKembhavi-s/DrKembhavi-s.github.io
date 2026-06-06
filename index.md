@@ -1,8 +1,8 @@
 ---
-layout: default
 ---
 
 <style>
+/* Inline CSS for immediate effect */
 .hero-section {
   background: linear-gradient(135deg, #2c5530 0%, #4a7c59 100%);
   color: white;
@@ -126,7 +126,13 @@ layout: default
   transition: transform 0.3s ease;
 }
 .article-card:hover { transform: translateY(-5px); }
-.article-title { font-size: 1.3rem; margin-bottom: 1rem; }
+/* ✅ KEY FIX: article-title is a div not h3 — prevents minima adding anchor icon */
+.article-title {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
 .article-title a { color: #2c5530; text-decoration: none; }
 .article-meta { color: #718096; font-size: 0.9rem; margin-bottom: 1rem; }
 .category-tag {
@@ -144,7 +150,7 @@ layout: default
       "Yoga & Wellness"       → yoga-wellness
       "Healthcare Policy"     → healthcare-policy
       "Public Health"         → public-health
-      "Geopolitics and Economy" → geopolitics-and-economy
+      "Geopolitics"           → geopolitics
 ─────────────────────────────────────────────────────────────── */
 .category-tag.administrative      { background: #3182ce; color: white; }
 .category-tag.academic            { background: #38a169; color: white; }
@@ -154,13 +160,8 @@ layout: default
 .category-tag.yoga-wellness       { background: #48bb78; color: white; }
 .category-tag.healthcare-policy   { background: #c53030; color: white; }
 .category-tag.public-health       { background: #2b6cb0; color: white; }
-.category-tag.geopolitics-and-economy { background: #6b46c1; color: white; }   /* ← FIX: closing } was missing */
+.category-tag.geopolitics         { background: #6b46c1; color: white; }
 
-  /* Hide minima's anchor link icon next to post titles */
-a[href^="#"] svg { display: none !important; }
-a.post-link-icon { display: none !important; }
-.post-list .post-link + a { display: none !important; }
-  
 /* Author Cards */
 .authors-grid {
   display: grid;
@@ -174,26 +175,10 @@ a.post-link-icon { display: none !important; }
   border-left: 6px solid #2c5530;
   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
-.author-card h4 {
-  font-size: 1.5rem;
-  color: #2c5530;
-  margin-bottom: 0.5rem;
-  font-weight: 700;
-}
-.author-role {
-  font-size: 1.1rem;
-  color: #c17c47;
-  font-weight: 600;
-  margin-bottom: 1rem;
-  font-style: italic;
-}
+.author-card h4 { font-size: 1.5rem; color: #2c5530; margin-bottom: 0.5rem; font-weight: 700; }
+.author-role { font-size: 1.1rem; color: #c17c47; font-weight: 600; margin-bottom: 1rem; font-style: italic; }
 .qualification-list, .role-list { list-style: none; padding-left: 0; margin: 0.5rem 0; }
-.qualification-list li, .role-list li {
-  padding: 0.3rem 0;
-  padding-left: 1.5rem;
-  position: relative;
-  font-size: 0.95rem;
-}
+.qualification-list li, .role-list li { padding: 0.3rem 0; padding-left: 1.5rem; position: relative; font-size: 0.95rem; }
 .qualification-list li::before { content: "🎓"; position: absolute; left: 0; font-size: 1rem; }
 .role-list li::before { content: "🏥"; position: absolute; left: 0; font-size: 1rem; }
 .qualifications, .author-card > p { margin-bottom: 1rem; line-height: 1.6; }
@@ -305,7 +290,7 @@ nav a:hover { background: #2c5530; color: white; }
         <p>How global economic forces, supply chains, geopolitical conflicts, and commodity markets shape the conditions of Ayurvedic practice — examining the invisible threads connecting a 21-mile strait in the Persian Gulf to the pharmacy shelf.</p>
       </div>
     </div>
-  </div>  <!-- ← end #about-areas -->
+  </div>
 
   <!-- Tab: About Us -->
   <div id="about-us" class="tab-content">
@@ -327,7 +312,7 @@ nav a:hover { background: #2c5530; color: white; }
         <p><strong>Current Roles:</strong> Director at Astanga Wellness, Professor at Jain AGM Ayurvedic College, Board Member Europe Ayurveda Academy</p>
       </div>
     </div>
-  </div>  <!-- ← end #about-us -->
+  </div>
 
   <!-- Tab: Mission -->
   <div id="mission" class="tab-content">
@@ -341,7 +326,7 @@ nav a:hover { background: #2c5530; color: white; }
       <li><strong>Support Professional Development</strong> of current and future practitioners</li>
       <li><strong>Contribute to Policy Discussions</strong> that can improve our field</li>
     </ul>
-  </div>  <!-- ← end #mission -->
+  </div>
 
   <!-- Tab: Disclaimer -->
   <div id="disclaimer" class="tab-content">
@@ -364,9 +349,9 @@ nav a:hover { background: #2c5530; color: white; }
         <p>I believe honest, open dialogue is essential for growth. I welcome respectful discourse and collaborative discussions for excellence in Ayurvedic practice.</p>
       </div>
     </div>
-  </div>  <!-- ← end #disclaimer -->
+  </div>
 
-</div>  <!-- ← end .info-tabs-section -->
+</div>
 
 <!-- Articles Section -->
 <div class="articles-section">
@@ -380,9 +365,10 @@ nav a:hover { background: #2c5530; color: white; }
         </span>
         <span style="margin-left: 1rem; color: #718096;">{{ post.date | date: "%B %d, %Y" }}</span>
       </div>
-      <h3 class="article-title">
+      <!-- ✅ KEY FIX: div instead of h3 — stops minima adding anchor link icon -->
+      <div class="article-title">
         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      </h3>
+      </div>
       <p>
         {% if post.excerpt %}
           {{ post.excerpt | strip_html | truncate: 150 }}
@@ -413,4 +399,3 @@ function openTab(evt, tabName) {
   evt.currentTarget.classList.add("active");
 }
 </script>
- 
