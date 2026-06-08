@@ -217,6 +217,7 @@ nav a:hover { background: #2c5530; color: white; }
   <a href="/">Home</a>
   <a href="/categories">Categories</a>
   <a href="/publications">Publications</a>
+  <a href="/books">Books</a>
   <a href="/about">About</a>
   <a href="/archives">Archives</a>
 </nav>
