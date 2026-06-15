@@ -6,8 +6,6 @@ categories: [Research]
 author: "Dr Aakash Kembhavi"
 ---
 
-![Image 1](/assets/images/posts/pico_ayurveda_framework_page-0001.jpg)
-
 **The Title Is the Research: Why Getting It Right Is Not Optional for PG and PhD Scholars in Ayurveda**
 
 ***Dr. Aakash Kembhavi*** MD (Ayu-Shalya), PGDMLS, MS (Counseling & Psychotherapy) | 
@@ -130,6 +128,8 @@ In longitudinal studies, the element of Time (T) becomes critical. How long will
 *"A clinical study to evaluate the efficacy of Triphala Churna in the management of Amlapitta (Gastro-Oesophageal Reflux Disease) over 30 days, with a 15-day follow-up assessment"*
 
 The addition of time transforms a vague proposal into a structured protocol. It tells the reader — and the ethics committee — exactly how long the study runs, when outcomes are captured, and whether the intervention's effects are sustainable.
+
+![Image 1](/assets/images/posts/pico_ayurveda_framework_page-0001.jpg)
 
 **The Critical Literature Search: The Foundation You Cannot Skip**
 
