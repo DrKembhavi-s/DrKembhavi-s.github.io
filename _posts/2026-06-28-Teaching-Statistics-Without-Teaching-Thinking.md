@@ -8,7 +8,7 @@ author: "Dr Aakash Kembhavi"
 
 ![Image 1](/assets/images/posts/Teaching_Staistics_Without_Teaching_Thinking.png)
 
-**Teaching Statistics Without Teaching Thinking**
+**Teaching Statistics Without Teaching Thinking - Reform is not optional. It is overdue**
 
 ***Dr. Aakash Kembhavi**** & *
 
