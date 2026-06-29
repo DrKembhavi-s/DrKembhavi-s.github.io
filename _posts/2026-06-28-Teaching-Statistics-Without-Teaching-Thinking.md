@@ -5,14 +5,13 @@ date: 2026-06-28 09:00:00 +0530
 categories: [Research]
 author: "Dr Aakash Kembhavi"
 ---
-
-![Image 1](/assets/images/posts/Teaching_Staistics_Without_Teaching_Thinking.png)
-
 **Teaching Statistics Without Teaching Thinking - Reform is not optional. It is overdue**
 
 ***Dr. Aakash Kembhavi**** & *
 
 ***Vd. Ayudha Kembhavi,**** BAMS, Founder and Clinical Director, Aaranya Ayurveda and Holistic Wellness Center, Bengaluru.*
+
+![Image 1](/assets/images/posts/Teaching_Staistics_Without_Teaching_Thinking.png)
 
 **National Statistics Day is observed in India on June 29 each year to honour the birth anniversary of Professor P.C. Mahalanobis — a man who understood, with rare clarity, that statistical thinking is not a technical luxury but a civilisational necessity. Mahalanobis did not merely teach Indians to calculate; he taught a newly independent nation to ask better questions about itself. He built institutions, not just methods. He insisted that numbers mean nothing without the reasoning structures that give them interpretive force. It is a bitter irony, then, that on the day we celebrate his legacy, the institutions entrusted with producing India's next generation of healthcare researchers continue to teach statistics as a ritual of calculation — executed without comprehension, cited without understanding, and deployed without the critical thinking that Mahalanobis spent his life insisting was the whole point.**
 
