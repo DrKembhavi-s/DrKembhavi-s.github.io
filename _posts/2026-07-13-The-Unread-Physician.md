@@ -10,7 +10,7 @@ author: "Dr Aakash Kembhavi"
 
 **From the Panchatantra to the Examination Syllabus — What Indian Medicine Lost When It Stopped Reading**
 
-**Dr. Aakash Kembhavi** BAMS, MD (Ayu-Shalya), PGDMLS, MS (Counseling & Psychotherapy) Director, Astanga Wellness Pvt. Ltd. | PhD Guide, RGUHS | Chief Editor, International Journal of Ayurveda
+**Dr. Aakash Kembhavi** BAMS, MD (Ayu-Shalya), PGDMLS, MS (Counseling & Psychotherapy) Director, Astanga Wellness Pvt. Ltd. | Chief Editor, International Journal of Ayurveda
 
 *Correspondence:* drkembhavi@live.com
 
