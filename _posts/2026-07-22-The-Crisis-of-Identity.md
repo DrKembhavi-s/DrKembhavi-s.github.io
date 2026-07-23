@@ -487,7 +487,6 @@ But only if it remains authentic.
 
 **About the Author**: This article reflects on the critical challenges facing authentic Ayurvedic practice in the modern era, the risks of losing traditional clinical wisdom, and the urgent need for educational reform and practitioner commitment to preserving genuine Ayurvedic medicine for future generations.
 
-**Last Updated**: October 2025
 
 ---
 
