@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Does AIAPGET Actually Test Clinical Competence?"
+title: "Does AIAPGET Actually Test Clinical Competence? A nine-year reality check on Ayurveda’s PG entrance gatekeeper"
 date: 2026-08-23 09:00:00 +0530
 categories: [Administrative]
 author: "Dr Aakash Kembhavi"
