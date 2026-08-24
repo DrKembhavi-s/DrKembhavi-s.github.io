@@ -163,21 +163,21 @@ The Multiple Mini Interview format — several short, independently scored stati
 
 ***Clinical-branch stations:**** *
 
-1. *a diagnostic-reasoning station (reason aloud through a case under questioning); *
-2. *an ethical-dilemma station (e.g. a patient requesting treatment outside evidence or scope); *
-3. *a data-interpretation station (reading a small lab report or dataset); *
-4. *a patient-communication station (explaining a diagnosis to a simulated patient); *
-5. *a research-critique station (critiquing a study design relevant to the chosen specialty); and *
-6. *a motivation/fit station.*
+1. a diagnostic-reasoning station (reason aloud through a case under questioning); 
+2. an ethical-dilemma station (e.g. a patient requesting treatment outside evidence or scope); 
+3. a data-interpretation station (reading a small lab report or dataset); 
+4. a patient-communication station (explaining a diagnosis to a simulated patient); 
+5. a research-critique station (critiquing a study design relevant to the chosen specialty); and 
+6. a motivation/fit station.
 
 ***Non-clinical-branch stations:**** *
 
-1. *a textual-interpretation station (given a classical passage, interpret it and defend that reading under questioning); *
-2. *a scholarly-integrity station (e.g. handling conflicting commentarial views or proper attribution); *
-3. *a data/evidence station (interpreting results from an analytical or pharmacological study); *
-4. *a teaching-communication station (explaining a complex classical concept to a lay or student audience); *
-5. *a research-critique station (oriented to non-clinical research — drug standardisation, pharmacognosy, educational research); and *
-6. *a motivation/fit station.*
+1. a textual-interpretation station (given a classical passage, interpret it and defend that reading under questioning); 
+2. a scholarly-integrity station (e.g. handling conflicting commentarial views or proper attribution); 
+3. a data/evidence station (interpreting results from an analytical or pharmacological study); *
+4. a teaching-communication station (explaining a complex classical concept to a lay or student audience); 
+5. a research-critique station (oriented to non-clinical research — drug standardisation, pharmacognosy, educational research); and 
+6. a motivation/fit station.
 
 ## **5. The rest of the framework**
 
@@ -204,7 +204,7 @@ This audit and the proposed redesign are both drafts, and I intend to keep both 
 
 My purpose in putting this in public view is simple: an exam that decides who gets to become a postgraduate Ayurveda specialist deserves to be evaluated on the same evidentiary standards we would expect of any other high-stakes assessment — not defended or dismissed on impression.
 
-*Comments, corrections, and disagreement are genuinely welcome — reach me at drkembhavi@astangawellness.com.*
+*Comments, corrections, and disagreement are genuinely welcome.*
 
 ---
 
