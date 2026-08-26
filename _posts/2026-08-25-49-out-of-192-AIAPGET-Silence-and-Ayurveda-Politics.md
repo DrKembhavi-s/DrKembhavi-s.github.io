@@ -6,7 +6,9 @@ categories: [Reflections & Musings]
 author: "Dr Aakash Kembhavi"
 ---
 
+
 ![Image 1](/assets/images/posts/AIAPGET.jpg)
+
 
 **49 Out of 192: What the AIAPGET 2026 Silence Says About Ayurveda's Real Curriculum — Survival**
 
@@ -24,7 +26,7 @@ In the interest of transparency, this article was developed in collaboration wit
 
 That leaves 143 candidates at the same centre, in the same compromised room, whose scores stand unchallenged. Candidates on social media asked the obvious question:** *why only them?* **
 
-**I want to ask a different, harder question, because the first one at least got asked out loud. **
+**I want to ask a different, harder question, because the first one at least got asked out loud.**
 
 **Where was the outrage from the rest of us** — the tens of thousands of Ayurveda postgraduate aspirants, the faculties who teach them, the colleges that will absorb this year's ranked list, the professional bodies that exist, on paper, to speak for this profession? 
 
@@ -36,7 +38,7 @@ A single equipment failure at a single centre is a logistics problem, and NTA's 
 
 Anyone who has spent time with AIAPGET question papers over the last several admission cycles — and I have, year by year, item by item — already knows this is a testing apparatus that has never been made to answer for its own quality: papers padded with rote recall and general-knowledge trivia in place of clinical reasoning, mapping and matching exercises that test memorisation rather than diagnostic thinking, and no published, transparent accounting of item quality from the agency that sets the gate for every Ayurveda postgraduate seat in the country. 
 
-**A single power cut in Jaipur is a symptom. **
+**A single power cut in Jaipur is a symptom.**
 
 **The disease is that nobody with the standing to demand better has ever been made to.**
 
@@ -49,15 +51,15 @@ Ask that plainly, sector by sector, and the answers are uncomfortable.
 - **Faculty associations and professional bodies**, several of which sit close enough to AYUSH's policy circles to be invited to its committees, consultations, and ceremonial platforms, have far more to lose from being seen as adversarial to the Ministry or the NTA than they have to gain from defending 49, or 192, students they will never meet.
 - **Universities and regulators** — the National Commission for Indian System of Medicine among them — have shown no appetite for an independent, published audit of AIAPGET's item quality or its centre-management standards, year after year, cycle after cycle.
 
-**Every one of these silences is individually defensible as “not my problem” or “not worth the risk.” **
+**Every one of these silences is individually defensible as “not my problem” or “not worth the risk.”**
 
 **Collectively, they are the profession's actual position on its own entrance examination: acceptable as it is, indefinitely.**
 
 # **The Politics of Survival**
 
-I have said this before and I will say it again, because thirty years inside this system have not given me a reason to soften it: **accountability, transparency, and integrity are not values this system currently rewards. **
+I have said this before and I will say it again, because thirty years inside this system have not given me a reason to soften it: **accountability, transparency, and integrity are not values this system currently rewards.**
 
-**What it rewards is *quid pro quo* — quiet compliance in exchange for continued access. **
+**What it rewards is *quid pro quo* — quiet compliance in exchange for continued access.**
 
 A faculty member who stays silent about a diluted PG viva, a padded question bank, or a college's convenient look-the-other-way culture is the faculty member who gets the next examinership, the next syndicate seat, the next research-guideship. 
 
@@ -87,13 +89,13 @@ It is that this system has organised itself so that acting in your own interest 
 
 This is the question I have asked before and will keep asking, because AIAPGET 2026 is only the latest occasion to ask it again. 
 
-**Ayurveda is, today, a fractured community — not united by a shared standard, a shared grievance mechanism, or a shared willingness to be inconvenient to the people who hold power over its colleges and its careers. **
+**Ayurveda is, today, a fractured community — not united by a shared standard, a shared grievance mechanism, or a shared willingness to be inconvenient to the people who hold power over its colleges and its careers.**
 
 If a national entrance test can be compromised for nearly two hundred candidates and generate a fraction of the outrage a comparable NEET failure would draw automatically, the fracture is not hypothetical. 
 
-It is measurable, in the silence itself. 
+**It is measurable, in the silence itself.** 
 
-And if the colleges, principals, faculties, and universities who are supposed to stand between students and this kind of institutional failure will not do it even when the facts are this clear and this public**, I see no reason to be hopeful about Ayurveda correcting itself as a system, from the inside, on its own timeline.**
+And if the colleges, principals, faculties, and universities who are supposed to stand between students and this kind of institutional failure will not do it even when the facts are this clear and this public, **I see no reason to be hopeful about Ayurveda correcting itself as a system, from the inside, on its own timeline.**
 
 # **What Would Actually Have to Change**
 
@@ -103,7 +105,7 @@ And if the colleges, principals, faculties, and universities who are supposed to
 - **Explicit protection for faculty who flag irregularities in exams, dissertations, or appointments** — so that the professionally safe choice and the ethically correct one stop being opposites.
 - **A decoupling of PG/PhD completion from automatic eligibility for faculty appointment and promotion, enforced through external, rotating examiners with no institutional stake in the outcome.**
 
-**None of this happens because a blog post asks for it. **
+**None of this happens because a blog post asks for it.**
 
 It happens, if it ever does, when enough people inside this profession decide that protecting Ayurveda's credibility is worth more to them than protecting their own position within a system that currently asks them to choose between the two. 
 
@@ -115,4 +117,4 @@ Until that calculation changes for enough people, the next power cut, the next p
 
 ---
 
-*Share your thoughts in the comments below.*
+**Share your thoughts in the comments below.**
