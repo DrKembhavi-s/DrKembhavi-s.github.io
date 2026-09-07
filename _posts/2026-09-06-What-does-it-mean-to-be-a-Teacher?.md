@@ -1,7 +1,6 @@
 ---
 layout: post
-title: "What Does It Mean To Be A Teacher?" 
-***A Teachers' Day Reflection — and a Reckoning for Ayurveda***
+title: "What Does It Mean To Be A Teacher? - ***A Teachers' Day Reflection — and a Reckoning for Ayurveda***"
 date: 2026-09-06 09:00:00 +0530
 categories: [Reflections & Musings]
 author: "Dr Aakash Kembhavi"
