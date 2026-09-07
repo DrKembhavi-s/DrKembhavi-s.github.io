@@ -18,7 +18,7 @@ author: "Dr Aakash Kembhavi"
 
 *Disclaimer: The views expressed in this article are the author's personal reflections and opinions. They do not represent the position of any institution he is affiliated with, and nothing here should be construed as medical advice. In the interest of transparency, this article was developed in collaboration with AI tools for research support, structuring, and drafting; the ideas, judgments, and conclusions expressed remain entirely the author's own.*
 
-**Every year on the fifth of September, India pauses — or performs a pause — to remember its teachers. **
+**Every year on the fifth of September, India pauses — or performs a pause — to remember its teachers.**
 
 The date was chosen to honour Dr. Sarvepalli Radhakrishnan, philosopher, statesman, and above all, a teacher who believed the vocation was too sacred to be reduced to a profession. 
 
@@ -34,7 +34,7 @@ Radhakrishnan did not mean the most credentialed minds, or the most published, o
 
 And yet, what does Teachers' Day usually look like? A garland, a bouquet, a felicitation on a stage, a photograph for the college newsletter or the institution's social media handle, a speech read out rather than felt, and by evening, life resumes exactly as it was. I say this not to belittle the affection behind these gestures — much of it is sincere — but to ask whether sincerity of feeling is being allowed to translate into sincerity of action. A celebration that changes nothing about how teachers are treated for the other three hundred and sixty-four days of the year is not a tribute. It is a photo opportunity wearing the clothes of a tribute.
 
-*"Teaching is the highest form of understanding."  — Aristotle*
+**"Teaching is the highest form of understanding."  — Aristotle**
 
 If teaching truly is the highest form of understanding, as Aristotle held, then a single day of applause is a strange way to acknowledge a lifetime spent in that pursuit. Meaningful observance would ask harder questions: Are our teachers paid enough to live with dignity? Are they given the time and autonomy to think, to research, to mentor deeply rather than merely deliver content? Are they respected as intellectual authorities, or merely as employees who must be managed, monitored, and audited? A celebration worthy of the name would answer these questions honestly, even when the honest answers are uncomfortable.
 
@@ -46,7 +46,7 @@ It is accomplished, generation after generation, in classrooms, wards, and labor
 
 Every doctor, engineer, scientist, administrator, and citizen capable of independent thought owes that capacity to some teacher who chose, often against poor incentives, to teach well rather than merely to teach.
 
-*"Education is the most powerful weapon which you can use to change the world."  — Nelson Mandela*
+**"Education is the most powerful weapon which you can use to change the world."  — Nelson Mandela**
 
 Yet the profession that wields this weapon is chronically under-compensated and under-respected in India, and nowhere is this more starkly visible than in Ayurveda education. 
 
@@ -66,7 +66,7 @@ Ayurveda's own epistemic tradition places the teacher — the Acharya, the Guru 
 
 The classical texts do not describe a teacher as a content-delivery mechanism; they describe a relationship of observation, apprenticeship, and character formation, sustained over years, in which the student absorbed not just information but judgment.
 
-*"A teacher can never truly teach unless he is still learning himself."  — Rabindranath Tagore*
+**"A teacher can never truly teach unless he is still learning himself."  — Rabindranath Tagore**
 
 Measure that ideal against the lived reality of an Ayurveda college teacher today, and the gap is difficult to look away from. 
 
@@ -88,9 +88,9 @@ Ask a young BAMS or MD graduate who has just joined a college as a lecturer wher
 
 **It does not.**
 
-*"We teach who we are."  — Parker J. Palmer*
+**"We teach who we are."  — Parker J. Palmer**
 
-**This is, arguably, the single biggest gap in Ayurveda education today. **
+**This is, arguably, the single biggest gap in Ayurveda education today.**
 
 There is no dedicated component in the BAMS or MD curriculum, no mandatory certification, and no structured induction programme run by any regulatory authority that trains a subject expert to become a teacher. 
 
@@ -110,7 +110,7 @@ If Ayurveda education is serious about producing quality teachers, this is where
 
 It is worth remembering, soberly, how Ayurveda arrived at its present institutional strength at all. 
 
-**Decades ago, a generation of dedicated scholars and clinicians, built colleges, hospitals, and training programmes essentially from scratch, with limited resources and none of today's documentation apparatus. **
+**Decades ago, a generation of dedicated scholars and clinicians, built colleges, hospitals, and training programmes essentially from scratch, with limited resources and none of today's documentation apparatus.**
 
 They trained physicians through long clinical apprenticeship, direct mentorship, and painstaking scholarship — not through log books and compliance dashboards. 
 
@@ -135,7 +135,7 @@ Meanwhile, the global Ayurveda and herbal products market is projected in the bi
 3. **Where are the role models** — teachers whose clinical acumen, scholarship, and integrity are so evident that students organise their own ambitions around them, the way Radhakrishnan organised a nation's idea of what a teacher could be?
 4. **And, perhaps most uncomfortably, where is the clinical evidence** — the kind that is generated patiently, published transparently, and able to withstand cross-disciplinary examination — that should by now underpin a system with such ancient claims to efficacy?
 
-*"The great teacher inspires."  — William Arthur Ward*
+**"The great teacher inspires."  — William Arthur Ward**
 
 These are not rhetorical flourishes. They are the actual measures of whether a teaching tradition is alive or merely administratively surviving. A tradition that cannot produce excellent institutions, credible research, visible role models, and defensible evidence is not being taught into the future — it is being processed into paperwork.
 
@@ -155,17 +155,17 @@ Compounding this is a cultural shift within universities themselves, which have,
 
 A profession that trains healthcare providers cannot afford to lose that pressure without consequence, however kindly intentioned the reform behind its loss.
 
-*"A teacher affects eternity; he can never tell where his influence stops."  — Henry Adams*
+**"A teacher affects eternity; he can never tell where his influence stops."  — Henry Adams**
 
 I say this having lived it directly, not as an outside critic. 
 
 **In my own experience, it is students who plan and organise Teachers' Day celebrations, and I have told them plainly, every year, that the celebration should be meaningful** — that meaningful appreciation would show up as dedication in the classroom and the clinic, not only as a single day's event. It rarely does, in the way I mean it. 
 
-**The students mean well; their affection is genuine and warm, and I do not doubt it for a moment. But the essence, more often than not, gets diluted somewhere between the intention and the execution. **
+**The students mean well; their affection is genuine and warm, and I do not doubt it for a moment. But the essence, more often than not, gets diluted somewhere between the intention and the execution.**
 
 I say this without wanting to sound critical of everything the day stands for. 
 
-**Teachers' Day is, and should remain, a day where teachers feel appreciated and simply enjoy the warmth of their students' company, and I am entirely in favour of that. **
+**Teachers' Day is, and should remain, a day where teachers feel appreciated and simply enjoy the warmth of their students' company, and I am entirely in favour of that.**
 
 But a profession as old and as serious as Ayurveda surely deserves a celebration that holds fun and depth together, not one at the expense of the other. 
 
@@ -175,7 +175,7 @@ But a profession as old and as serious as Ayurveda surely deserves a celebration
 
 A worthy observance of Teachers' Day in Ayurveda would not begin with garlands. 
 
-**It would begin with structural honesty: **
+**It would begin with structural honesty:**
 
 - reducing the documentation burden that consumes the hours teachers should be spending with students and in the clinic;
 - compensating faculty in proportion to the public health responsibility they carry;
@@ -184,14 +184,14 @@ A worthy observance of Teachers' Day in Ayurveda would not begin with garlands.
 
 It would mean asking every institution, honestly, whether it is producing physicians or merely processing files that say it is.
 
-**To be a teacher, at its core, has never required an office, a title, or a compliance file. **
+**To be a teacher, at its core, has never required an office, a title, or a compliance file.**
 
 **It has always required the willingness to be fully present for another person's becoming — to observe, correct, encourage, and, when necessary, to hold a standard the student cannot yet see for themselves.** 
 
-**Ayurveda knew this once, and built itself on teachers who lived it without needing to prove it on paper. **
+**Ayurveda knew this once, and built itself on teachers who lived it without needing to prove it on paper.**
 
 **Recovering that spirit, not merely commemorating it once a year, would be the only celebration truly worthy of the name.**
 
 ---
 
-*Share your thoughts in the comments below.*
+**Share your thoughts in the comments below.**
