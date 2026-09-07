@@ -6,8 +6,6 @@ categories: [Reflections & Musings]
 author: "Dr Aakash Kembhavi"
 ---
 
-![Image 1](/assets/images/posts/teachers day.jpg)
-
 **What Does It Mean to Be a Teacher?**
 
 ***A Teachers' Day Reflection — and a Reckoning for Ayurveda***
@@ -17,6 +15,8 @@ author: "Dr Aakash Kembhavi"
 *MD (Ayu-Shalya), PGDMLS, MS (Counseling & Psychotherapy) | Academician, Clinician & Researcher | Chief Editor, International Journal of Ayurveda*
 
 *Disclaimer: The views expressed in this article are the author's personal reflections and opinions. They do not represent the position of any institution he is affiliated with, and nothing here should be construed as medical advice. In the interest of transparency, this article was developed in collaboration with AI tools for research support, structuring, and drafting; the ideas, judgments, and conclusions expressed remain entirely the author's own.*
+
+![Image 1](/assets/images/posts/teachers day.jpg)
 
 **Every year on the fifth of September, India pauses — or performs a pause — to remember its teachers. **
 
