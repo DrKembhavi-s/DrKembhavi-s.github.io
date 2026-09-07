@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What Does It Mean To Be A Teacher?"
+title: "What Does It Mean To Be A Teacher?" ***A Teachers' Day Reflection — and a Reckoning for Ayurveda***
 date: 2026-09-06 09:00:00 +0530
 categories: [Reflections & Musings]
 author: "Dr Aakash Kembhavi"
@@ -8,13 +8,10 @@ author: "Dr Aakash Kembhavi"
 
 ![Image 1](/assets/images/posts/Teachers_Day.png)
 
-**What Does It Mean to Be a Teacher?**
-
-***A Teachers' Day Reflection — and a Reckoning for Ayurveda***
 
 **Dr. Aakash Kembhavi**
 
-*MD (Ayu-Shalya), PGDMLS, MS (Counseling & Psychotherapy) | Academician, Clinician & Researcher | Chief Editor, International Journal of Ayurveda*
+**MD (Ayu-Shalya), PGDMLS, MS (Counseling & Psychotherapy) | Academician, Clinician & Researcher | Chief Editor, International Journal of Ayurveda**
 
 *Disclaimer: The views expressed in this article are the author's personal reflections and opinions. They do not represent the position of any institution he is affiliated with, and nothing here should be construed as medical advice. In the interest of transparency, this article was developed in collaboration with AI tools for research support, structuring, and drafting; the ideas, judgments, and conclusions expressed remain entirely the author's own.*
 
