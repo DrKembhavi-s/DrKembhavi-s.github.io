@@ -18,7 +18,7 @@ author: "Dr Aakash Kembhavi"
 
 *The views expressed in this article are the author's personal opinions, formed through his individual academic and clinical experience, and do not represent the official position of any institution, journal, organisation, or body with which he is affiliated. This article is intended for academic reflection and discussion and does not constitute medical advice of any kind. This article was developed in collaboration with AI tools, which assisted with research support, structuring, and drafting; the underlying ideas, arguments, and final conclusions remain the author's own.*
 
-**There is a stretch of road I keep returning to in my mind whenever someone hands me a brochure for the latest “Centre of Excellence” or forwards me the concept note for another international conclave. **
+**There is a stretch of road I keep returning to in my mind whenever someone hands me a brochure for the latest “Centre of Excellence” or forwards me the concept note for another international conclave.**
 
 **It is a beautiful road.** Freshly tarred, cleanly marked, well-lit at night, with signage in three languages and a toll plaza that runs efficiently. 
 
@@ -107,7 +107,7 @@ Figures compiled from NCISM, AACCC counselling data, and allied sources put **go
 
 **Total BAMS colleges** across the country are variously reported anywhere from the high **200s to over 500,** depending on the source and the month, but every credible compilation agrees on the underlying pattern: **the private and deemed sector accounts for somewhere between roughly 70 and 85 percent of BAMS colleges,** with government capacity essentially flat while private capacity has expanded steadily, including a new NCISM provision from June 2026 permitting private colleges to open with an intake as small as 60 seats — a tier added specifically to make new private entry easier, alongside the existing 100, 150, and 200-seat tiers.
 
-**At the postgraduate level, one AACCC-linked estimate places total MD/MS Ayurveda capacity at roughly 4,584 seats across some 413 institutes, while other compilations, not fully reconcilable with that figure, describe on the order of 118 MD-granting institutions (around 37 government, 81 private) and 86 MS-granting institutions (around 21 government, 65 private). **
+**At the postgraduate level, one AACCC-linked estimate places total MD/MS Ayurveda capacity at roughly 4,584 seats across some 413 institutes, while other compilations, not fully reconcilable with that figure, describe on the order of 118 MD-granting institutions (around 37 government, 81 private) and 86 MS-granting institutions (around 21 government, 65 private).**
 
 **At the PhD - doctoral level, there is no consolidated national figure at all** — PhD intake is set institution by institution, university by university, and nobody appears to be adding it up centrally. These numbers should be read as indicative ranges, not precise counts; the variance between sources is real, current, and itself a small illustration of the audit gap this essay keeps returning to.
 
