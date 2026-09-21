@@ -20,7 +20,7 @@ author: "Dr Aakash Kembhavi"
 
 *— Shri Narendra Modi, Prime Minister of India, Ayurveda Day 2026*
 
-**This quote travelled across every institutional LinkedIn account, every college WhatsApp group, every AYUSH-affiliated Facebook page in the country. **
+**This quote travelled across every institutional LinkedIn account, every college WhatsApp group, every AYUSH-affiliated Facebook page in the country.**
 
 It was shared with pride, reposted with hashtags, printed onto banners with the Ministry of Ayush's teal-and-orange branding. 
 
@@ -38,9 +38,9 @@ It was shared with pride, reposted with hashtags, printed onto banners with the 
 
 But once you retreat from the literal number, you have entered the territory where public statements go to become permanently unfalsifiable — a target so elastic that any handful of new papers can be waved as “progress,” because nobody ever specified against what denominator.
 
-**So, let's be more charitable** and restrict the claim to where it **plausibly belongs**: **the journals actually capable of “attracting the attention of the global science community” — NEJM, The Lancet, JAMA, BMJ, and their specialty-tier peers. **
+**So, let's be more charitable** and restrict the claim to where it **plausibly belongs**: **the journals actually capable of “attracting the attention of the global science community” — NEJM, The Lancet, JAMA, BMJ, and their specialty-tier peers.**
 
-**Bibliometric audits put the combined annual output of just the “Big Four” general medicine journals at roughly 7,500 published items a year, of which perhaps 3,000 to 3,800 are original research articles. **
+**Bibliometric audits put the combined annual output of just the “Big Four” general medicine journals at roughly 7,500 published items a year, of which perhaps 3,000 to 3,800 are original research articles.**
 
 **Ten to twenty percent of that is 300 to 1,500 Ayurveda-authored papers a year**, **in only four journals, meeting the same peer-review bar applied to a Phase III oncology trial or a national cohort study.**
 
@@ -52,9 +52,9 @@ But once you retreat from the literal number, you have entered the territory whe
 
 In one recent audit of the global PCOS literature — over 16,500 papers worldwide — exactly 21 were Ayurveda-related, spread across two decades.
 
-**Read those two numbers again. **
+**Read those two numbers again.**
 
-**The PM's target, at its most conservative reading, asks Ayurveda to produce more papers in four elite journals alone than the entire field currently manages across every journal that exists. **
+**The PM's target, at its most conservative reading, asks Ayurveda to produce more papers in four elite journals alone than the entire field currently manages across every journal that exists.**
 
 **This is not a stretch goal. **
 
@@ -74,7 +74,7 @@ Because a specification is what it is, whether or not it was meant as one. And s
 
 This is not a rhetorical “no.” It is a documented one. 
 
-**A 2025 systematic review that set out to evaluate Ayurveda intervention studies for a single condition found that of 30 identified studies, all but one carried substantial risk of bias — absent blinding, non-validated outcome measures, inadequate follow-up, confounders left uncontrolled. **
+**A 2025 systematic review that set out to evaluate Ayurveda intervention studies for a single condition found that of 30 identified studies, all but one carried substantial risk of bias — absent blinding, non-validated outcome measures, inadequate follow-up, confounders left uncontrolled.**
 
 A parallel systematic review and meta-analysis of Ayurvedic treatment for essential hypertension — one of the most common conditions on the planet — searched every major database available and could find only ten randomized controlled trials worldwide worth including.
 
@@ -82,9 +82,9 @@ A parallel systematic review and meta-analysis of Ayurvedic treatment for essent
 
 This is the evidentiary base the PM's target would have to be built on. 
 
-Not a shortage of enthusiasm — **Ayurveda has no shortage of enthusiasm. **
+Not a shortage of enthusiasm — **Ayurveda has no shortage of enthusiasm.**
 
-**A shortage of methodologically defensible trials, embedded biostatistics, pre-registration discipline, and the willingness to publish negative results instead of quietly shelving them. **
+**A shortage of methodologically defensible trials, embedded biostatistics, pre-registration discipline, and the willingness to publish negative results instead of quietly shelving them.**
 
 **None of that is solved by a hashtag.** 
 
@@ -98,7 +98,7 @@ The Central Council for Research in Ayurvedic Sciences — the apex research bod
 
 Seven crore rupees, nationally, in competitive extramural research funding, in the same year that the Prime Minister publicly set a target requiring hundreds of world-class papers annually in the four most selective medical journals on the planet. 
 
-**That is not a research strategy. That is a rounding error dressed up as a research strategy. **
+**That is not a research strategy. That is a rounding error dressed up as a research strategy.**
 
 If AYUSH leadership genuinely understood what “10-20% of space in NEJM, Lancet, JAMA, and BMJ” requires, this line item would not still look the way it looked five budgets ago.
 
@@ -118,7 +118,7 @@ Cardiology has this.
 
 Even newer fields — genomics, computational biology — built this scaffolding deliberately and fast.
 
-**Ayurveda does not have this at scale. **
+**Ayurveda does not have this at scale.**
 
 There are pockets — AIIA, isolated NIH-NCCIH collaborations, individual investigators who have genuinely done the work. 
 
@@ -134,11 +134,11 @@ It flatters everyone who shares it without asking anything of them.
 
 It lets a college principal, a PG scholar, a practicing vaidya feel part of a global scientific movement by pressing “share,” with zero requirement that they interrogate their own institution's contribution to a pipeline that currently produces under 400 papers a year across the entire discipline, most of them carrying substantial bias.
 
-**That is the uncomfortable center of this essay: the PM's statement, taken seriously, is an indictment of the current state of Ayurvedic research infrastructure, not a celebration of it. **
+**That is the uncomfortable center of this essay: the PM's statement, taken seriously, is an indictment of the current state of Ayurvedic research infrastructure, not a celebration of it.**
 
 Treating it as a celebration — posting it, garlanding it, hashtagging it — is how a field avoids confronting the indictment. 
 
-**The people who most need to sit with this number are not critics of Ayurveda. **
+**The people who most need to sit with this number are not critics of Ayurveda.**
 
 **They are its own leadership, its own funding bodies, its own faculty** — the ones who control the ₹7 crore line item, the ones who decide whether the next PG dissertation gets a real biostatistician or a rubber-stamp guide, the ones who decide whether a negative trial gets written up honestly or quietly disappears.
 
@@ -150,13 +150,13 @@ Treating it as a celebration — posting it, garlanding it, hashtagging it — i
 - Is your PG research training producing scholars who can defend a CONSORT checklist to a hostile reviewer, or scholars who can recite Sanskrit verses about a concept they cannot operationalize?
 - Would you bet your institution's annual research budget that it could produce even one paper in the next five years capable of surviving peer review at the Big Four?
 
-**If the honest answer to most of those is no, then the PM's target has not been understood. **
+**If the honest answer to most of those is no, then the PM's target has not been understood.**
 
 It has been consumed — the way a compliment is consumed, not the way a specification is engineered against. 
 
-**Ayurveda Day 2026 should be the day the field started building the architecture this target actually requires: funded, competitive, methodologically rigorous, apprenticeship-driven research infrastructure. **
+**Ayurveda Day 2026 should be the day the field started building the architecture this target actually requires: funded, competitive, methodologically rigorous, apprenticeship-driven research infrastructure.**
 
-**Instead, for most of the people who shared that quote, it will be the day they felt good about a target they had not measured, could not meet, and were not building toward. **
+**Instead, for most of the people who shared that quote, it will be the day they felt good about a target they had not measured, could not meet, and were not building toward.**
 
 **That gap — between the applause and the arithmetic — is the real story of Ayurveda Day this year, and it deserves to be named as bluntly as it has been avoided.**
 
