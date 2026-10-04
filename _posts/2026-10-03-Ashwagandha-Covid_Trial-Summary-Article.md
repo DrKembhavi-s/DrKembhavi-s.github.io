@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Ashwagandha Covid Trial Summary Article"
+title: "Ashwagandha Covid Trial Summary Article: Before You Forward That Press Release: A Short Reading of the Ashwagandha–Covishield Trial"
 date: 2026-10-03 09:00:00 +0530
 categories: [Research]
 author: "Dr Aakash Kembhavi"
