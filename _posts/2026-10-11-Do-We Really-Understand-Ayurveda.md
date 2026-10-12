@@ -104,17 +104,17 @@ If you struggled with any of the versions above, you have understood the thesis 
 
 Yet in Ayurveda we routinely behave as though fluency were optional, as though pride in the tradition could stand in for knowledge of it.
 
-**Consider what we actually do. **
+**Consider what we actually do.**
 
 **We claim, without stopping to ask what a text says, in what context, and for whom.**
 
-**We retrofit:** we take a modern finding, hunt for a verse, and **declare that the Acharyas knew it all along, ignoring everything in the verse that does not fit. **
+**We retrofit:** we take a modern finding, hunt for a verse, and **declare that the Acharyas knew it all along, ignoring everything in the verse that does not fit.**
 
-**We commit the familiar fallacies: the appeal to antiquity, the appeal to authority, the appeal to nature, confirmation bias, cherry-picking. **
+**We commit the familiar fallacies: the appeal to antiquity, the appeal to authority, the appeal to nature, confirmation bias, cherry-picking.**
 
 **And we say we hold the answers to everything, a claim no honest science makes of itself.**
 
-Meanwhile, the work that would truly honour the Acharyas remains largely undone. **They left us hypotheses about disease, drugs, diet and the course of illness. A hypothesis is an invitation to be tested. **Charaka himself devoted a whole section to the rules of debate and the faults of argument. **To declare these hypotheses true without testing them is to treat them as dogma. **
+Meanwhile, the work that would truly honour the Acharyas remains largely undone. **They left us hypotheses about disease, drugs, diet and the course of illness. A hypothesis is an invitation to be tested. **Charaka himself devoted a whole section to the rules of debate and the faults of argument. **To declare these hypotheses true without testing them is to treat them as dogma.**
 
 To test them honestly, and to report what we find whether it flatters us or not, is to treat them as knowledge worth having. 
 
@@ -131,7 +131,7 @@ Waking up does not require abandoning the tradition. It requires a few plain dis
 
 **Ayurveda has survived for centuries, and it will not be saved by louder claims.**
 
-**It will be saved by readers: people willing to learn its language, follow its reasoning, test its propositions, and say “we do not yet know” when that is the truth. **
+**It will be saved by readers: people willing to learn its language, follow its reasoning, test its propositions, and say “we do not yet know” when that is the truth.**
 
 In slang, in Shakespeare, in Latin or in Sanskrit, the message is the same.
 
