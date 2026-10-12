@@ -12,7 +12,7 @@ One Message, Five Languages: Do We Really Understand Ayurveda?
 
 **Dr. Aakash Kembhavi**  |  MD (Ayu-Shalya), PGDMLS, MS (Counseling & Psychotherapy) | Academician, Clinician & Researcher | Chief Editor, International Journal of Ayurveda
 
-**Disclaimer: ***The views in this article are my personal opinions. They do not represent any institution I am or have been affiliated with, and nothing here is medical advice; please consult a qualified physician for your health concerns. In the spirit of transparency, integrity and honesty: this article was developed in collaboration with AI tools, which helped with research, structuring, drafting and rendering the text into different languages. The idea, the views and the final conclusions remain my own.*
+**Disclaimer:** The views in this article are my personal opinions. They do not represent any institution I am or have been affiliated with, and nothing here is medical advice; please consult a qualified physician for your health concerns. In the spirit of transparency, integrity and honesty: this article was developed in collaboration with AI tools, which helped with research, structuring, drafting and rendering the text into different languages. The idea, the views and the final conclusions remain my own.
 
 ## Preface: Before You Read Further
 
