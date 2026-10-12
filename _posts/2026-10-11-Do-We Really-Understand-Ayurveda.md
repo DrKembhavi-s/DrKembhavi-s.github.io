@@ -122,12 +122,12 @@ To test them honestly, and to report what we find whether it flatters us or not,
 
 Waking up does not require abandoning the tradition. It requires a few plain disciplines:
 
-- **Pause before claiming. **Ask what Ayurveda actually says, and what I am merely assuming.
-- **Read the source, not the summary. **Go to the text and its reasoning before quoting it.
-- **State the Acharyas’ claims as testable hypotheses. **Say what would count for them and what would count against.
-- **Generate honest evidence. **Design sound studies and publish the results, including the disappointing ones.
-- **Name our fallacies, starting with our own. **Spot the retrofit and the appeal to antiquity in our writing before we spot them in others’.
-- **Teach the question before the answer. **Train students to ask “How do we know?” before they memorise “What is the answer?”
+- **Pause before claiming.** Ask what Ayurveda actually says, and what I am merely assuming.
+- **Read the source, not the summary.** Go to the text and its reasoning before quoting it.
+- **State the Acharyas’ claims as testable hypotheses.** Say what would count for them and what would count against.
+- **Generate honest evidence.** Design sound studies and publish the results, including the disappointing ones.
+- **Name our fallacies, starting with our own.** Spot the retrofit and the appeal to antiquity in our writing before we spot them in others’.
+- **Teach the question before the answer.** Train students to ask “How do we know?” before they memorise “What is the answer?”
 
 **Ayurveda has survived for centuries, and it will not be saved by louder claims.**
 
