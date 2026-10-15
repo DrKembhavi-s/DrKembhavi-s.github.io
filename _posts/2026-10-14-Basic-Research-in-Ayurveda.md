@@ -14,7 +14,7 @@ Basic Research in Ayurveda: The Questions We Never Asked, the Ecosystem We Never
 
 MD (Ayu-Shalya), PGDMLS, MS (Counseling & Psychotherapy) | Academician, Clinician & Researcher | Chief Editor, International Journal of Ayurveda
 
-***Disclaimer: ****The views expressed in this article are my personal opinions. They do not represent the position of any institution, organisation or body with which I am or have been affiliated, and nothing here is medical advice. In the interest of transparency, integrity and honesty, I disclose that this article was developed in collaboration with AI tools, which I used for research, structuring and drafting. The idea, the views and the final conclusions remain my own.*
+**Disclaimer:** The views expressed in this article are my personal opinions. They do not represent the position of any institution, organisation or body with which I am or have been affiliated, and nothing here is medical advice. In the interest of transparency, integrity and honesty, I disclose that this article was developed in collaboration with AI tools, which I used for research, structuring and drafting. The idea, the views and the final conclusions remain my own.*
 
 # A Newspaper Report and a LinkedIn Comment
 
@@ -36,9 +36,9 @@ Basic research in Ayurveda exists, but it is thin and scattered, and it rests on
 
 # What Basic Research Means in Ayurveda
 
-**Basic research asks "what is it, and how does it work?" **
+**Basic research asks "what is it, and how does it work?"**
 
-**Applied and clinical research asks "does it help patients?" **
+**Applied and clinical research asks "does it help patients?"**
 
 The first builds the concepts, standards and tools on which the second stands. 
 
@@ -86,13 +86,13 @@ The most common failure in what is called basic research is the borrowed assay.
 
 An ecosystem is useful only if it asks the right questions. A starting list for any basic research proposal in Ayurveda:
 
-1. **What exactly is the construct? **Can it be defined operationally without distorting the classical meaning? If it cannot be defined, it cannot yet be studied.
-2. **What would count as evidence for it, and what would count against it? **A concept that no result can contradict is a belief, not a hypothesis. This is the discipline of Yukti: reasoning that can be checked.
-3. **Is the text we are testing the text the Acharya wrote? **Which edition, which manuscript, which variant reading? Tantrayukti, the classical methods of exposition, give us tools for reading carefully before we test.
-4. **Is the plant we are testing the plant the text names? **Botanical identity, part used, season, source and adulteration must be settled before pharmacology begins.
-5. **Does the process change the product in a measurable and reproducible way? **If Shodhana or Bhavana matters, show what it changes. If it does not change anything measurable, we should know that too.
-6. **Does the tool measure what it claims to measure? **Reliability across assessors, validity across populations, and agreement with other tools should be reported, not assumed.
-7. **What is the null hypothesis, and are we prepared to accept it? **A research culture is defined less by its positive findings than by its willingness to publish negative ones.
+1. **What exactly is the construct?** Can it be defined operationally without distorting the classical meaning? If it cannot be defined, it cannot yet be studied.
+2. **What would count as evidence for it, and what would count against it?** A concept that no result can contradict is a belief, not a hypothesis. This is the discipline of Yukti: reasoning that can be checked.
+3. **Is the text we are testing the text the Acharya wrote?** Which edition, which manuscript, which variant reading? Tantrayukti, the classical methods of exposition, give us tools for reading carefully before we test.
+4. **Is the plant we are testing the plant the text names?** Botanical identity, part used, season, source and adulteration must be settled before pharmacology begins.
+5. **Does the process change the product in a measurable and reproducible way?** If Shodhana or Bhavana matters, show what it changes. If it does not change anything measurable, we should know that too.
+6. **Does the tool measure what it claims to measure?** Reliability across assessors, validity across populations, and agreement with other tools should be reported, not assumed.
+7. **What is the null hypothesis, and are we prepared to accept it?** A research culture is defined less by its positive findings than by its willingness to publish negative ones.
 
 **These questions are not hostile to Ayurveda. They are what Pramana, applied honestly, demands.**
 
@@ -100,13 +100,13 @@ An ecosystem is useful only if it asks the right questions. A starting list for 
 
 Questions need a place to be asked. Drawing on the same lessons the newspaper report offers about foreign campuses, a functioning ecosystem for Ayurveda needs seven things.
 
-1. **A shared conceptual agenda. **A community-agreed roadmap of priority constructs, their operational definitions, and what will count as validation. Without it, laboratories produce disconnected studies that never add up.
-2. **A researcher pipeline. **Research-track doctoral programmes with real training in methodology, biostatistics, philosophy of science and textual skills, followed by postdoctoral positions. At present the career path is mostly "teacher", with research added on as an obligation.
-3. **Long-duration funding. **Multi-year, peer-reviewed grants with separate streams for basic and clinical work, along with fellowships. One-year projects cannot validate a concept.
-4. **Shared infrastructure. **Core facilities for pharmacognosy, analytical chemistry and preclinical work, a reference repository of authenticated plant samples, and a digitised corpus of critical Samhita editions that everyone can use.
-5. **Interdisciplinary collaboration as equals. **Sanskritists, philosophers, statisticians, pharmacologists and epidemiologists working alongside vaidyas, ideally through joint laboratories with institutions such as the IITs, IISc and ICMR. The report makes the same point: partnerships can substitute for building everything in-house.
-6. **Quality governance. **Functioning ethics committees, pre-registration, replication, data sharing, and journals with genuine peer review. Researchers should be judged on the quality of their questions, not the count of their publications.
-7. **Protected time and a questioning culture. **Faculty need relief from the teaching and compliance load that consumes research hours, and institutions need a norm of testing claims rather than affirming them.
+1. **A shared conceptual agenda.** A community-agreed roadmap of priority constructs, their operational definitions, and what will count as validation. Without it, laboratories produce disconnected studies that never add up.
+2. **A researcher pipeline.** Research-track doctoral programmes with real training in methodology, biostatistics, philosophy of science and textual skills, followed by postdoctoral positions. At present the career path is mostly "teacher", with research added on as an obligation.
+3. **Long-duration funding.** Multi-year, peer-reviewed grants with separate streams for basic and clinical work, along with fellowships. One-year projects cannot validate a concept.
+4. **Shared infrastructure.** Core facilities for pharmacognosy, analytical chemistry and preclinical work, a reference repository of authenticated plant samples, and a digitised corpus of critical Samhita editions that everyone can use.
+5. **Interdisciplinary collaboration as equals.** Sanskritists, philosophers, statisticians, pharmacologists and epidemiologists working alongside vaidyas, ideally through joint laboratories with institutions such as the IITs, IISc and ICMR. The report makes the same point: partnerships can substitute for building everything in-house.
+6. **Quality governance.** Functioning ethics committees, pre-registration, replication, data sharing, and journals with genuine peer review. Researchers should be judged on the quality of their questions, not the count of their publications.
+7. **Protected time and a questioning culture.** Faculty need relief from the teaching and compliance load that consumes research hours, and institutions need a norm of testing claims rather than affirming them.
 
 The order matters. Agenda, people and funding come first. Buildings come last. Experienced researchers, as the experts quoted in the report note, choose institutions for the strength of the research ecosystem and not for the salary or the signboard.
 
@@ -188,7 +188,7 @@ Ayurveda should learn the same lesson about its own institutions.
 
 A college, a department or a journal becomes a research institution when it begins to ask questions it is willing to have answered against its wishes.
 
-**Before the next study begins, then, three questions are worth carrying into every laboratory and every classroom. **
+**Before the next study begins, then, three questions are worth carrying into every laboratory and every classroom.**
 
 - **What exactly are we measuring?**
 - **How would we know if we were wrong?**
