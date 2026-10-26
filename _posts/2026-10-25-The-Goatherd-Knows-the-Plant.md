@@ -10,7 +10,7 @@ author: "Dr Aakash Kembhavi"
 
 ***Dr Aakash Kembhavi,**** MD (Ayu-Shalya), PGDMLS, MS (Counseling & Psychotherapy) | Academician, Clinician & Researcher | Chief Editor, International Journal of Ayurveda*
 
-**Disclaimer: **The views expressed in this article are my personal opinions. They do not represent the views of any institution or organisation with which I am or have been affiliated, and nothing here is medical advice. In the interest of transparency, integrity and honesty, I disclose that this article was developed in collaboration with AI tools, which I used for research support, structuring and drafting. The idea, my reading of the verses, and the final views and conclusions are my own.
+**Disclaimer:** The views expressed in this article are my personal opinions. They do not represent the views of any institution or organisation with which I am or have been affiliated, and nothing here is medical advice. In the interest of transparency, integrity and honesty, I disclose that this article was developed in collaboration with AI tools, which I used for research support, structuring and drafting. The idea, my reading of the verses, and the final views and conclusions are my own.
 
 ## The announcement on the first day
 
