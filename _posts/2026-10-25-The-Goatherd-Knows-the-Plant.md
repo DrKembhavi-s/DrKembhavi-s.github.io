@@ -139,7 +139,7 @@ They are the exceptions, and they should not be mistaken for proof that the syst
 
 **This is not a criticism of individual colleagues.** Many fine Samhita teachers bring the clinic into the classroom on their own initiative. 
 
-**It is a criticism of a system that fills posts by degree and then asks the post-holder to teach something the degree never gave. **The responsibility is institutional. The teacher is often the second casualty of the problem.
+**It is a criticism of a system that fills posts by degree and then asks the post-holder to teach something the degree never gave.** **The responsibility is institutional. The teacher is often the second casualty of the problem.**
 
 ## What the fear narrative produces
 
@@ -170,7 +170,7 @@ I do not believe anyone intends it. That is why it is so durable.
 
 Imagine the same first-year student, but in her first week she is shown these verses. She is told where the goatherd stands, where the physician who reasons stands, and that verse 133 was written for her. She may still find Sanskrit hard. Padartha Vijnana will still ask a lot of her. But she will know why she is doing it, and the difficulty will feel like a climb and not a sentence.
 
-**Caraka's last word on the matter is simple: **The best physician is the one who can free patients from their ailments, and that kind of success has a cause. 
+**Caraka's last word on the matter is simple:** The best physician is the one who can free patients from their ailments, and that kind of success has a cause. 
 
 **We owe our students the chance to understand it, starting on the first day.**
 
