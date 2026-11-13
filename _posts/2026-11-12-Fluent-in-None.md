@@ -22,7 +22,7 @@ Writing in Bloomberg Opinion, Andy Mukherjee took aim at India's decision to pus
 
 Read that critique, and then look at the BAMS graduate. 
 
-**The parallel is not approximate. It is exact. **
+**The parallel is not approximate. It is exact.**
 
 We have produced a scholar who has memorised Charaka in Devanagari, sat examinations written in English, and will counsel patients in Kannada, Tamil, Marathi or Hindi — and who is, as an academic instrument, fluent in none of these. 
 
@@ -78,7 +78,7 @@ If English is taught as a medium without a foundation, Sanskrit is taught as a r
 
 It is delivered as a compulsory subject — frequently by faculty who are not themselves scholars of Ayurvedic Sanskrit — through methods that produce transliteration but not interpretation. 
 
-**The student emerges able to chant a shloka and unable to unpack it: unable to trace its commentarial tradition, unable to situate a verse within its Darshana context, unable to tell where Charaka is making an epistemological claim and where he is recording an observation. **
+**The student emerges able to chant a shloka and unable to unpack it: unable to trace its commentarial tradition, unable to situate a verse within its Darshana context, unable to tell where Charaka is making an epistemological claim and where he is recording an observation.**
 
 The classical inheritance becomes a performance, a thing to be displayed at convocations, rather than a living resource to be reasoned with.
 
@@ -148,7 +148,7 @@ Most administrators, many principals, and a large share of faculty do not fully 
 
 We are, as a sector, presiding over a transformation we have not named — neither harnessing these tools deliberately for what they genuinely can do, nor guarding against what they demonstrably do wrong. 
 
-**Used well, AI could be a tutor that finally helps a struggling student bridge into academic English and reason through a classical argument. **
+**Used well, AI could be a tutor that finally helps a struggling student bridge into academic English and reason through a classical argument.**
 
 **Used in the policy vacuum we now inhabit, it is simply a more elegant way of not knowing.**
 
@@ -156,17 +156,17 @@ We are, as a sector, presiding over a transformation we have not named — neith
 
 The remedies are neither exotic nor expensive. They are a matter of will.
 
-First, a mandatory bridging course in academic and clinical English writing at the point of entry to BAMS — not conversational English, but the specific genre of reasoning, structuring and writing that the degree silently demands. 
+**First**, a mandatory bridging course in academic and clinical English writing at the point of entry to BAMS — not conversational English, but the specific genre of reasoning, structuring and writing that the degree silently demands. 
 
-Second, Sanskrit taught as a hermeneutic and interpretive discipline rather than a recitation exercise, delivered by faculty trained in Ayurvedic textual scholarship, with the explicit goal of returning students to the primary sources as readers and not reciters. 
+**Second**, Sanskrit taught as a hermeneutic and interpretive discipline rather than a recitation exercise, delivered by faculty trained in Ayurvedic textual scholarship, with the explicit goal of returning students to the primary sources as readers and not reciters. 
 
-Third, formal recognition of regional-language clinical communication as an assessed clinical competency, because it is one. 
+**Third**, formal recognition of regional-language clinical communication as an assessed clinical competency, because it is one. 
 
-Fourth, examination design that rewards demonstrated reasoning over memorised prose — a shift that lowers the language barrier directly, by valuing understanding over fluency of reproduction. 
+**Fourth**, examination design that rewards demonstrated reasoning over memorised prose — a shift that lowers the language barrier directly, by valuing understanding over fluency of reproduction. 
 
-Fifth, a serious national conversation on whether qualifying-level papers might be answered in regional languages, with English reserved deliberately for research and postgraduate work where it is genuinely indispensable.
+**Fifth**, a serious national conversation on whether qualifying-level papers might be answered in regional languages, with English reserved deliberately for research and postgraduate work where it is genuinely indispensable.
 
-And sixth, urgently: a clear, sector-wide policy on the use of AI tools in Ayurveda education. 
+And **sixth**, urgently: a clear, sector-wide policy on the use of AI tools in Ayurveda education. 
 
 Not a ban, which is unenforceable and unwise, but a framework — declaration norms for assistance, viva and process-based assessment that tests authentic authorship, faculty literacy programmes so that those who examine understand the tools their students use, and a positive doctrine for deploying these tools to teach rather than to disguise. A discipline that does not decide how it will use AI will have AI decide for it.
 
